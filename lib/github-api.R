@@ -4,20 +4,23 @@ library('httr')
 library('RCurl')
 library('psych')
 
-# parameter
-# user:
-# language:
+oauth_endpoints("github")
+
+####################
+# GET TOKEN
+####################
+
+myapp <- oauth_app("github",
+                   key = "19c8034e916ab8dd7f3c",
+                   secret = "a54ce3798c0ed7c188d87ddb8a2b61d1951b7935")
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
 
 
-# radar chart: 
+req <- GET("https://api.github.com/search/code?q=library(+in:file+user:tz33cu+language:R",gtoken) #code search
 
-#visualiaztion,
-#machine learning
-#regression
-#data manipulation
-#
-
-
+stop_for_status(req)
+content(req)
 
 request_code=GET("https://api.github.com/search/code?q=library(+in:file+user:tz33cu+language:R") #code search
 request_user=GET('https://api.github.com/users/tz33cu')                      #user search
@@ -25,6 +28,7 @@ request_user=GET('https://api.github.com/users/tz33cu')                      #us
 
 sample_userid=sample(1:18000000,10000)
 num_R=c()
+
 
 for(i in 1:30){
   url=paste0('https://api.github.com/user/',sample_userid[1])
