@@ -78,6 +78,8 @@ for(i in 1:n){
   rcode=content(GET(r_url))
 }
 
+
+
 # user_name=content(rOpenSci_member)[1][[1]]$login
 # code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
 # info=content(GET(code_url))
@@ -87,10 +89,10 @@ for(i in 1:n){
 # length(info$items)
 # 
 # https://raw.githubusercontent.com/DASpringate/Configuration-files/290e8a8d79a41bcd2171b2861a58189c265df4da/.vim/r-plugin/build_omniList.R
-# url='https://github.com/DASpringate/Configuration-files/blob/290e8a8d79a41bcd2171b2861a58189c265df4da/.vim/r-plugin/build_omniList.R'
+# url='https://github.com/Saintat1/R-package-usage/blob/d3e395f1a9f7e424d75ea047652321e084b08852//github-api.R'
 # url<-gsub('https://github.com/','https://raw.githubusercontent.com/',url)
 # url<-gsub('/blob','',url)
-
+# rcode=content(GET(url))
 ####################
 # RADAR CHART
 ####################
