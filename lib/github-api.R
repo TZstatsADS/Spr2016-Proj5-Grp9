@@ -59,9 +59,26 @@ r_url=info$items[2][[1]]$html_url
 GET(r_url)
 
 ####################
-# GET code
+# CODE, ORGANIZATION FORMAT
 ####################
 https://raw.githubusercontent.com/tz33cu/PartitionRetention/3adfbf64fd0bebd3ee9206a55be97beeec16a2da/PNAS2015/lib/Iscore.R
+
+https://api.github.com/orgs/rOpenSci/public_members   #rOpenSci(R user)
+rOpenSci_member<-GET('https://api.github.com/orgs/rOpenSci/public_members',gtoken)
+n=length(content(rOpenSci_member))        # 30/39 available
+
+for(i in 1:n){
+  user_name=content(rOpenSci_member)[i][[1]]$login
+  code_url=paste0("https://api.github.com/search/code?q=in:file+language:R+user:",user_name)
+  info=content(GET(code_url))
+  num_Rscrips=info[[1]]
+  
+}
+user_name=content(rOpenSci_member)[1][[1]]$login
+code_url=paste0("https://api.github.com/search/code?per_page=1000&q=in:file+language:R+user:",user_name)
+info=content(GET(code_url))
+info$items[[40]]$name
+
 
 
 
