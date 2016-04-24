@@ -4,12 +4,22 @@ library('httr')
 library('RCurl')
 library('psych')
 
-oauth_endpoints("github")
+####################
+# R-PACKAGE CLASSIFICATION
+####################
+setwd("C:/Users/lwh/Desktop/finalproject-group-9/data")
+pack_class<-read.csv('rclass.csv')
+package_name<-as.character(pack_class[,1])
+
+
+
+
+
 
 ####################
 # GET TOKEN
 ####################
-
+oauth_endpoints("github")
 myapp <- oauth_app("github",
                    key = "19c8034e916ab8dd7f3c",
                    secret = "a54ce3798c0ed7c188d87ddb8a2b61d1951b7935")
