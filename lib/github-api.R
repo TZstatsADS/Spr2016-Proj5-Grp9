@@ -3,6 +3,7 @@ library('httpuv')
 library('httr')
 library('RCurl')
 library('psych')
+library('stringr')
 
 ####################
 # R-PACKAGE CLASSIFICATION
@@ -32,7 +33,11 @@ gtoken <- config(token = github_token)
 ####################
 req <- GET("https://api.github.com/search/code?q=library(+in:file+user:tz33cu+language:R",gtoken) #code search
 stop_for_status(req)
-content(req)
+content(req)$total_count
+content(req)$item[[1]]$html_url
+
+
+
 request_code=GET("https://api.github.com/search/code?q=library(+in:file+user:tz33cu+language:R") #code search
 request_user=GET('https://api.github.com/users/tz33cu')                      #user search
 # https://api.github.com/user/18000000  user for id number && users for name
@@ -54,9 +59,10 @@ user_$following
 # GET USER INFO
 ####################
 sample_userid=sample(1:18000000,10000)
+
 num_R=c()
 
-for(i in 1:30){
+for(i in 1:length(sample_userid)){
   url=paste0('https://api.github.com/user/',sample_userid[1])
   request_user=GET(url)                                                      #user search
   user_name<-content(request_user)$login
@@ -64,6 +70,19 @@ for(i in 1:30){
   info=content(GET(code_url))
   num_R[i]<-content(GET(code_url))$total_count                               # number of R scripts
 }
+
+rcode_1<-gsub('\\(',"lllll",rcode)
+rcode_1<-gsub("\\'","ppppp",rcode_1)
+wcount_1 <- str_count(rcode_1, paste0("librarylllllpppp" ,"jsonlite"))   #library('jsonlite')
+wcount_2 <- str_count(rcode_1, paste0("librarylllll" ,"jsonlite"))   #library(jsonlite)
+wcount_3 <- str_count(rcode_1, paste0("requirelllllpppp" ,"jsonlite"))   #require('jsonlite')
+wcount_4 <- str_count(rcode_1, paste0("requirelllll" ,"jsonlite"))   #require(jsonlite)
+
+
+
+
+
+
 
 r_url=info$items[2][[1]]$html_url
 GET(r_url)
@@ -77,16 +96,37 @@ GET(r_url)
 rOpenSci_member<-GET('https://api.github.com/orgs/rOpenSci/public_members',gtoken)
 n=length(content(rOpenSci_member))        # some are unavailable
 
-for(i in 1:n){
-  user_name=content(rOpenSci_member)[i][[1]]$login
-  code_url=paste0("https://api.github.com/search/code?q=in:file+language:R+user:",user_name)
+for(i in 1:1){
+  user_name=content(rOpenSci_member)[1][[1]]$login
+  code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
   info=content(GET(code_url))
   num_Rscrips=info[[1]]            #includes .rd file
-  r_url=info$items[[i]]$html_url
-  r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',url)
-  r_url<-gsub('/blob','',url)
-  rcode=content(GET(r_url))
+  b<-rep(0,length(package_name))
+  
+  for (p in 1:min(100,num_Rscrips)){
+    r_url=info$items[[p]]$html_url
+    r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',r_url)
+    r_url<-gsub('/blob','',r_url)
+    rcode=content(GET(r_url))
+    a<-str_count(rcode,package_name)
+    for (m in 1:length(package_name)){
+      if (a[m]>3)
+        a[m]=0
+      }
+    b=b+a
+    }
+  
+  print(b)
+  
 }
+
+
+
+}
+
+
+
+
 
 
 
