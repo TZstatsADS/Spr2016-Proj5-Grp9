@@ -61,26 +61,35 @@ GET(r_url)
 ####################
 # CODE, ORGANIZATION FORMAT
 ####################
-https://raw.githubusercontent.com/tz33cu/PartitionRetention/3adfbf64fd0bebd3ee9206a55be97beeec16a2da/PNAS2015/lib/Iscore.R
-
-https://api.github.com/orgs/rOpenSci/public_members   #rOpenSci(R user)
+# https://raw.githubusercontent.com/tz33cu/PartitionRetention/3adfbf64fd0bebd3ee9206a55be97beeec16a2da/PNAS2015/lib/Iscore.R
+# 
+# https://api.github.com/orgs/rOpenSci/public_members   #rOpenSci(R user)
 rOpenSci_member<-GET('https://api.github.com/orgs/rOpenSci/public_members',gtoken)
-n=length(content(rOpenSci_member))        # 30/39 available
+n=length(content(rOpenSci_member))        # some are unavailable
 
 for(i in 1:n){
   user_name=content(rOpenSci_member)[i][[1]]$login
   code_url=paste0("https://api.github.com/search/code?q=in:file+language:R+user:",user_name)
   info=content(GET(code_url))
-  num_Rscrips=info[[1]]
-  
+  num_Rscrips=info[[1]]            #includes .rd file
+  r_url=info$items[[i]]$html_url
+  r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',url)
+  r_url<-gsub('/blob','',url)
+  rcode=content(GET(r_url))
 }
-user_name=content(rOpenSci_member)[1][[1]]$login
-code_url=paste0("https://api.github.com/search/code?per_page=1000&q=in:file+language:R+user:",user_name)
-info=content(GET(code_url))
-info$items[[40]]$name
 
-
-
+# user_name=content(rOpenSci_member)[1][[1]]$login
+# code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
+# info=content(GET(code_url))
+# info$total_count
+# r_url=info$items[[1]]$html_url
+# rcode=content(GET(r_url))
+# length(info$items)
+# 
+# https://raw.githubusercontent.com/DASpringate/Configuration-files/290e8a8d79a41bcd2171b2861a58189c265df4da/.vim/r-plugin/build_omniList.R
+# url='https://github.com/DASpringate/Configuration-files/blob/290e8a8d79a41bcd2171b2861a58189c265df4da/.vim/r-plugin/build_omniList.R'
+# url<-gsub('https://github.com/','https://raw.githubusercontent.com/',url)
+# url<-gsub('/blob','',url)
 
 ####################
 # RADAR CHART
