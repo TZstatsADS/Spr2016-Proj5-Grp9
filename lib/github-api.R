@@ -117,13 +117,9 @@ for(i in 1:1){
     }
   
   print(b)
-  
+  }
 }
-
-
-
-}
-
+# usage of every user
 
 
 
