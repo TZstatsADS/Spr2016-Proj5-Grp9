@@ -2,10 +2,10 @@
 
 library(dplyr)
 
-filelist=dir("../data/",pattern=".csv")
+filelist=dir("/media/andy/Elements/totaldata",pattern=".csv")
 for(i in 1:length(filelist))
-{
- tmp=read.csv(file=paste("../data/",filelist[i],sep=""),header = TRUE ,sep = ",")
+{print(i)
+ tmp=read.csv(file=paste("/media/andy/Elements/totaldata/",filelist[i],sep=""),header = TRUE ,sep = ",")
  tmp$date=as.character(tmp$date)
  tmp$ip_id=as.character(tmp$ip_id)
  tmp$package=as.character(tmp$package)
@@ -18,7 +18,7 @@ for(i in 1:length(filelist))
    group_by(DateAndID)%>%
    summarise(pack=paste(package, collapse = ' '))
  
- write.table(GroupedTable,file="../data/dataoutput/DateUserPack.csv",sep=",",col.names = FALSE,row.names = FALSE,append = TRUE)
+ write.table(GroupedTable,file="/media/andy/Elements/totaldata/output/DateUserPack.csv",sep=",",col.names = FALSE,row.names = FALSE,append = TRUE)
 }
 
 #change data type
