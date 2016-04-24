@@ -71,19 +71,12 @@ for(i in 1:length(sample_userid)){
   num_R[i]<-content(GET(code_url))$total_count                               # number of R scripts
 }
 
-rcode_1<-gsub('\\(',"lllll",rcode)
-rcode_1<-gsub("\\'","ppppp",rcode_1)
-wcount_1 <- str_count(rcode_1, paste0("librarylllllpppp" ,"jsonlite"))   #library('jsonlite')
-wcount_2 <- str_count(rcode_1, paste0("librarylllll" ,"jsonlite"))   #library(jsonlite)
-wcount_3 <- str_count(rcode_1, paste0("requirelllllpppp" ,"jsonlite"))   #require('jsonlite')
-wcount_4 <- str_count(rcode_1, paste0("requirelllll" ,"jsonlite"))   #require(jsonlite)
-
-
-
-
-
-
-
+# rcode_1<-gsub('\\(',"lllll",rcode)
+# rcode_1<-gsub("\\'","ppppp",rcode_1)
+# wcount_1 <- str_count(rcode_1, paste0("librarylllllpppp" ,"jsonlite"))   #library('jsonlite')
+# wcount_2 <- str_count(rcode_1, paste0("librarylllll" ,"jsonlite"))   #library(jsonlite)
+# wcount_3 <- str_count(rcode_1, paste0("requirelllllpppp" ,"jsonlite"))   #require('jsonlite')
+# wcount_4 <- str_count(rcode_1, paste0("requirelllll" ,"jsonlite"))   #require(jsonlite)
 r_url=info$items[2][[1]]$html_url
 GET(r_url)
 
@@ -96,10 +89,12 @@ GET(r_url)
 rOpenSci_member<-GET('https://api.github.com/orgs/rOpenSci/public_members',gtoken)
 n=length(content(rOpenSci_member))        # some are unavailable
 
-for(i in 1:1){
-  user_name=content(rOpenSci_member)[1][[1]]$login
+user_table=matrix(0,ncol=length(package_name),nrow=1)
+
+for(i in 1:n){
+  user_name=content(rOpenSci_member)[n][[1]]$login
   code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
-  info=content(GET(code_url))
+  info=content(GET(code_url,gtoken))
   num_Rscrips=info[[1]]            #includes .rd file
   b<-rep(0,length(package_name))
   
@@ -116,9 +111,9 @@ for(i in 1:1){
     b=b+a
     }
   
-  print(b)
+  user_table=rbind(user_table,t(as.matrix(b)))
+  print(i)
   }
-}
 # usage of every user
 
 
