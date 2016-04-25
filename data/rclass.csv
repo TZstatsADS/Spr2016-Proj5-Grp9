@@ -1,2775 +1,2775 @@
-lib,Category
-abc,Bayesian
-arm,Bayesian
-AtelieR,Bayesian
-BaBooN,Bayesian
-BACCO,Bayesian
-BaM,Bayesian
-BayesDA,Bayesian
-bayesm,Bayesian
-bayesmix,Bayesian
-bayesQR,Bayesian
-bayesSurv,Bayesian
-Bayesthresh,Bayesian
-BayesValidate,Bayesian
-BayesX,Bayesian
-BayHaz,Bayesian
-bbemkr,Bayesian
-BCBCSF,Bayesian
-BCE,Bayesian
-bclust,Bayesian
-bcp,Bayesian
-bfp,Bayesian
-bisoreg,Bayesian
-BLR,Bayesian
-Bmix,Bayesian
-bnlearn,Bayesian
-boa,Bayesian
-Bolstad,Bayesian
-bqtl,Bayesian
-bspec,Bayesian
-bspmma,Bayesian
-BVS,Bayesian
-catnet,Bayesian
-coda,Bayesian
-cslogistic,Bayesian
-dclone,Bayesian
-deal,Bayesian
-dlm,Bayesian
-DPpackage,Bayesian
-EbayesThresh,Bayesian
-ebdbNet,Bayesian
-ensembleBMA,Bayesian
-evdbayes,Bayesian
-exactLoglinTest,Bayesian
-factorQR,Bayesian
-geoR,Bayesian
-geoRglm,Bayesian
-ggmcmc,Bayesian
-glmmBUGS,Bayesian
-growcurves,Bayesian
-hbsae,Bayesian
-HI,Bayesian
-Hmisc,Bayesian
-iterLap,Bayesian
-LearnBayes,Bayesian
-lme4,Bayesian
-lmm,Bayesian
-MasterBayes,Bayesian
-mcmc,Bayesian
-MCMCglmm,Bayesian
-MCMCpack,Bayesian
-mgcv,Bayesian
-mlogitBMA,Bayesian
-MNP,Bayesian
-mombf,Bayesian
-monomvn,Bayesian
-pacbpred,Bayesian
-PAWL,Bayesian
-PottsUtils,Bayesian
-predmixcor,Bayesian
-profdpm,Bayesian
-pscl,Bayesian
-R2jags,Bayesian
-R2WinBUGS,Bayesian
-ramps,Bayesian
-rbugs,Bayesian
-RJaCGH,Bayesian
-rjags,Bayesian
-RSGHB,Bayesian
-runjags,Bayesian
-Runuran,Bayesian
-RxCEcolInf,Bayesian
-SampleSizeMeans,Bayesian
-SampleSizeProportions,Bayesian
-sbgcop,Bayesian
-SimpleTable,Bayesian
-sna,Bayesian
-spBayes,Bayesian
-spikeSlabGAM,Bayesian
-spTimer,Bayesian
-stochvol,Bayesian
-tgp,Bayesian
-zic,Bayesian
-BMA,Bayesian
-BMS,Bayesian
-BSquare,Bayesian
-FME,Bayesian
-BAYSTAR,Bayesian
-spikeslab,Bayesian
-AdMit,Bayesian
-bayesGARCH,Bayesian
-eigenmodel,Bayesian
-PReMiuM,Bayesian
-rcppbugs,Bayesian
-rstiefel,Bayesian
-MSBVAR,Bayesian
-BayesTree,Bayesian
-BayesSummaryStatLM,Bayesian
-coalescentMCMC,Bayesian
-SamplerCompare,Bayesian
-eco,Bayesian
-ALS,ChemPhys
-AnalyzeFMRI,ChemPhys
-AquaEnv,ChemPhys
-astro,ChemPhys
-astroFns,ChemPhys
-Bchron,ChemPhys
-bvls,ChemPhys
-cda,ChemPhys
-CellularAutomaton,ChemPhys
-chemCal,ChemPhys
-chemometrics,ChemPhys
-ChemometricsWithR,ChemPhys
-ChemometricsWithRData,ChemPhys
-ChemoSpec,ChemPhys
-CHNOSZ,ChemPhys
-cosmoFns,ChemPhys
-dielectric,ChemPhys
-diffractometry,ChemPhys
-drc,ChemPhys
-drm,ChemPhys
-elasticnet,ChemPhys
-fastICA,ChemPhys
-FITSio,ChemPhys
-fmri,ChemPhys
-fpca,ChemPhys
-FTICRMS,ChemPhys
-homals,ChemPhys
-Iso,ChemPhys
-kohonen,ChemPhys
-leaps,ChemPhys
-MALDIquant,ChemPhys
-minpack.lm,ChemPhys
-moonsun,ChemPhys
-nlme,ChemPhys
-nnls,ChemPhys
-OrgMassSpecR,ChemPhys
-pcaPP,ChemPhys
-Peaks,ChemPhys
-PET,ChemPhys
-planar,ChemPhys
-plspm,ChemPhys
-ppls,ChemPhys
-psy,ChemPhys
-PTAk,ChemPhys
-quantchem,ChemPhys
-represent,ChemPhys
-rpubchem,ChemPhys
-sapa,ChemPhys
-simecol,ChemPhys
-solaR,ChemPhys
-som,ChemPhys
-spls,ChemPhys
-stellaR,ChemPhys
-stepPlr,ChemPhys
-subselect,ChemPhys
-TIMP,ChemPhys
-titan,ChemPhys
-varSelRF,ChemPhys
-WilcoxCV,ChemPhys
-BioMark,ChemPhys
-celestial,ChemPhys
-lspls,ChemPhys
-pls,ChemPhys
-prospectr,ChemPhys
-SCEPtER,ChemPhys
-clustvarsel,ChemPhys
-investr,ChemPhys
-resemble,ChemPhys
-hyperSpec,ChemPhys
-nlreg,ChemPhys
-rcdk,ChemPhys
-rcdklibs,ChemPhys
-astrodatR,ChemPhys
-astrolibR,ChemPhys
-CosmoPhotoz,ChemPhys
-CRAC,ChemPhys
-RobPer,ChemPhys
-snapshot,ChemPhys
-speaq,ChemPhys
-compositions,ChemPhys
-adaptTest,ClinicalTrials
-asd,ClinicalTrials
-asypow,ClinicalTrials
-bcrm,ClinicalTrials
-bifactorial,ClinicalTrials
-blockrand,ClinicalTrials
-clinfun,ClinicalTrials
-clinsig,ClinicalTrials
-coin,ClinicalTrials
-conf.design,ClinicalTrials
-CRM,ClinicalTrials
-CRTSize,ClinicalTrials
-dfcrm,ClinicalTrials
-DoseFinding,ClinicalTrials
-epibasix,ClinicalTrials
-experiment,ClinicalTrials
-FrF2,ClinicalTrials
-GroupSeq,ClinicalTrials
-gsDesign,ClinicalTrials
-HH,ClinicalTrials
-Hmisc,ClinicalTrials
-ldbounds,ClinicalTrials
-longpower,ClinicalTrials
-MChtest,ClinicalTrials
-MCPMod,ClinicalTrials
-meta,ClinicalTrials
-metafor,ClinicalTrials
-metaLik,ClinicalTrials
-multcomp,ClinicalTrials
-nppbib,ClinicalTrials
-PIPS,ClinicalTrials
-PowerTOST,ClinicalTrials
-pwr,ClinicalTrials
-PwrGSD,ClinicalTrials
-qtlDesign,ClinicalTrials
-rmeta,ClinicalTrials
-seqmon,ClinicalTrials
-speff2trial,ClinicalTrials
-ssanv,ClinicalTrials
-survival,ClinicalTrials
-TEQR,ClinicalTrials
-TrialSize,ClinicalTrials
-AGSDest,ClinicalTrials
-binomSamSize,ClinicalTrials
-metasens,ClinicalTrials
-samplesize,ClinicalTrials
-amap,Cluster
-apcluster,Cluster
-bayesm,Cluster
-bayesmix,Cluster
-bclust,Cluster
-bgmm,Cluster
-biclust,Cluster
-Bmix,Cluster
-cba,Cluster
-cclust,Cluster
-CHsharp,Cluster
-clue,Cluster
-cluster,Cluster
-clusterGeneration,Cluster
-clusterRepro,Cluster
-clusterSim,Cluster
-clv,Cluster
-clValid,Cluster
-CoClust,Cluster
-compHclust,Cluster
-depmix,Cluster
-depmixS4,Cluster
-dpmixsim,Cluster
-dynamicTreeCut,Cluster
-e1071,Cluster
-EMCluster,Cluster
-FactoClass,Cluster
-fastcluster,Cluster
-FisherEM,Cluster
-flashClust,Cluster
-flexclust,Cluster
-flexmix,Cluster
-fpc,Cluster
-FunCluster,Cluster
-gamlss.mx,Cluster
-GLDEX,Cluster
-GSM,Cluster
-HDclassif,Cluster
-hybridHclust,Cluster
-isopam,Cluster
-kernlab,Cluster
-kml,Cluster
-kml3d,Cluster
-latentnet,Cluster
-mcclust,Cluster
-mclust,Cluster
-MetabolAnalyze,Cluster
-mixdist,Cluster
-mixPHM,Cluster
-mixRasch,Cluster
-mixreg,Cluster
-MixSim,Cluster
-mixsmsn,Cluster
-mixtools,Cluster
-MOCCA,Cluster
-movMF,Cluster
-ORIClust,Cluster
-pdfCluster,Cluster
-pendensity,Cluster
-pmclust,Cluster
-poLCA,Cluster
-prabclus,Cluster
-profdpm,Cluster
-psychomix,Cluster
-pvclust,Cluster
-randomLCA,Cluster
-rjags,Cluster
-Rmixmod,Cluster
-RPMM,Cluster
-sigclust,Cluster
-skmeans,Cluster
-som,Cluster
-sparcl,Cluster
-teigen,Cluster
-trimcluster,Cluster
-wle,Cluster
-bayesMCClust,Cluster
-mixture,Cluster
-mritc,Cluster
-nor1mix,Cluster
-mixAK,Cluster
-clustvarsel,Cluster
-mixer,Cluster
-optpart,Cluster
-AdMit,Cluster
-seriation,Cluster
-PReMiuM,Cluster
-dendextend,Cluster
-funFEM,Cluster
-funHDDC,Cluster
-fclust,Cluster
-lcmm,Cluster
-pgmm,Cluster
-tclust,Cluster
-flexCWM,Cluster
-protoclust,Cluster
-BayesLCA,Cluster
-longclust,Cluster
-NbClust,Cluster
-bvpSolve,DifferentialEquations
-CollocInfer,DifferentialEquations
-deSolve,DifferentialEquations
-ecolMod,DifferentialEquations
-FME,DifferentialEquations
-GillespieSSA,DifferentialEquations
-mkin,DifferentialEquations
-nlmeODE,DifferentialEquations
-PBSddesolve,DifferentialEquations
-PBSmodelling,DifferentialEquations
-pomp,DifferentialEquations
-pracma,DifferentialEquations
-primer,DifferentialEquations
-ReacTran,DifferentialEquations
-rootSolve,DifferentialEquations
-scaRabee,DifferentialEquations
-sde,DifferentialEquations
-simecol,DifferentialEquations
-adaptivetau,DifferentialEquations
-deTestSet,DifferentialEquations
-PSM,DifferentialEquations
-actuar,Distributions
-ActuDistns,Distributions
-agricolae,Distributions
-AtelieR,Distributions
-bayesm,Distributions
-benchden,Distributions
-BiasedUrn,Distributions
-CDVine,Distributions
-CompLognormal,Distributions
-compoisson,Distributions
-CompQuadForm,Distributions
-copBasic,Distributions
-copula,Distributions
-Davies,Distributions
-Delaporte,Distributions
-denstrip,Distributions
-distr,Distributions
-distrDoc,Distributions
-distrEllipse,Distributions
-distrEx,Distributions
-distrMod,Distributions
-distrSim,Distributions
-distrTeach,Distributions
-distrTEst,Distributions
-e1071,Distributions
-emdbook,Distributions
-evd,Distributions
-evdbayes,Distributions
-evir,Distributions
-FAdist,Distributions
-fBasics,Distributions
-fExtremes,Distributions
-fgac,Distributions
-fitdistrplus,Distributions
-flexsurv,Distributions
-gamlss.dist,Distributions
-gamlss.mx,Distributions
-gaussDiff,Distributions
-GeneralizedHyperbolic,Distributions
-geoR,Distributions
-ghyp,Distributions
-gld,Distributions
-GLDEX,Distributions
-glogis,Distributions
-GSM,Distributions
-gumbel,Distributions
-HI,Distributions
-HyperbolicDist,Distributions
-hyperdirichlet,Distributions
-LambertW,Distributions
-LearnBayes,Distributions
-lhs,Distributions
-lmom,Distributions
-lmomco,Distributions
-Lmoments,Distributions
-loglognorm,Distributions
-MASS,Distributions
-mbbefd,Distributions
-mc2d,Distributions
-MCMCpack,Distributions
-mgpd,Distributions
-mixtools,Distributions
-mnormt,Distributions
-modeest,Distributions
-moments,Distributions
-movMF,Distributions
-msm,Distributions
-mvtnorm,Distributions
-nor1mix,Distributions
-NormalGamma,Distributions
-normalp,Distributions
-npde,Distributions
-PearsonDS,Distributions
-PhaseType,Distributions
-poibin,Distributions
-poilog,Distributions
-poistweedie,Distributions
-prob,Distributions
-randaes,Distributions
-random,Distributions
-randtoolbox,Distributions
-reliaR,Distributions
-retimes,Distributions
-rlecuyer,Distributions
-RMTstat,Distributions
-rngwell19937,Distributions
-rstream,Distributions
-Runuran,Distributions
-s20x,Distributions
-setRNG,Distributions
-SkewHyperbolic,Distributions
-skewt,Distributions
-smoothmest,Distributions
-sn,Distributions
-sparseMVN,Distributions
-spd,Distributions
-stabledist,Distributions
-SuppDists,Distributions
-tmvtnorm,Distributions
-trapezoid,Distributions
-triangle,Distributions
-truncnorm,Distributions
-TSA,Distributions
-tweedie,Distributions
-VarianceGamma,Distributions
-VGAM,Distributions
-VineCopula,Distributions
-zipfR,Distributions
-AdMit,Distributions
-STAR,Distributions
-statmod,Distributions
-FatTailsR,Distributions
-RTDE,Distributions
-fCopulae,Distributions
-ald,Distributions
-cmvnorm,Distributions
-condMVNorm,Distributions
-DiscreteInverseWeibull,Distributions
-DistributionUtils,Distributions
-GMD,Distributions
-hermite,Distributions
-mvrtn,Distributions
-Newdistns,Distributions
-ParetoPosStable,Distributions
-RMKdiscrete,Distributions
-SMR,Distributions
-GB2,Distributions
-tolerance,Distributions
-emg,Distributions
-csn,Distributions
-degreenet,Distributions
-ExtDist,Distributions
-GenOrd,Distributions
-HistogramTools,Distributions
-poweRlaw,Distributions
-AER,Econometrics
-aod,Econometrics
-apt,Econometrics
-bayesm,Econometrics
-betareg,Econometrics
-boot,Econometrics
-bootstrap,Econometrics
-CADFtest,Econometrics
-car,Econometrics
-CDNmoney,Econometrics
-censReg,Econometrics
-dynlm,Econometrics
-Ecdat,Econometrics
-effects,Econometrics
-erer,Econometrics
-expsmooth,Econometrics
-FinTS,Econometrics
-fma,Econometrics
-forecast,Econometrics
-frontier,Econometrics
-fxregime,Econometrics
-gam,Econometrics
-gamlss,Econometrics
-gmm,Econometrics
-Hmisc,Econometrics
-ineq,Econometrics
-intReg,Econometrics
-LARF,Econometrics
-lfe,Econometrics
-lme4,Econometrics
-lmtest,Econometrics
-MASS,Econometrics
-Matrix,Econometrics
-Mcomp,Econometrics
-meboot,Econometrics
-mgcv,Econometrics
-mhurdle,Econometrics
-micEcon,Econometrics
-micEconAids,Econometrics
-micEconCES,Econometrics
-micEconSNQP,Econometrics
-mlogit,Econometrics
-MNP,Econometrics
-mvProbit,Econometrics
-nlme,Econometrics
-nnet,Econometrics
-np,Econometrics
-ordinal,Econometrics
-pcse,Econometrics
-plm,Econometrics
-pscl,Econometrics
-pwt,Econometrics
-quantreg,Econometrics
-reldist,Econometrics
-rms,Econometrics
-RSGHB,Econometrics
-sampleSelection,Econometrics
-sandwich,Econometrics
-segmented,Econometrics
-sem,Econometrics
-simpleboot,Econometrics
-SparseM,Econometrics
-spatialprobit,Econometrics
-spdep,Econometrics
-sphet,Econometrics
-splm,Econometrics
-strucchange,Econometrics
-survival,Econometrics
-systemfit,Econometrics
-truncreg,Econometrics
-tseries,Econometrics
-tsfa,Econometrics
-urca,Econometrics
-vars,Econometrics
-VGAM,Econometrics
-Zelig,Econometrics
-zoo,Econometrics
-crch,Econometrics
-geepack,Econometrics
-pwt8,Econometrics
-mfx,Econometrics
-mnlogit,Econometrics
-SemiParSampleSel,Econometrics
-tsDyn,Econometrics
-phtt,Econometrics
-nonnest2,Econometrics
-MSBVAR,Econometrics
-BMA,Econometrics
-BMS,Econometrics
-brglm,Econometrics
-frm,Econometrics
-glmx,Econometrics
-ivbma,Econometrics
-ivfixed,Econometrics
-ivlewbel,Econometrics
-ivpack,Econometrics
-ivprobit,Econometrics
-lavaan,Econometrics
-multiwayvcov,Econometrics
-panelAR,Econometrics
-Paneldata,Econometrics
-PANICr,Econometrics
-pdR,Econometrics
-pglm,Econometrics
-psidR,Econometrics
-Rchoice,Econometrics
-xts,Econometrics
-sfa,Econometrics
-spfrontier,Econometrics
-gets,Econometrics
-midasr,Econometrics
-ade4,Environmetrics
-adehabitat,Environmetrics
-amap,Environmetrics
-analogue,Environmetrics
-aod,Environmetrics
-ape,Environmetrics
-aqp,Environmetrics
-BiodiversityR,Environmetrics
-boussinesq,Environmetrics
-CircStats,Environmetrics
-circular,Environmetrics
-cluster,Environmetrics
-cocorresp,Environmetrics
-diveMove,Environmetrics
-dse,Environmetrics
-DSpat,Environmetrics
-dyn,Environmetrics
-dynlm,Environmetrics
-e1071,Environmetrics
-earth,Environmetrics
-ecodist,Environmetrics
-EcoHydRology,Environmetrics
-equivalence,Environmetrics
-evd,Environmetrics
-evdbayes,Environmetrics
-evir,Environmetrics
-extRemes,Environmetrics
-fast,Environmetrics
-flexmix,Environmetrics
-forecast,Environmetrics
-fso,Environmetrics
-gam,Environmetrics
-gamair,Environmetrics
-hydroGOF,Environmetrics
-HydroMe,Environmetrics
-hydroPSO,Environmetrics
-hydroTSM,Environmetrics
-Interpol.T,Environmetrics
-ipred,Environmetrics
-ismev,Environmetrics
-its,Environmetrics
-labdsv,Environmetrics
-latticeDensity,Environmetrics
-lme4,Environmetrics
-maptree,Environmetrics
-MASS,Environmetrics
-mclust,Environmetrics
-mda,Environmetrics
-mefa,Environmetrics
-metacom,Environmetrics
-mgcv,Environmetrics
-nlme,Environmetrics
-nsRFA,Environmetrics
-oce,Environmetrics
-openair,Environmetrics
-ouch,Environmetrics
-party,Environmetrics
-pastecs,Environmetrics
-pgirmess,Environmetrics
-popbio,Environmetrics
-prabclus,Environmetrics
-primer,Environmetrics
-pscl,Environmetrics
-pvclust,Environmetrics
-qualV,Environmetrics
-quantreg,Environmetrics
-randomForest,Environmetrics
-Rcapture,Environmetrics
-rioja,Environmetrics
-RMAWGEN,Environmetrics
-rpart,Environmetrics
-seacarb,Environmetrics
-seas,Environmetrics
-secr,Environmetrics
-segmented,Environmetrics
-sensitivity,Environmetrics
-simba,Environmetrics
-simecol,Environmetrics
-soiltexture,Environmetrics
-SPACECAP,Environmetrics
-SpatialExtremes,Environmetrics
-StreamMetabolism,Environmetrics
-strucchange,Environmetrics
-tiger,Environmetrics
-topmodel,Environmetrics
-tseries,Environmetrics
-unmarked,Environmetrics
-untb,Environmetrics
-vegan,Environmetrics
-vegetarian,Environmetrics
-VGAM,Environmetrics
-wasim,Environmetrics
-wq,Environmetrics
-zoo,Environmetrics
-ade4,Environmetrics
-adehabitat,Environmetrics
-amap,Environmetrics
-analogue,Environmetrics
-aod,Environmetrics
-ape,Environmetrics
-aqp,Environmetrics
-BiodiversityR,Environmetrics
-boussinesq,Environmetrics
-CircStats,Environmetrics
-circular,Environmetrics
-cluster,Environmetrics
-cocorresp,Environmetrics
-diveMove,Environmetrics
-dse,Environmetrics
-DSpat,Environmetrics
-dyn,Environmetrics
-dynlm,Environmetrics
-e1071,Environmetrics
-earth,Environmetrics
-ecodist,Environmetrics
-EcoHydRology,Environmetrics
-equivalence,Environmetrics
-evd,Environmetrics
-evdbayes,Environmetrics
-evir,Environmetrics
-extRemes,Environmetrics
-fast,Environmetrics
-flexmix,Environmetrics
-forecast,Environmetrics
-fso,Environmetrics
-gam,Environmetrics
-gamair,Environmetrics
-hydroGOF,Environmetrics
-HydroMe,Environmetrics
-hydroPSO,Environmetrics
-hydroTSM,Environmetrics
-Interpol.T,Environmetrics
-ipred,Environmetrics
-ismev,Environmetrics
-its,Environmetrics
-labdsv,Environmetrics
-latticeDensity,Environmetrics
-lme4,Environmetrics
-maptree,Environmetrics
-MASS,Environmetrics
-mclust,Environmetrics
-mda,Environmetrics
-mefa,Environmetrics
-metacom,Environmetrics
-mgcv,Environmetrics
-nlme,Environmetrics
-nsRFA,Environmetrics
-oce,Environmetrics
-openair,Environmetrics
-ouch,Environmetrics
-party,Environmetrics
-pastecs,Environmetrics
-pgirmess,Environmetrics
-popbio,Environmetrics
-prabclus,Environmetrics
-primer,Environmetrics
-pscl,Environmetrics
-pvclust,Environmetrics
-qualV,Environmetrics
-quantreg,Environmetrics
-randomForest,Environmetrics
-Rcapture,Environmetrics
-rioja,Environmetrics
-RMAWGEN,Environmetrics
-rpart,Environmetrics
-seacarb,Environmetrics
-seas,Environmetrics
-secr,Environmetrics
-segmented,Environmetrics
-sensitivity,Environmetrics
-simba,Environmetrics
-simecol,Environmetrics
-soiltexture,Environmetrics
-SPACECAP,Environmetrics
-SpatialExtremes,Environmetrics
-StreamMetabolism,Environmetrics
-strucchange,Environmetrics
-tiger,Environmetrics
-topmodel,Environmetrics
-tseries,Environmetrics
-unmarked,Environmetrics
-untb,Environmetrics
-vegan,Environmetrics
-vegetarian,Environmetrics
-VGAM,Environmetrics
-wasim,Environmetrics
-wq,Environmetrics
-zoo,Environmetrics
-FD,Environmetrics
-quantregGrowth,Environmetrics
-rtop,Environmetrics
-Distance,Environmetrics
-dsm,Environmetrics
-EnvStats,Environmetrics
-marked,Environmetrics
-mrds,Environmetrics
-RMark,Environmetrics
-bReeze,Environmetrics
-dynatopmodel,Environmetrics
-siplab,Environmetrics
-eco,Environmetrics
-mra,Environmetrics
-agricolae,ExperimentalDesign
-AlgDesign,ExperimentalDesign
-asd,ExperimentalDesign
-BatchExperiments,ExperimentalDesign
-BHH2,ExperimentalDesign
-BsMD,ExperimentalDesign
-conf.design,ExperimentalDesign
-crossdes,ExperimentalDesign
-dae,ExperimentalDesign
-desirability,ExperimentalDesign
-DiceDesign,ExperimentalDesign
-DiceEval,ExperimentalDesign
-DiceKriging,ExperimentalDesign
-DiceView,ExperimentalDesign
-DoE.base,ExperimentalDesign
-DoE.wrapper,ExperimentalDesign
-DoseFinding,ExperimentalDesign
-dynaTree,ExperimentalDesign
-experiment,ExperimentalDesign
-FrF2,ExperimentalDesign
-FrF2.catlg128,ExperimentalDesign
-GAD,ExperimentalDesign
-granova,ExperimentalDesign
-gsbDesign,ExperimentalDesign
-gsDesign,ExperimentalDesign
-lhs,ExperimentalDesign
-mixexp,ExperimentalDesign
-mkssd,ExperimentalDesign
-mxkssd,ExperimentalDesign
-osDesign,ExperimentalDesign
-planor,ExperimentalDesign
-plgp,ExperimentalDesign
-qtlDesign,ExperimentalDesign
-qualityTools,ExperimentalDesign
-RcmdrPlugin.DoE,ExperimentalDesign
-rsm,ExperimentalDesign
-SensoMineR,ExperimentalDesign
-support.CEs,ExperimentalDesign
-TEQR,ExperimentalDesign
-tgp,ExperimentalDesign
-Vdgraph,ExperimentalDesign
-agricolae,ExperimentalDesign
-AlgDesign,ExperimentalDesign
-asd,ExperimentalDesign
-BatchExperiments,ExperimentalDesign
-BHH2,ExperimentalDesign
-BsMD,ExperimentalDesign
-conf.design,ExperimentalDesign
-crossdes,ExperimentalDesign
-dae,ExperimentalDesign
-desirability,ExperimentalDesign
-DiceDesign,ExperimentalDesign
-DiceEval,ExperimentalDesign
-DiceKriging,ExperimentalDesign
-DiceView,ExperimentalDesign
-DoE.base,ExperimentalDesign
-DoE.wrapper,ExperimentalDesign
-DoseFinding,ExperimentalDesign
-dynaTree,ExperimentalDesign
-experiment,ExperimentalDesign
-FrF2,ExperimentalDesign
-FrF2.catlg128,ExperimentalDesign
-GAD,ExperimentalDesign
-granova,ExperimentalDesign
-gsbDesign,ExperimentalDesign
-gsDesign,ExperimentalDesign
-lhs,ExperimentalDesign
-mixexp,ExperimentalDesign
-mkssd,ExperimentalDesign
-mxkssd,ExperimentalDesign
-osDesign,ExperimentalDesign
-planor,ExperimentalDesign
-plgp,ExperimentalDesign
-qtlDesign,ExperimentalDesign
-qualityTools,ExperimentalDesign
-RcmdrPlugin.DoE,ExperimentalDesign
-rsm,ExperimentalDesign
-SensoMineR,ExperimentalDesign
-support.CEs,ExperimentalDesign
-TEQR,ExperimentalDesign
-tgp,ExperimentalDesign
-Vdgraph,ExperimentalDesign
-blockTools,ExperimentalDesign
-AmericanCallOpt,Finance
-backtest,Finance
-betategarch,Finance
-BurStFin,Finance
-BurStMisc,Finance
-CADFtest,Finance
-car,Finance
-ccgarch,Finance
-copula,Finance
-CreditMetrics,Finance
-crp.CSFP,Finance
-data.table,Finance
-dlm,Finance
-dse,Finance
-dyn,Finance
-dynlm,Finance
-evd,Finance
-evdbayes,Finance
-evir,Finance
-extRemes,Finance
-fame,Finance
-fArma,Finance
-fAsianOptions,Finance
-fBasics,Finance
-fBonds,Finance
-fExoticOptions,Finance
-fExtremes,Finance
-fgac,Finance
-fGarch,Finance
-fImport,Finance
-FinAsym,Finance
-FinTS,Finance
-fNonlinear,Finance
-fOptions,Finance
-forecast,Finance
-fracdiff,Finance
-frmqa,Finance
-fTrading,Finance
-fUnitRoots,Finance
-ghyp,Finance
-gmm,Finance
-gogarch,Finance
-GUIDE,Finance
-ismev,Finance
-its,Finance
-lifecontingencies,Finance
-lmtest,Finance
-longmemo,Finance
-maRketSim,Finance
-mvtnorm,Finance
-nlme,Finance
-NMOF,Finance
-opefimor,Finance
-pa,Finance
-PerformanceAnalytics,Finance
-portfolio,Finance
-portfolioSim,Finance
-quantmod,Finance
-Rcmdr,Finance
-rmgarch,Finance
-RQuantLib,Finance
-rugarch,Finance
-rwt,Finance
-sandwich,Finance
-sde,Finance
-SharpeR,Finance
-stochvol,Finance
-stockPortfolio,Finance
-strucchange,Finance
-tawny,Finance
-termstrc,Finance
-TFX,Finance
-timeDate,Finance
-timeSeries,Finance
-tis,Finance
-TSdbi,Finance
-tseries,Finance
-tseriesChaos,Finance
-tsfa,Finance
-TTR,Finance
-urca,Finance
-vars,Finance
-VarSwapPrice,Finance
-vrtest,Finance
-wavelets,Finance
-waveslim,Finance
-wavethresh,Finance
-xts,Finance
-YieldCurve,Finance
-Zelig,Finance
-zoo,Finance
-actuar,Finance
-BenfordTests,Finance
-ESG,Finance
-LSMonteCarlo,Finance
-markovchain,Finance
-OptHedging,Finance
-parma,Finance
-RND,Finance
-SmithWilsonYieldCurve,Finance
-ChainLadder,Finance
-ycinterextra,Finance
-bayesGARCH,Finance
-Rbitcoin,Finance
-tvm,Finance
-MarkowitzR,Finance
-bizdays,Finance
-egcm,Finance
-GEVStableGarch,Finance
-lgarch,Finance
-pbo,Finance
-timsac,Finance
-tsDyn,Finance
-fMultivar,Finance
-OptionPricing,Finance
-riskSimul,Finance
-fAssets,Finance
-fCopulae,Finance
-financial,Finance
-fPortfolio,Finance
-fractal,Finance
-fRegression,Finance
-highfrequency,Finance
-IBrokers,Finance
-MSBVAR,Finance
-gets,Finance
-GCPM,Finance
-TAQMNGR,Finance
-FatTailsR,Finance
-adegenet,Genetics
-ape,Genetics
-Biodem,Genetics
-bqtl,Genetics
-dlmap,Genetics
-gap,Genetics
-GenABEL,Genetics
-Geneland,Genetics
-genetics,Genetics
-hapassoc,Genetics
-haplo.ccs,Genetics
-haplo.stats,Genetics
-HardyWeinberg,Genetics
-hierfstat,Genetics
-hwde,Genetics
-ibdreg,Genetics
-LDheatmap,Genetics
-luca,Genetics
-multic,Genetics
-ouch,Genetics
-pbatR,Genetics
-phangorn,Genetics
-qtl,Genetics
-seqinr,Genetics
-snp.plotter,Genetics
-SNPmaxsel,Genetics
-tdthap,Genetics
-untb,Genetics
-wgaim,Genetics
-stepwise,Genetics
-rmetasim,Genetics
-abn,gR
-bayesmix,gR
-bnlearn,gR
-boa,gR
-catnet,gR
-coda,gR
-dclone,gR
-deal,gR
-diagram,gR
-dynamicGraph,gR
-ergm,gR
-GeneNet,gR
-ggm,gR
-giRaph,gR
-gRapHD,gR
-igraph,gR
-lcd,gR
-mathgraph,gR
-network,gR
-parcor,gR
-pcalg,gR
-QUIC,gR
-R2WinBUGS,gR
-rbugs,gR
-rjags,gR
-SIN,gR
-R2OpenBUGS,gR
-BDgraph,gR
-ndtv,gR
-networkDynamic,gR
-ade4,Graphics
-animation,Graphics
-ape,Graphics
-aplpack,Graphics
-ash,Graphics
-biclust,Graphics
-Cairo,Graphics
-cairoDevice,Graphics
-cba,Graphics
-colorspace,Graphics
-diagram,Graphics
-dichromat,Graphics
-gclus,Graphics
-ggplot2,Graphics
-gplots,Graphics
-gridBase,Graphics
-IDPmisc,Graphics
-igraph,Graphics
-iplots,Graphics
-JavaGD,Graphics
-klaR,Graphics
-lattice,Graphics
-latticeExtra,Graphics
-misc3d,Graphics
-onion,Graphics
-playwith,Graphics
-plotrix,Graphics
-RColorBrewer,Graphics
-rgl,Graphics
-RGraphics,Graphics
-RGtk2,Graphics
-RSvgDevice,Graphics
-RSVGTipsDevice,Graphics
-scagnostics,Graphics
-scatterplot3d,Graphics
-seriation,Graphics
-tkrplot,Graphics
-vcd,Graphics
-vioplot,Graphics
-xgobi,Graphics
-hexbin,Graphics
-batch,HighPerformanceComputing
-BatchExperiments,HighPerformanceComputing
-BatchJobs,HighPerformanceComputing
-bayesm,HighPerformanceComputing
-bcp,HighPerformanceComputing
-biglars,HighPerformanceComputing
-biglm,HighPerformanceComputing
-bigmemory,HighPerformanceComputing
-bigrf,HighPerformanceComputing
-bnlearn,HighPerformanceComputing
-caret,HighPerformanceComputing
-data.table,HighPerformanceComputing
-dclone,HighPerformanceComputing
-doMC,HighPerformanceComputing
-doRedis,HighPerformanceComputing
-doRNG,HighPerformanceComputing
-doSNOW,HighPerformanceComputing
-foreach,HighPerformanceComputing
-GAMBoost,HighPerformanceComputing
-gcbd,HighPerformanceComputing
-Geneland,HighPerformanceComputing
-HadoopStreaming,HighPerformanceComputing
-harvestr,HighPerformanceComputing
-inline,HighPerformanceComputing
-latentnet,HighPerformanceComputing
-lga,HighPerformanceComputing
-Matching,HighPerformanceComputing
-nws,HighPerformanceComputing
-orloca,HighPerformanceComputing
-pbdBASE,HighPerformanceComputing
-pbdDEMO,HighPerformanceComputing
-pbdDMAT,HighPerformanceComputing
-pbdMPI,HighPerformanceComputing
-pbdNCDF4,HighPerformanceComputing
-pbdSLAP,HighPerformanceComputing
-peperr,HighPerformanceComputing
-pmclust,HighPerformanceComputing
-profr,HighPerformanceComputing
-proftools,HighPerformanceComputing
-pvclust,HighPerformanceComputing
-Rcpp,HighPerformanceComputing
-Rdsm,HighPerformanceComputing
-rgenoud,HighPerformanceComputing
-RInside,HighPerformanceComputing
-rJava,HighPerformanceComputing
-rlecuyer,HighPerformanceComputing
-rredis,HighPerformanceComputing
-snow,HighPerformanceComputing
-snowfall,HighPerformanceComputing
-snowFT,HighPerformanceComputing
-speedglm,HighPerformanceComputing
-sqldf,HighPerformanceComputing
-STAR,HighPerformanceComputing
-tm,HighPerformanceComputing
-varSelRF,HighPerformanceComputing
-ff,HighPerformanceComputing
-MonetDB.R,HighPerformanceComputing
-pls,HighPerformanceComputing
-RhpcBLASctl,HighPerformanceComputing
-ffbase,HighPerformanceComputing
-aprof,HighPerformanceComputing
-GUIProfiler,HighPerformanceComputing
-PGICA,HighPerformanceComputing
-partDSA,HighPerformanceComputing
-HistogramTools,HighPerformanceComputing
-ahaz,MachineLearning
-arules,MachineLearning
-bigrf,MachineLearning
-Boruta,MachineLearning
-bst,MachineLearning
-C50,MachineLearning
-caret,MachineLearning
-CORElearn,MachineLearning
-CoxBoost,MachineLearning
-Cubist,MachineLearning
-e1071,MachineLearning
-earth,MachineLearning
-elasticnet,MachineLearning
-ElemStatLearn,MachineLearning
-frbs,MachineLearning
-GAMBoost,MachineLearning
-gamboostLSS,MachineLearning
-gbm,MachineLearning
-glmnet,MachineLearning
-glmpath,MachineLearning
-GMMBoost,MachineLearning
-grplasso,MachineLearning
-grpreg,MachineLearning
-hda,MachineLearning
-ipred,MachineLearning
-kernlab,MachineLearning
-klaR,MachineLearning
-lars,MachineLearning
-lasso2,MachineLearning
-LiblineaR,MachineLearning
-LogicReg,MachineLearning
-maptree,MachineLearning
-mboost,MachineLearning
-ncvreg,MachineLearning
-nnet,MachineLearning
-oblique.tree,MachineLearning
-pamr,MachineLearning
-party,MachineLearning
-partykit,MachineLearning
-penalized,MachineLearning
-penalizedSVM,MachineLearning
-quantregForest,MachineLearning
-randomForest,MachineLearning
-rattle,MachineLearning
-rda,MachineLearning
-rdetools,MachineLearning
-REEMtree,MachineLearning
-relaxo,MachineLearning
-rgenoud,MachineLearning
-rgp,MachineLearning
-Rmalschains,MachineLearning
-rminer,MachineLearning
-ROCR,MachineLearning
-rpart,MachineLearning
-RPMM,MachineLearning
-RSNNS,MachineLearning
-RWeka,MachineLearning
-sda,MachineLearning
-svmpath,MachineLearning
-tgp,MachineLearning
-tree,MachineLearning
-varSelRF,MachineLearning
-RXshrink,MachineLearning
-penalizedLDA,MachineLearning
-RoughSets,MachineLearning
-evtree,MachineLearning
-randomForestSRC,MachineLearning
-hdi,MachineLearning
-stabs,MachineLearning
-mlr,MachineLearning
-BayesTree,MachineLearning
-bigRR,MachineLearning
-LogicForest,MachineLearning
-bmrm,MachineLearning
-adimpro,MedicalImaging
-AnalyzeFMRI,MedicalImaging
-arf3DS4,MedicalImaging
-bayesm,MedicalImaging
-brainwaver,MedicalImaging
-DATforDCEMRI,MedicalImaging
-dcemriS4,MedicalImaging
-dpmixsim,MedicalImaging
-dti,MedicalImaging
-fmri,MedicalImaging
-mmand,MedicalImaging
-occ,MedicalImaging
-oro.dicom,MedicalImaging
-oro.nifti,MedicalImaging
-PET,MedicalImaging
-PTAk,MedicalImaging
-RNiftyReg,MedicalImaging
-tractor.base,MedicalImaging
-waveslim,MedicalImaging
-gdimap,MedicalImaging
-mritc,MedicalImaging
-brainR,MedicalImaging
-neuroim,MedicalImaging
-neuRosim,MedicalImaging
-fslr,MedicalImaging
-KATforDCEMRI,MedicalImaging
-bamdit,MetaAnalysis
-bspmma,MetaAnalysis
-compute.es,MetaAnalysis
-CRTSize,MetaAnalysis
-epiR,MetaAnalysis
-gap,MetaAnalysis
-gemtc,MetaAnalysis
-HSROC,MetaAnalysis
-MAc,MetaAnalysis
-MAd,MetaAnalysis
-mada,MetaAnalysis
-MAMA,MetaAnalysis
-meta,MetaAnalysis
-MetABEL,MetaAnalysis
-MetaDE,MetaAnalysis
-metafor,MetaAnalysis
-metagen,MetaAnalysis
-metaLik,MetaAnalysis
-metaMA,MetaAnalysis
-metamisc,MetaAnalysis
-MetaPCA,MetaAnalysis
-MetaQC,MetaAnalysis
-metatest,MetaAnalysis
-mvmeta,MetaAnalysis
-mvtmeta,MetaAnalysis
-psychometric,MetaAnalysis
-rmeta,MetaAnalysis
-SAMURAI,MetaAnalysis
-SCMA,MetaAnalysis
-selectMeta,MetaAnalysis
-skatMeta,MetaAnalysis
-dosresmeta,MetaAnalysis
-exactmeta,MetaAnalysis
-MetaSKAT,MetaAnalysis
-netmeta,MetaAnalysis
-seqMeta,MetaAnalysis
-PubBias,MetaAnalysis
-Metatron,MetaAnalysis
-mmeta,MetaAnalysis
-extfunnel,MetaAnalysis
-robumeta,MetaAnalysis
-metap,MetaAnalysis
-RcmdrPlugin.EZR,MetaAnalysis
-CAMAN,MetaAnalysis
-ecoreg,MetaAnalysis
-ipdmeta,MetaAnalysis
-metaplus,MetaAnalysis
-metasens,MetaAnalysis
-MAVIS,MetaAnalysis
-forestplot,MetaAnalysis
-CopulaREMADA,MetaAnalysis
-EasyStrata,MetaAnalysis
-metaRNASeq,MetaAnalysis
-abind,Multivariate
-ade4,Multivariate
-amap,Multivariate
-aplpack,Multivariate
-ash,Multivariate
-bayesm,Multivariate
-ca,Multivariate
-calibrate,Multivariate
-car,Multivariate
-caret,Multivariate
-class,Multivariate
-clue,Multivariate
-cluster,Multivariate
-clusterGeneration,Multivariate
-clusterSim,Multivariate
-clv,Multivariate
-cocorresp,Multivariate
-copula,Multivariate
-corpcor,Multivariate
-covRobust,Multivariate
-desirability,Multivariate
-dr,Multivariate
-e1071,Multivariate
-earth,Multivariate
-ellipse,Multivariate
-energy,Multivariate
-eRm,Multivariate
-FactoMineR,Multivariate
-FAiR,Multivariate
-fastICA,Multivariate
-feature,Multivariate
-fgac,Multivariate
-fpc,Multivariate
-fso,Multivariate
-gclus,Multivariate
-GenKern,Multivariate
-geometry,Multivariate
-geozoo,Multivariate
-gmodels,Multivariate
-GPArotation,Multivariate
-hddplot,Multivariate
-Hmisc,Multivariate
-homals,Multivariate
-hybridHclust,Multivariate
-ICS,Multivariate
-ICSNP,Multivariate
-iplots,Multivariate
-JADE,Multivariate
-kernlab,Multivariate
-KernSmooth,Multivariate
-kknn,Multivariate
-klaR,Multivariate
-kohonen,Multivariate
-ks,Multivariate
-lattice,Multivariate
-ltm,Multivariate
-mAr,Multivariate
-MASS,Multivariate
-Matrix,Multivariate
-matrixcalc,Multivariate
-mclust,Multivariate
-MCMCpack,Multivariate
-mda,Multivariate
-mice,Multivariate
-misc3d,Multivariate
-mitools,Multivariate
-mix,Multivariate
-mnormt,Multivariate
-MNP,Multivariate
-monomvn,Multivariate
-mvnmle,Multivariate
-mvnormtest,Multivariate
-mvoutlier,Multivariate
-mvtnorm,Multivariate
-nFactors,Multivariate
-pan,Multivariate
-paran,Multivariate
-party,Multivariate
-pcaPP,Multivariate
-PearsonICA,Multivariate
-plsgenomics,Multivariate
-poLCA,Multivariate
-polycor,Multivariate
-ppls,Multivariate
-prim,Multivariate
-proxy,Multivariate
-psy,Multivariate
-PTAk,Multivariate
-rda,Multivariate
-relaimpo,Multivariate
-rgl,Multivariate
-robustbase,Multivariate
-ROCR,Multivariate
-rpart,Multivariate
-rrcov,Multivariate
-sca,Multivariate
-scatterplot3d,Multivariate
-sem,Multivariate
-SensoMineR,Multivariate
-seriation,Multivariate
-simba,Multivariate
-smatr,Multivariate
-sn,Multivariate
-spam,Multivariate
-SparseM,Multivariate
-SpatialNP,Multivariate
-superpc,Multivariate
-trimcluster,Multivariate
-tsfa,Multivariate
-vcd,Multivariate
-vegan,Multivariate
-VGAM,Multivariate
-VIM,Multivariate
-xgobi,Multivariate
-YaleToolkit,Multivariate
-concor,Multivariate
-pls,Multivariate
-clustvarsel,Multivariate
-denpro,Multivariate
-cramer,Multivariate
-cwhmisc,Multivariate
-delt,Multivariate
-corpora,NaturalLanguageProcessing
-gsubfn,NaturalLanguageProcessing
-kernlab,NaturalLanguageProcessing
-KoNLP,NaturalLanguageProcessing
-koRpus,NaturalLanguageProcessing
-maxent,NaturalLanguageProcessing
-openNLP,NaturalLanguageProcessing
-qdap,NaturalLanguageProcessing
-RcmdrPlugin.temis,NaturalLanguageProcessing
-RKEA,NaturalLanguageProcessing
-RWeka,NaturalLanguageProcessing
-SnowballC,NaturalLanguageProcessing
-tau,NaturalLanguageProcessing
-textcat,NaturalLanguageProcessing
-textir,NaturalLanguageProcessing
-tm,NaturalLanguageProcessing
-tm.plugin.dc,NaturalLanguageProcessing
-tm.plugin.factiva,NaturalLanguageProcessing
-tm.plugin.mail,NaturalLanguageProcessing
-topicmodels,NaturalLanguageProcessing
-wordcloud,NaturalLanguageProcessing
-wordnet,NaturalLanguageProcessing
-zipfR,NaturalLanguageProcessing
-lda,NaturalLanguageProcessing
-movMF,NaturalLanguageProcessing
-skmeans,NaturalLanguageProcessing
-tm.plugin.alceste,NaturalLanguageProcessing
-tm.plugin.europresse,NaturalLanguageProcessing
-tm.plugin.lexisnexis,NaturalLanguageProcessing
-boilerpipeR,NaturalLanguageProcessing
-lsa,NaturalLanguageProcessing
-tm.plugin.webmining,NaturalLanguageProcessing
-languageR,NaturalLanguageProcessing
-RTextTools,NaturalLanguageProcessing
-akima,NumericalMathematics
-appell,NumericalMathematics
-BB,NumericalMathematics
-Bessel,NumericalMathematics
-combinat,NumericalMathematics
-contfrac,NumericalMathematics
-cubature,NumericalMathematics
-eigeninv,NumericalMathematics
-elliptic,NumericalMathematics
-expm,NumericalMathematics
-features,NumericalMathematics
-gaussquad,NumericalMathematics
-gmp,NumericalMathematics
-gsl,NumericalMathematics
-hypergeo,NumericalMathematics
-irlba,NumericalMathematics
-magic,NumericalMathematics
-MASS,NumericalMathematics
-matlab,NumericalMathematics
-Matrix,NumericalMathematics
-MonoPoly,NumericalMathematics
-mpoly,NumericalMathematics
-multipol,NumericalMathematics
-nleqslv,NumericalMathematics
-numbers,NumericalMathematics
-numDeriv,NumericalMathematics
-onion,NumericalMathematics
-orthopolynom,NumericalMathematics
-partitions,NumericalMathematics
-polyCub,NumericalMathematics
-polynom,NumericalMathematics
-PolynomF,NumericalMathematics
-pracma,NumericalMathematics
-R.matlab,NumericalMathematics
-R2Cuba,NumericalMathematics
-Rcpp,NumericalMathematics
-RcppArmadillo,NumericalMathematics
-RcppEigen,NumericalMathematics
-Rmpfr,NumericalMathematics
-rPython,NumericalMathematics
-rSymPy,NumericalMathematics
-signal,NumericalMathematics
-SparseGrid,NumericalMathematics
-SphericalCubature,NumericalMathematics
-ssvd,NumericalMathematics
-statmod,NumericalMathematics
-stinepack,NumericalMathematics
-svd,NumericalMathematics
-geigen,NumericalMathematics
-ktsolve,NumericalMathematics
-QZ,NumericalMathematics
-SparseM,NumericalMathematics
-rARPACK,NumericalMathematics
-fastGHQuad,NumericalMathematics
-RootsExtremaInflections,NumericalMathematics
-optR,NumericalMathematics
-Rserve,NumericalMathematics
-Brobdingnag,NumericalMathematics
-Deriv,NumericalMathematics
-Amelia,OfficialStatistics
-cat,OfficialStatistics
-deducorrect,OfficialStatistics
-editrules,OfficialStatistics
-FFD,OfficialStatistics
-hbsae,OfficialStatistics
-Hmisc,OfficialStatistics
-IC2,OfficialStatistics
-ineq,OfficialStatistics
-JoSAE,OfficialStatistics
-laeken,OfficialStatistics
-lavaan,OfficialStatistics
-lavaan.survey,OfficialStatistics
-lme4,OfficialStatistics
-MatchIt,OfficialStatistics
-memisc,OfficialStatistics
-mi,OfficialStatistics
-mice,OfficialStatistics
-micEcon,OfficialStatistics
-MImix,OfficialStatistics
-missMDA,OfficialStatistics
-mitools,OfficialStatistics
-mix,OfficialStatistics
-nlme,OfficialStatistics
-norm,OfficialStatistics
-odfWeave,OfficialStatistics
-odfWeave.survey,OfficialStatistics
-pan,OfficialStatistics
-pps,OfficialStatistics
-pxR,OfficialStatistics
-reweight,OfficialStatistics
-robCompositions,OfficialStatistics
-rrcovNA,OfficialStatistics
-samplingbook,OfficialStatistics
-SamplingStrata,OfficialStatistics
-samplingVarEst,OfficialStatistics
-SDaA,OfficialStatistics
-SeleMix,OfficialStatistics
-simFrame,OfficialStatistics
-spsurvey,OfficialStatistics
-StatMatch,OfficialStatistics
-stratification,OfficialStatistics
-survey,OfficialStatistics
-tabplot,OfficialStatistics
-TeachingSampling,OfficialStatistics
-treemap,OfficialStatistics
-VIM,OfficialStatistics
-x12,OfficialStatistics
-x12GUI,OfficialStatistics
-yaImpute,OfficialStatistics
-sampling,OfficialStatistics
-SAScii,OfficialStatistics
-sdcMicro,OfficialStatistics
-sdcTable,OfficialStatistics
-foreign,OfficialStatistics
-prevR,OfficialStatistics
-questionr,OfficialStatistics
-sms,OfficialStatistics
-seasonal,OfficialStatistics
-rsae,OfficialStatistics
-MicSim,OfficialStatistics
-CoImp,OfficialStatistics
-rworldmap,OfficialStatistics
-vardpoor,OfficialStatistics
-RecordLinkage,OfficialStatistics
-saeSim,OfficialStatistics
-stringdist,OfficialStatistics
-adagio,Optimization
-alabama,Optimization
-BB,Optimization
-boot,Optimization
-CLSOCP,Optimization
-clue,Optimization
-cmaes,Optimization
-crs,Optimization
-dclone,Optimization
-DEoptim,Optimization
-desirability,Optimization
-dfoptim,Optimization
-genalg,Optimization
-GenSA,Optimization
-glpkAPI,Optimization
-goalprog,Optimization
-gsl,Optimization
-hydroPSO,Optimization
-igraph,Optimization
-kernlab,Optimization
-limSolve,Optimization
-linprog,Optimization
-LowRankQP,Optimization
-lpSolve,Optimization
-lpSolveAPI,Optimization
-maxLik,Optimization
-mcga,Optimization
-mco,Optimization
-minpack.lm,Optimization
-minqa,Optimization
-neldermead,Optimization
-nleqslv,Optimization
-nloptr,Optimization
-optimx,Optimization
-powell,Optimization
-pso,Optimization
-quadprog,Optimization
-quantreg,Optimization
-rcdd,Optimization
-Rcgmin,Optimization
-RcppDE,Optimization
-Rcsdp,Optimization
-rgenoud,Optimization
-Rmalschains,Optimization
-rneos,Optimization
-ROI,Optimization
-Rsolnp,Optimization
-Rsymphony,Optimization
-Rvmmin,Optimization
-sna,Optimization
-soma,Optimization
-subplex,Optimization
-trust,Optimization
-trustOptim,Optimization
-TSP,Optimization
-ucminf,Optimization
-Rglpk,Optimization
-DEoptimR,Optimization
-GA,Optimization
-GrassmannOptim,Optimization
-NMOF,Optimization
-blowtorch,Optimization
-irace,Optimization
-isotone,Optimization
-lbfgs,Optimization
-globalOptTests,Optimization
-RCEIM,Optimization
-optmatch,Optimization
-cec2005benchmark,Optimization
-cec2013,Optimization
-localsolver,Optimization
-cccp,Optimization
-CEoptim,Optimization
-kofnGA,Optimization
-deSolve,Pharmacokinetics
-drc,Pharmacokinetics
-lattice,Pharmacokinetics
-MASS,Pharmacokinetics
-nlme,Pharmacokinetics
-nlmeODE,Pharmacokinetics
-PK,Pharmacokinetics
-PKPDmodels,Pharmacokinetics
-adephylo,Phylogenetics
-ape,Phylogenetics
-apTreeshape,Phylogenetics
-caper,Phylogenetics
-distory,Phylogenetics
-diversitree,Phylogenetics
-geiger,Phylogenetics
-geomorph,Phylogenetics
-GUniFrac,Phylogenetics
-HMPTrees,Phylogenetics
-iteRates,Phylogenetics
-MCMCglmm,Phylogenetics
-ouch,Phylogenetics
-OUwie,Phylogenetics
-paleotree,Phylogenetics
-paleoTS,Phylogenetics
-phangorn,Phylogenetics
-phyclust,Phylogenetics
-phylobase,Phylogenetics
-phyloclim,Phylogenetics
-phylotools,Phylogenetics
-phytools,Phylogenetics
-picante,Phylogenetics
-PVR,Phylogenetics
-spider,Phylogenetics
-SYNCSA,Phylogenetics
-TESS,Phylogenetics
-treebase,Phylogenetics
-TreeSim,Phylogenetics
-vegan,Phylogenetics
-corHMM,Phylogenetics
-DDD,Phylogenetics
-evobiR,Phylogenetics
-metafor,Phylogenetics
-phylolm,Phylogenetics
-TreePar,Phylogenetics
-adhoc,Phylogenetics
-BAMMtools,Phylogenetics
-betapart,Phylogenetics
-BoSSA,Phylogenetics
-dendextend,Phylogenetics
-DiscML,Phylogenetics
-expands,Phylogenetics
-expoTree,Phylogenetics
-HyPhy,Phylogenetics
-jaatha,Phylogenetics
-kdetrees,Phylogenetics
-MPSEM,Phylogenetics
-mvMORPH,Phylogenetics
-outbreaker,Phylogenetics
-OutbreakTools,Phylogenetics
-pastis,Phylogenetics
-PBD,Phylogenetics
-PCPS,Phylogenetics
-pegas,Phylogenetics
-phyloland,Phylogenetics
-phyloTop,Phylogenetics
-RADami,Phylogenetics
-rdryad,Phylogenetics
-Reol,Phylogenetics
-rphast,Phylogenetics
-Rphylip,Phylogenetics
-strap,Phylogenetics
-surface,Phylogenetics
-taxize,Phylogenetics
-RNeXML,Phylogenetics
-PHYLOGR,Phylogenetics
-bayou,Phylogenetics
-BioGeoBEARS,Phylogenetics
-cati,Phylogenetics
-DAMOCLES,Phylogenetics
-ggplot2,Phylogenetics
-ips,Phylogenetics
-pmc,Phylogenetics
-SigTree,Phylogenetics
-ade4,Psychometrics
-anacor,Psychometrics
-betareg,Psychometrics
-BradleyTerry2,Psychometrics
-ca,Psychometrics
-cacIRT,Psychometrics
-catR,Psychometrics
-CDM,Psychometrics
-cfa,Psychometrics
-classify,Psychometrics
-CMC,Psychometrics
-cocorresp,Psychometrics
-CopyDetect,Psychometrics
-CTT,Psychometrics
-DAKS,Psychometrics
-difR,Psychometrics
-e1071,Psychometrics
-eba,Psychometrics
-ecodist,Psychometrics
-equate,Psychometrics
-eRm,Psychometrics
-EstCRM,Psychometrics
-FactoMineR,Psychometrics
-FAiR,Psychometrics
-fastICA,Psychometrics
-fechner,Psychometrics
-fwdmsa,Psychometrics
-GPArotation,Psychometrics
-homals,Psychometrics
-irr,Psychometrics
-irtoys,Psychometrics
-irtrees,Psychometrics
-KernSmoothIRT,Psychometrics
-kst,Psychometrics
-labdsv,Psychometrics
-latdiag,Psychometrics
-lava,Psychometrics
-lava.tobit,Psychometrics
-lavaan,Psychometrics
-lavaan.survey,Psychometrics
-lme4,Psychometrics
-lordif,Psychometrics
-ltm,Psychometrics
-MASS,Psychometrics
-MBESS,Psychometrics
-mcIRT,Psychometrics
-MCMCpack,Psychometrics
-mirt,Psychometrics
-mixRasch,Psychometrics
-MLCM,Psychometrics
-MLDS,Psychometrics
-modelfree,Psychometrics
-mokken,Psychometrics
-MplusAutomation,Psychometrics
-mpt,Psychometrics
-MPTinR,Psychometrics
-mRm,Psychometrics
-MultiLCIRT,Psychometrics
-nFactors,Psychometrics
-pathmox,Psychometrics
-pcaPP,Psychometrics
-pks,Psychometrics
-plRasch,Psychometrics
-plspm,Psychometrics
-poLCA,Psychometrics
-polycor,Psychometrics
-prefmod,Psychometrics
-pscl,Psychometrics
-psy,Psychometrics
-psych,Psychometrics
-psychometric,Psychometrics
-psychomix,Psychometrics
-psychotools,Psychometrics
-psychotree,Psychometrics
-psyphy,Psychometrics
-PTAk,Psychometrics
-qgraph,Psychometrics
-QuantPsyc,Psychometrics
-randomLCA,Psychometrics
-RaschSampler,Psychometrics
-REQS,Psychometrics
-rpf,Psychometrics
-sem,Psychometrics
-SEMModComp,Psychometrics
-semPLS,Psychometrics
-semTools,Psychometrics
-SensoMineR,Psychometrics
-simsem,Psychometrics
-sirt,Psychometrics
-smacof,Psychometrics
-systemfit,Psychometrics
-TripleR,Psychometrics
-vegan,Psychometrics
-VGAM,Psychometrics
-xgobi,Psychometrics
-cocor,Psychometrics
-cocron,Psychometrics
-equateIRT,Psychometrics
-ExPosition,Psychometrics
-ICC,Psychometrics
-MCMCglmm,Psychometrics
-mediation,Psychometrics
-multiplex,Psychometrics
-nlme,Psychometrics
-ordinal,Psychometrics
-pls,Psychometrics
-semPlot,Psychometrics
-TAM,Psychometrics
-profileR,Psychometrics
-DIFlasso,Psychometrics
-pcIRT,Psychometrics
-TestScorer,Psychometrics
-DFIT,Psychometrics
-irtProb,Psychometrics
-WrightMap,Psychometrics
-PP,Psychometrics
-mirtCAT,Psychometrics
-pairwise,Psychometrics
-IRTShiny,Psychometrics
-missMDA,Psychometrics
-flexmix,Psychometrics
-kequate,Psychometrics
-SNSequate,Psychometrics
-kcirt,Psychometrics
-animation,ReproducibleResearch
-apsrtable,ReproducibleResearch
-ascii,ReproducibleResearch
-brew,ReproducibleResearch
-exams,ReproducibleResearch
-Hmisc,ReproducibleResearch
-hwriter,ReproducibleResearch
-knitr,ReproducibleResearch
-markdown,ReproducibleResearch
-memisc,ReproducibleResearch
-odfWeave,ReproducibleResearch
-odfWeave.survey,ReproducibleResearch
-pander,ReproducibleResearch
-quantreg,ReproducibleResearch
-R.cache,ReproducibleResearch
-R.rsp,ReproducibleResearch
-R2HTML,ReproducibleResearch
-r2lh,ReproducibleResearch
-rapport,ReproducibleResearch
-reporttools,ReproducibleResearch
-rms,ReproducibleResearch
-rtf,ReproducibleResearch
-svSweave,ReproducibleResearch
-SweaveListingUtils,ReproducibleResearch
-tables,ReproducibleResearch
-TeachingSampling,ReproducibleResearch
-xtable,ReproducibleResearch
-bibtex,ReproducibleResearch
-sparktex,ReproducibleResearch
-stargazer,ReproducibleResearch
-suRtex,ReproducibleResearch
-table1xls,ReproducibleResearch
-texreg,ReproducibleResearch
-tth,ReproducibleResearch
-NMOF,ReproducibleResearch
-papeR,ReproducibleResearch
-covRobust,Robust
-coxrobust,Robust
-distr,Robust
-FRB,Robust
-lqmm,Robust
-MASS,Robust
-multinomRob,Robust
-mvoutlier,Robust
-quantreg,Robust
-RandVar,Robust
-rgam,Robust
-RobAStBase,Robust
-robfilter,Robust
-RobLox,Robust
-RobLoxBioC,Robust
-RobRex,Robust
-robust,Robust
-RobustAFT,Robust
-robustbase,Robust
-robustlmm,Robust
-robustX,Robust
-ROptEst,Robust
-ROptRegTS,Robust
-rrcov,Robust
-rrcovHD,Robust
-rrcovNA,Robust
-sandwich,Robust
-wle,Robust
-RSKC,Robust
-drgee,Robust
-GSE,Robust
-OutlierDC,Robust
-robcor,Robust
-RobPer,Robust
-RobRSVD,Robust
-robumeta,Robust
-ssmrob,Robust
-OutlierDM,Robust
-mblm,Robust
-rsig,Robust
-georob,Robust
-robeth,Robust
-robustDA,Robust
-robustgam,Robust
-robustloggamma,Robust
-robustreg,Robust
-ror,Robust
-rorutadis,Robust
-acepack,SocialSciences
-alr3,SocialSciences
-aod,SocialSciences
-boot,SocialSciences
-bootstrap,SocialSciences
-BradleyTerry2,SocialSciences
-brglm,SocialSciences
-car,SocialSciences
-class,SocialSciences
-dr,SocialSciences
-dyn,SocialSciences
-dynlm,SocialSciences
-effects,SocialSciences
-eha,SocialSciences
-exactLoglinTest,SocialSciences
-forward,SocialSciences
-frailtypack,SocialSciences
-gam,SocialSciences
-gee,SocialSciences
-gmodels,SocialSciences
-gnm,SocialSciences
-GPArotation,SocialSciences
-gss,SocialSciences
-Hmisc,SocialSciences
-irr,SocialSciences
-latentnet,SocialSciences
-lattice,SocialSciences
-leaps,SocialSciences
-lme4,SocialSciences
-lmm,SocialSciences
-lmtest,SocialSciences
-locfit,SocialSciences
-ltm,SocialSciences
-MASS,SocialSciences
-Matching,SocialSciences
-MatchIt,SocialSciences
-Matrix,SocialSciences
-meta,SocialSciences
-mgcv,SocialSciences
-mice,SocialSciences
-micEcon,SocialSciences
-mitools,SocialSciences
-mix,SocialSciences
-MNP,SocialSciences
-multcomp,SocialSciences
-multinomRob,SocialSciences
-network,SocialSciences
-nlme,SocialSciences
-nnet,SocialSciences
-pan,SocialSciences
-perturb,SocialSciences
-polycor,SocialSciences
-pscl,SocialSciences
-psy,SocialSciences
-quantreg,SocialSciences
-qvcalc,SocialSciences
-rgl,SocialSciences
-rmeta,SocialSciences
-rms,SocialSciences
-robust,SocialSciences
-robustbase,SocialSciences
-sandwich,SocialSciences
-sem,SocialSciences
-sm,SocialSciences
-sna,SocialSciences
-survey,spatial
-survival,spatial
-systemfit,spatial
-vcd,spatial
-Zelig,spatial
-BMA,spatial
-geepack,spatial
-pls,spatial
-sampling,spatial
-survrec,spatial
-lmeSplines,spatial
-optmatch,spatial
-Spatial,spatial
-ade4,spatial
-adehabitat,spatial
-adehabitatHR,spatial
-adehabitatHS,spatial
-adehabitatLT,spatial
-adehabitatMA,spatial
-ads,spatial
-akima,spatial
-ash,spatial
-aspace,spatial
-automap,spatial
-classInt,spatial
-constrainedKriging,spatial
-cshapes,spatial
-deldir,spatial
-DSpat,spatial
-ecespa,spatial
-fields,spatial
-FieldSim,spatial
-gdistance,spatial
-Geneland,spatial
-GEOmap,spatial
-geomapdata,spatial
-geonames,spatial
-geoR,spatial
-geoRglm,spatial
-geosphere,spatial
-GeoXp,spatial
-ggmap,spatial
-glmmBUGS,spatial
-gmt,spatial
-GriegSmith,spatial
-gstat,spatial
-hdeco,spatial
-intamap,spatial
-landsat,spatial
-mapdata,spatial
-mapproj,spatial
-maps,spatial
-maptools,spatial
-MBA,spatial
-micromap,spatial
-ModelMap,spatial
-ncdf,spatial
-ncf,spatial
-nlme,spatial
-OpenStreetMap,spatial
-osmar,spatial
-pastecs,spatial
-PBSmapping,spatial
-PBSmodelling,spatial
-plotKML,spatial
-psgp,spatial
-ramps,spatial
-RandomFields,spatial
-rangeMapper,spatial
-raster,spatial
-rasterVis,spatial
-RColorBrewer,spatial
-regress,spatial
-rgdal,spatial
-rgeos,spatial
-RgoogleMaps,spatial
-RSAGA,spatial
-RSurvey,spatial
-rworldmap,spatial
-sgeostat,spatial
-shapefiles,spatial
-sp,spatial
-spacetime,spatial
-sparr,spatial
-spatcounts,spatial
-spatgraphs,spatial
-spatial,spatial
-spatialCovariance,spatial
-SpatialExtremes,spatial
-spatialkernel,spatial
-spatialprobit,spatial
-spatialsegregation,spatial
-spatstat,spatial
-spBayes,spatial
-spcosa,spatial
-spdep,spatial
-spgrass6,spatial
-spgwr,spatial
-sphet,spatial
-splancs,spatial
-spsurvey,spatial
-Stem,spatial
-tgp,spatial
-trip,spatial
-tripack,spatial
-tripEstimation,spatial
-UScensus2000cdp,spatial
-UScensus2000tract,spatial
-vardiag,spatial
-vegan,spatial
-CARBayes,spatial
-dbmss,spatial
-DCluster,spatial
-Grid2Polygons,spatial
-GWmodel,spatial
-gwrr,spatial
-McSpatial,spatial
-ngspatial,spatial
-plotGoogleMaps,spatial
-RArcInfo,spatial
-rtop,spatial
-rworldxtra,spatial
-spatial.tools,spatial
-SpatialEpi,spatial
-SpatialTools,spatial
-splm,spatial
-spTimer,spatial
-SSN,spatial
-taRifx,spatial
-AMOEBA,spatial
-latticeDensity,spatial
-seg,spatial
-leafletR,spatial
-marmap,spatial
-geospacom,spatial
-siplab,spatial
-spacom,spatial
-spaMM,spatial
-georob,spatial
-PReMiuM,spatial
-CompRandFld,spatial
-Guerry,spatial
-vec2dtransf,spatial
-adehabitatLT,SpatioTemporal
-argosfilter,SpatioTemporal
-cshapes,SpatioTemporal
-diveMove,SpatioTemporal
-GeoLight,SpatioTemporal
-googleVis,SpatioTemporal
-gstat,SpatioTemporal
-lgcp,SpatioTemporal
-lme4,SpatioTemporal
-M3,SpatioTemporal
-mvtsplot,SpatioTemporal
-ncdf,SpatioTemporal
-ncdf4,SpatioTemporal
-nlme,SpatioTemporal
-openair,SpatioTemporal
-pastecs,SpatioTemporal
-pbdNCDF4,SpatioTemporal
-plm,SpatioTemporal
-plotKML,SpatioTemporal
-RandomFields,SpatioTemporal
-raster,SpatioTemporal
-rasterVis,SpatioTemporal
-rgl,SpatioTemporal
-RNetCDF,SpatioTemporal
-solaR,SpatioTemporal
-sp,SpatioTemporal
-spacetime,SpatioTemporal
-spate,SpatioTemporal
-SpatioTemporal,SpatioTemporal
-spatstat,SpatioTemporal
-spBayes,SpatioTemporal
-sphet,SpatioTemporal
-splancs,SpatioTemporal
-splm,SpatioTemporal
-spTimer,SpatioTemporal
-stam,SpatioTemporal
-Stem,SpatioTemporal
-stppResid,SpatioTemporal
-trip,SpatioTemporal
-tripEstimation,SpatioTemporal
-xts,SpatioTemporal
-BBMM,SpatioTemporal
-bcpa,SpatioTemporal
-crawl,SpatioTemporal
-move,SpatioTemporal
-smam,SpatioTemporal
-rmatio,SpatioTemporal
-animalTrack,SpatioTemporal
-BayesianAnimalTracker,SpatioTemporal
-fishmove,SpatioTemporal
-mkde,SpatioTemporal
-TrackReconstruction,SpatioTemporal
-stpp,SpatioTemporal
-AER,Survival
-ahaz,Survival
-AIM,Survival
-asbio,Survival
-aster,Survival
-aster2,Survival
-BaSTA,Survival
-bayesSurv,Survival
-BayHaz,Survival
-Biograph,Survival
-boot,Survival
-bpcp,Survival
-censReg,Survival
-clinfun,Survival
-cmprsk,Survival
-coin,Survival
-compeir,Survival
-compound.Cox,Survival
-concreg,Survival
-condGEE,Survival
-CoxBoost,Survival
-coxme,Survival
-coxphf,Survival
-coxphw,Survival
-coxrobust,Survival
-CPE,Survival
-CPHshape,Survival
-Cprob,Survival
-CR,Survival
-crrSC,Survival
-crrstep,Survival
-currentSurvival,Survival
-DAAG,Survival
-dblcens,Survival
-DPpackage,Survival
-dynsurv,Survival
-eha,Survival
-emplik,Survival
-Epi,Survival
-epiR,Survival
-etm,Survival
-exactRankTests,Survival
-fastcox,Survival
-FHtest,Survival
-fitdistrplus,Survival
-flexsurv,Survival
-frailtyHL,Survival
-frailtypack,Survival
-gamlss.cens,Survival
-gbm,Survival
-gems,Survival
-genSurv,Survival
-glmpath,Survival
-globalboosttest,Survival
-gof,Survival
-gss,Survival
-ICE,Survival
-intcox,Survival
-interval,Survival
-ipdmeta,Survival
-ipred,Survival
-JM,Survival
-JMbayes,Survival
-joineR,Survival
-JPSurv,Survival
-kaps,Survival
-km.ci,Survival
-kmi,Survival
-KMsurv,Survival
-lava.tobit,Survival
-lbiassurv,Survival
-LearnBayes,Survival
-lmec,Survival
-locfit,Survival
-logconcens,Survival
-LogicReg,Survival
-logspline,Survival
-lpc,Survival
-lss,Survival
-maxstat,Survival
-mboost,Survival
-MCMCglmm,Survival
-MCMCpack,Survival
-mets,Survival
-mixPHM,Survival
-MLEcens,Survival
-msm,Survival
-msSurv,Survival
-mstate,Survival
-muhaz,Survival
-multcomp,Survival
-mvna,Survival
-NestedCohort,Survival
-NPHMC,Survival
-OIsurv,Survival
-OrdFacReg,Survival
-p3state.msm,Survival
-pamr,Survival
-party,Survival
-pec,Survival
-penalized,Survival
-peperr,Survival
-PermAlgo,Survival
-phmm,Survival
-plsRcox,Survival
-polspline,Survival
-powerSurvEpi,Survival
-prodlim,Survival
-pseudo,Survival
-quantreg,Survival
-randomForestSRC,Survival
-rankhazard,Survival
-relsurv,Survival
-riskRegression,Survival
-risksetROC,Survival
-rms,Survival
-RobustAFT,Survival
-rpart,Survival
-saws,Survival
-SGL,Survival
-simexaft,Survival
-SMIR,Survival
-smoothSurv,Survival
-SMPracticals,Survival
-spatstat,Survival
-superpc,Survival
-survAUC,Survival
-survC1,Survival
-survexp.fr,Survival
-survey,Survival
-Survgini,Survival
-survIDINRI,Survival
-survival,Survival
-survivalROC,Survival
-survPresmooth,Survival
-survSNP,Survival
-SvyNom,Survival
-TBSSurvival,Survival
-TestSurvRec,Survival
-timereg,Survival
-timeROC,Survival
-tlmec,Survival
-TPmsm,Survival
-tpr,Survival
-TraMineR,Survival
-TSHRC,Survival
-uniCox,Survival
-VGAM,Survival
-BMA,Survival
-DTDA,Survival
-rhosp,Survival
-survrec,Survival
-mixAK,Survival
-MAMSE,Survival
-NADA,Survival
-SemiCompRisks,Survival
-BGPhazard,Survival
-coarseDataTools,Survival
-CoxRidge,Survival
-kmc,Survival
-kmconfband,Survival
-LogrankA,Survival
-MRsurv,Survival
-NPMLEcmprsk,Survival
-OutlierDC,Survival
-psbcGroup,Survival
-ROCt,Survival
-SemiMarkov,Survival
-simMSM,Survival
-simPH,Survival
-smoothHR,Survival
-spatsurv,Survival
-surv2sampleComp,Survival
-survMisc,Survival
-survsim,Survival
-wtcrsk,Survival
-YPmodel,Survival
-rsig,Survival
-aftgee,Survival
-bshazard,Survival
-bujar,Survival
-coxinterval,Survival
-DStree,Survival
-gamboostMSM,Survival
-ICsurv,Survival
-IDPSurvival,Survival
-invGauss,Survival
-lsmeans,Survival
-MicSim,Survival
-MIICD,Survival
-paf,Survival
-PHeval,Survival
-PReMiuM,Survival
-SmoothHazard,Survival
-spBayesSurv,Survival
-survivalMPL,Survival
-vitality,Survival
-MST,Survival
-multipleNCC,Survival
-penMSM,Survival
-mfp,Survival
-glrt,Survival
-parfm,Survival
-survJamda,Survival
-dynpred,Survival
-AER,TimeSeries
-ArDec,TimeSeries
-arfima,TimeSeries
-astsa,TimeSeries
-bfast,TimeSeries
-biwavelet,TimeSeries
-boot,TimeSeries
-brainwaver,TimeSeries
-bspec,TimeSeries
-CADFtest,TimeSeries
-chron,TimeSeries
-CommonTrend,TimeSeries
-cts,TimeSeries
-deseasonalize,TimeSeries
-dlm,TimeSeries
-dse,TimeSeries
-dtw,TimeSeries
-dyn,TimeSeries
-dynlm,TimeSeries
-Ecdat,TimeSeries
-ensembleBMA,TimeSeries
-EvalEst,TimeSeries
-events,TimeSeries
-expsmooth,TimeSeries
-fame,TimeSeries
-fArma,TimeSeries
-fGarch,TimeSeries
-FGN,TimeSeries
-FinTS,TimeSeries
-FitAR,TimeSeries
-FitARMA,TimeSeries
-fma,TimeSeries
-fNonlinear,TimeSeries
-ForeCA,TimeSeries
-forecast,TimeSeries
-fpp,TimeSeries
-fracdiff,TimeSeries
-fractalrock,TimeSeries
-fts,TimeSeries
-fUnitRoots,TimeSeries
-gsarima,TimeSeries
-its,TimeSeries
-KFAS,TimeSeries
-kza,TimeSeries
-ltsa,TimeSeries
-lubridate,TimeSeries
-mAr,TimeSeries
-42430,TimeSeries
-mar1s,TimeSeries
-MARSS,TimeSeries
-Mcomp,TimeSeries
-meboot,TimeSeries
-mFilter,TimeSeries
-mondate,TimeSeries
-nets,TimeSeries
-paleoTS,TimeSeries
-partsm,TimeSeries
-pastecs,TimeSeries
-pear,TimeSeries
-perARMA,TimeSeries
-pomp,TimeSeries
-portes,TimeSeries
-psd,TimeSeries
-ptw,TimeSeries
-Quandl,TimeSeries
-quantspec,TimeSeries
-rdatamarket,TimeSeries
-RMAWGEN,TimeSeries
-robfilter,TimeSeries
-RSEIS,TimeSeries
-rts,TimeSeries
-rwt,TimeSeries
-SDD,TimeSeries
-sde,TimeSeries
-seas,TimeSeries
-season,TimeSeries
-spTimer,TimeSeries
-stochvol,TimeSeries
-tempdisagg,TimeSeries
-tframe,TimeSeries
-tiger,TimeSeries
-timeDate,TimeSeries
-TimeProjection,TimeSeries
-timeSeries,TimeSeries
-tis,TimeSeries
-tpr,TimeSeries
-TSA,TimeSeries
-tsbugs,TimeSeries
-TSclust,TimeSeries
-TSdbi,TimeSeries
-tseries,TimeSeries
-tseriesChaos,TimeSeries
-tsfa,TimeSeries
-TSTutorial,TimeSeries
-urca,TimeSeries
-vars,TimeSeries
-wavelets,TimeSeries
-waveslim,TimeSeries
-wavethresh,TimeSeries
-WeightedPortTest,TimeSeries
-wmtsa,TimeSeries
-wq,TimeSeries
-x12,TimeSeries
-x12GUI,TimeSeries
-xts,TimeSeries
-zoo,TimeSeries
-nlts,TimeSeries
-Rssa,TimeSeries
-rugarch,TimeSeries
-Tides,TimeSeries
-timesboot,TimeSeries
-tsModel,TimeSeries
-BAYSTAR,TimeSeries
-FKF,TimeSeries
-fractal,TimeSeries
-glarma,TimeSeries
-KFKSDS,TimeSeries
-locits,TimeSeries
-lomb,TimeSeries
-mvcwt,TimeSeries
-npst,TimeSeries
-seasonal,TimeSeries
-stsm,TimeSeries
-stsm.class,TimeSeries
-depmix,TimeSeries
-depmixS4,TimeSeries
-MSwM,TimeSeries
-tsDyn,TimeSeries
-LPStimeSeries,TimeSeries
-MAPA,TimeSeries
-MTS,TimeSeries
-pdfetch,TimeSeries
-rmaf,TimeSeries
-BootPR,TimeSeries
-dlmodeler,TimeSeries
-earlywarnings,TimeSeries
-Sim.DiffProc,TimeSeries
-VAR.etp,TimeSeries
-MSBVAR,TimeSeries
-timsac,TimeSeries
-dlnm,TimeSeries
-nonlinearTseries,TimeSeries
-TED,TimeSeries
-costat,TimeSeries
-bsts,TimeSeries
-FeedbackTS,TimeSeries
-GMDH,TimeSeries
-orderedLasso,TimeSeries
-yuima,TimeSeries
-acp,TimeSeries
-cents,TimeSeries
-dygraphs,TimeSeries
-hts,TimeSeries
-multitaper,TimeSeries
-RGENERATE,TimeSeries
-strucchange,TimeSeries
-spectral.methods,TimeSeries
-ZIM,TimeSeries
-bentcableAR,TimeSeries
-fanplot,TimeSeries
-autovarCore,TimeSeries
-EMD,TimeSeries
-hht,TimeSeries
-alm,WebTechnologies
-anametrix,WebTechnologies
-cgdsr,WebTechnologies
-CHCN,WebTechnologies
-crn,WebTechnologies
-datamart,WebTechnologies
-dismo,WebTechnologies
-dvn,WebTechnologies
-factualR,WebTechnologies
-FAOSTAT,WebTechnologies
-fImport,WebTechnologies
-ggmap,WebTechnologies
-googleVis,WebTechnologies
-govStatJPN,WebTechnologies
-GuardianR,WebTechnologies
-httpuv,WebTechnologies
-httr,WebTechnologies
-imguR,WebTechnologies
-MTurkR,WebTechnologies
-ngramr,WebTechnologies
-nhlscrapr,WebTechnologies
-OAIHarvester,WebTechnologies
-opencpu,WebTechnologies
-osmar,WebTechnologies
-pitchRx,WebTechnologies
-plotGoogleMaps,WebTechnologies
-plotKML,WebTechnologies
-Quandl,WebTechnologies
-quantmod,WebTechnologies
-rAltmetric,WebTechnologies
-Rcolombos,WebTechnologies
-RCurl,WebTechnologies
-rdatamarket,WebTechnologies
-rebird,WebTechnologies
-Reol,WebTechnologies
-repmis,WebTechnologies
-rfigshare,WebTechnologies
-rfishbase,WebTechnologies
-rfisheries,WebTechnologies
-rgbif,WebTechnologies
-RgoogleMaps,WebTechnologies
-rjson,WebTechnologies
-RJSONIO,WebTechnologies
-RNCEP,WebTechnologies
-ROAuth,WebTechnologies
-Rook,WebTechnologies
-rPlant,WebTechnologies
-rplos,WebTechnologies
-rpubchem,WebTechnologies
-RSiteCatalyst,WebTechnologies
-rvertnet,WebTechnologies
-scrapeR,WebTechnologies
-seqinr,WebTechnologies
-servr,WebTechnologies
-shiny,WebTechnologies
-sos4R,WebTechnologies
-streamR,WebTechnologies
-taxize,WebTechnologies
-TFX,WebTechnologies
-translate,WebTechnologies
-treebase,WebTechnologies
-twitteR,WebTechnologies
-waterData,WebTechnologies
-WDI,WebTechnologies
-XML,WebTechnologies
-yhatr,WebTechnologies
-zendeskR,WebTechnologies
-flora,WebTechnologies
-Rfacebook,WebTechnologies
-rgauges,WebTechnologies
-scholar,WebTechnologies
-acs,WebTechnologies
-ecoengine,WebTechnologies
-fbRanks,WebTechnologies
-httpRequest,WebTechnologies
-jsonlite,WebTechnologies
-primerTree,WebTechnologies
-raincpc,WebTechnologies
-rbhl,WebTechnologies
-rbison,WebTechnologies
-Rbitcoin,WebTechnologies
-Thinknum,WebTechnologies
-weatherData,WebTechnologies
-XML2R,WebTechnologies
-hoardeR,WebTechnologies
-GhcnDaily,WebTechnologies
-okmesonet,WebTechnologies
-pdfetch,WebTechnologies
-plusser,WebTechnologies
-psidR,WebTechnologies
-rapport,WebTechnologies
-RefManageR,WebTechnologies
-RForcecom,WebTechnologies
-RISmed,WebTechnologies
-soilDB,WebTechnologies
-tm.plugin.webmining,WebTechnologies
-tseries,WebTechnologies
-decctools,WebTechnologies
-rnoaa,WebTechnologies
-spocc,WebTechnologies
-pubmed.mineR,WebTechnologies
-aRxiv,WebTechnologies
-BerlinData,WebTechnologies
-boilerpipeR,WebTechnologies
-colourlovers,WebTechnologies
-d3Network,WebTechnologies
-dataRetrieval,WebTechnologies
-ecoretriever,WebTechnologies
-EIAdata,WebTechnologies
-enigma,WebTechnologies
-federalregister,WebTechnologies
-ggvis,WebTechnologies
-gmailr,WebTechnologies
-IBrokers,WebTechnologies
-jSonarR,WebTechnologies
-leafletR,WebTechnologies
-mailR,WebTechnologies
-marmap,WebTechnologies
-ONETr,WebTechnologies
-paleobioDB,WebTechnologies
-polidata,WebTechnologies
-pollstR,WebTechnologies
-pvsR,WebTechnologies
-rainfreq,WebTechnologies
-rbitcoinchartsapi,WebTechnologies
-rClinicalCodes,WebTechnologies
-recalls,WebTechnologies
-redcapAPI,WebTechnologies
-rentrez,WebTechnologies
-RGA,WebTechnologies
-RGoogleAnalytics,WebTechnologies
-RJSDMX,WebTechnologies
-rnbn,WebTechnologies
-rNOMADS,WebTechnologies
-rnrfa,WebTechnologies
-ropensecretsapi,WebTechnologies
-RPublica,WebTechnologies
-RPushbullet,WebTechnologies
-RSelenium,WebTechnologies
-rWBclimate,WebTechnologies
-sorvi,WebTechnologies
-Taxonstand,WebTechnologies
-whisker,WebTechnologies
-WikipediR,WebTechnologies
-curl,WebTechnologies
-downloader,WebTechnologies
-indicoio,WebTechnologies
-magrittr,WebTechnologies
-pushoverr,WebTechnologies
-reutils,WebTechnologies
-rsdmx,WebTechnologies
-rYoutheria,WebTechnologies
-rclinicaltrials,WebTechnologies
-RCryptsy,WebTechnologies
-rsunlight,WebTechnologies
-gistr,WebTechnologies
-chromer,WebTechnologies
-bigml,WebTechnologies
-pxweb,WebTechnologies
-rsnps,WebTechnologies
-RSocrata,WebTechnologies
-googlePublicData,WebTechnologies
+lib,Category,C2
+abc,Bayesian,science computing
+arm,Bayesian,science computing
+AtelieR,Bayesian,science computing
+BaBooN,Bayesian,science computing
+BACCO,Bayesian,science computing
+BaM,Bayesian,science computing
+BayesDA,Bayesian,science computing
+bayesm,Bayesian,science computing
+bayesmix,Bayesian,science computing
+bayesQR,Bayesian,science computing
+bayesSurv,Bayesian,science computing
+Bayesthresh,Bayesian,science computing
+BayesValidate,Bayesian,science computing
+BayesX,Bayesian,science computing
+BayHaz,Bayesian,science computing
+bbemkr,Bayesian,science computing
+BCBCSF,Bayesian,science computing
+BCE,Bayesian,science computing
+bclust,Bayesian,science computing
+bcp,Bayesian,science computing
+bfp,Bayesian,science computing
+bisoreg,Bayesian,science computing
+BLR,Bayesian,science computing
+Bmix,Bayesian,science computing
+bnlearn,Bayesian,science computing
+boa,Bayesian,science computing
+Bolstad,Bayesian,science computing
+bqtl,Bayesian,science computing
+bspec,Bayesian,science computing
+bspmma,Bayesian,science computing
+BVS,Bayesian,science computing
+catnet,Bayesian,science computing
+coda,Bayesian,science computing
+cslogistic,Bayesian,science computing
+dclone,Bayesian,science computing
+deal,Bayesian,science computing
+dlm,Bayesian,science computing
+DPpackage,Bayesian,science computing
+EbayesThresh,Bayesian,science computing
+ebdbNet,Bayesian,science computing
+ensembleBMA,Bayesian,science computing
+evdbayes,Bayesian,science computing
+exactLoglinTest,Bayesian,science computing
+factorQR,Bayesian,science computing
+geoR,Bayesian,science computing
+geoRglm,Bayesian,science computing
+ggmcmc,Bayesian,science computing
+glmmBUGS,Bayesian,science computing
+growcurves,Bayesian,science computing
+hbsae,Bayesian,science computing
+HI,Bayesian,science computing
+Hmisc,Bayesian,science computing
+iterLap,Bayesian,science computing
+LearnBayes,Bayesian,science computing
+lme4,Bayesian,science computing
+lmm,Bayesian,science computing
+MasterBayes,Bayesian,science computing
+mcmc,Bayesian,science computing
+MCMCglmm,Bayesian,science computing
+MCMCpack,Bayesian,science computing
+mgcv,Bayesian,science computing
+mlogitBMA,Bayesian,science computing
+MNP,Bayesian,science computing
+mombf,Bayesian,science computing
+monomvn,Bayesian,science computing
+pacbpred,Bayesian,science computing
+PAWL,Bayesian,science computing
+PottsUtils,Bayesian,science computing
+predmixcor,Bayesian,science computing
+profdpm,Bayesian,science computing
+pscl,Bayesian,science computing
+R2jags,Bayesian,science computing
+R2WinBUGS,Bayesian,science computing
+ramps,Bayesian,science computing
+rbugs,Bayesian,science computing
+RJaCGH,Bayesian,science computing
+rjags,Bayesian,science computing
+RSGHB,Bayesian,science computing
+runjags,Bayesian,science computing
+Runuran,Bayesian,science computing
+RxCEcolInf,Bayesian,science computing
+SampleSizeMeans,Bayesian,science computing
+SampleSizeProportions,Bayesian,science computing
+sbgcop,Bayesian,science computing
+SimpleTable,Bayesian,science computing
+sna,Bayesian,science computing
+spBayes,Bayesian,science computing
+spikeSlabGAM,Bayesian,science computing
+spTimer,Bayesian,science computing
+stochvol,Bayesian,science computing
+tgp,Bayesian,science computing
+zic,Bayesian,science computing
+BMA,Bayesian,science computing
+BMS,Bayesian,science computing
+BSquare,Bayesian,science computing
+FME,Bayesian,science computing
+BAYSTAR,Bayesian,science computing
+spikeslab,Bayesian,science computing
+AdMit,Bayesian,science computing
+bayesGARCH,Bayesian,science computing
+eigenmodel,Bayesian,science computing
+PReMiuM,Bayesian,science computing
+rcppbugs,Bayesian,science computing
+rstiefel,Bayesian,science computing
+MSBVAR,Bayesian,science computing
+BayesTree,Bayesian,science computing
+BayesSummaryStatLM,Bayesian,science computing
+coalescentMCMC,Bayesian,science computing
+SamplerCompare,Bayesian,science computing
+eco,Bayesian,science computing
+ALS,ChemPhys,science computing
+AnalyzeFMRI,ChemPhys,science computing
+AquaEnv,ChemPhys,science computing
+astro,ChemPhys,science computing
+astroFns,ChemPhys,science computing
+Bchron,ChemPhys,science computing
+bvls,ChemPhys,science computing
+cda,ChemPhys,science computing
+CellularAutomaton,ChemPhys,science computing
+chemCal,ChemPhys,science computing
+chemometrics,ChemPhys,science computing
+ChemometricsWithR,ChemPhys,science computing
+ChemometricsWithRData,ChemPhys,science computing
+ChemoSpec,ChemPhys,science computing
+CHNOSZ,ChemPhys,science computing
+cosmoFns,ChemPhys,science computing
+dielectric,ChemPhys,science computing
+diffractometry,ChemPhys,science computing
+drc,ChemPhys,science computing
+drm,ChemPhys,science computing
+elasticnet,ChemPhys,science computing
+fastICA,ChemPhys,science computing
+FITSio,ChemPhys,science computing
+fmri,ChemPhys,science computing
+fpca,ChemPhys,science computing
+FTICRMS,ChemPhys,science computing
+homals,ChemPhys,science computing
+Iso,ChemPhys,science computing
+kohonen,ChemPhys,science computing
+leaps,ChemPhys,science computing
+MALDIquant,ChemPhys,science computing
+minpack.lm,ChemPhys,science computing
+moonsun,ChemPhys,science computing
+nlme,ChemPhys,science computing
+nnls,ChemPhys,science computing
+OrgMassSpecR,ChemPhys,science computing
+pcaPP,ChemPhys,science computing
+Peaks,ChemPhys,science computing
+PET,ChemPhys,science computing
+planar,ChemPhys,science computing
+plspm,ChemPhys,science computing
+ppls,ChemPhys,science computing
+psy,ChemPhys,science computing
+PTAk,ChemPhys,science computing
+quantchem,ChemPhys,science computing
+represent,ChemPhys,science computing
+rpubchem,ChemPhys,science computing
+sapa,ChemPhys,science computing
+simecol,ChemPhys,science computing
+solaR,ChemPhys,science computing
+som,ChemPhys,science computing
+spls,ChemPhys,science computing
+stellaR,ChemPhys,science computing
+stepPlr,ChemPhys,science computing
+subselect,ChemPhys,science computing
+TIMP,ChemPhys,science computing
+titan,ChemPhys,science computing
+varSelRF,ChemPhys,science computing
+WilcoxCV,ChemPhys,science computing
+BioMark,ChemPhys,science computing
+celestial,ChemPhys,science computing
+lspls,ChemPhys,science computing
+pls,ChemPhys,science computing
+prospectr,ChemPhys,science computing
+SCEPtER,ChemPhys,science computing
+clustvarsel,ChemPhys,science computing
+investr,ChemPhys,science computing
+resemble,ChemPhys,science computing
+hyperSpec,ChemPhys,science computing
+nlreg,ChemPhys,science computing
+rcdk,ChemPhys,science computing
+rcdklibs,ChemPhys,science computing
+astrodatR,ChemPhys,science computing
+astrolibR,ChemPhys,science computing
+CosmoPhotoz,ChemPhys,science computing
+CRAC,ChemPhys,science computing
+RobPer,ChemPhys,science computing
+snapshot,ChemPhys,science computing
+speaq,ChemPhys,science computing
+compositions,ChemPhys,science computing
+adaptTest,ClinicalTrials,LifeScience
+asd,ClinicalTrials,LifeScience
+asypow,ClinicalTrials,LifeScience
+bcrm,ClinicalTrials,LifeScience
+bifactorial,ClinicalTrials,LifeScience
+blockrand,ClinicalTrials,LifeScience
+clinfun,ClinicalTrials,LifeScience
+clinsig,ClinicalTrials,LifeScience
+coin,ClinicalTrials,LifeScience
+conf.design,ClinicalTrials,LifeScience
+CRM,ClinicalTrials,LifeScience
+CRTSize,ClinicalTrials,LifeScience
+dfcrm,ClinicalTrials,LifeScience
+DoseFinding,ClinicalTrials,LifeScience
+epibasix,ClinicalTrials,LifeScience
+experiment,ClinicalTrials,LifeScience
+FrF2,ClinicalTrials,LifeScience
+GroupSeq,ClinicalTrials,LifeScience
+gsDesign,ClinicalTrials,LifeScience
+HH,ClinicalTrials,LifeScience
+Hmisc,ClinicalTrials,LifeScience
+ldbounds,ClinicalTrials,LifeScience
+longpower,ClinicalTrials,LifeScience
+MChtest,ClinicalTrials,LifeScience
+MCPMod,ClinicalTrials,LifeScience
+meta,ClinicalTrials,LifeScience
+metafor,ClinicalTrials,LifeScience
+metaLik,ClinicalTrials,LifeScience
+multcomp,ClinicalTrials,LifeScience
+nppbib,ClinicalTrials,LifeScience
+PIPS,ClinicalTrials,LifeScience
+PowerTOST,ClinicalTrials,LifeScience
+pwr,ClinicalTrials,LifeScience
+PwrGSD,ClinicalTrials,LifeScience
+qtlDesign,ClinicalTrials,LifeScience
+rmeta,ClinicalTrials,LifeScience
+seqmon,ClinicalTrials,LifeScience
+speff2trial,ClinicalTrials,LifeScience
+ssanv,ClinicalTrials,LifeScience
+survival,ClinicalTrials,LifeScience
+TEQR,ClinicalTrials,LifeScience
+TrialSize,ClinicalTrials,LifeScience
+AGSDest,ClinicalTrials,LifeScience
+binomSamSize,ClinicalTrials,LifeScience
+metasens,ClinicalTrials,LifeScience
+samplesize,ClinicalTrials,LifeScience
+amap,Cluster,machine learning
+apcluster,Cluster,machine learning
+bayesm,Cluster,machine learning
+bayesmix,Cluster,machine learning
+bclust,Cluster,machine learning
+bgmm,Cluster,machine learning
+biclust,Cluster,machine learning
+Bmix,Cluster,machine learning
+cba,Cluster,machine learning
+cclust,Cluster,machine learning
+CHsharp,Cluster,machine learning
+clue,Cluster,machine learning
+cluster,Cluster,machine learning
+clusterGeneration,Cluster,machine learning
+clusterRepro,Cluster,machine learning
+clusterSim,Cluster,machine learning
+clv,Cluster,machine learning
+clValid,Cluster,machine learning
+CoClust,Cluster,machine learning
+compHclust,Cluster,machine learning
+depmix,Cluster,machine learning
+depmixS4,Cluster,machine learning
+dpmixsim,Cluster,machine learning
+dynamicTreeCut,Cluster,machine learning
+e1071,Cluster,machine learning
+EMCluster,Cluster,machine learning
+FactoClass,Cluster,machine learning
+fastcluster,Cluster,machine learning
+FisherEM,Cluster,machine learning
+flashClust,Cluster,machine learning
+flexclust,Cluster,machine learning
+flexmix,Cluster,machine learning
+fpc,Cluster,machine learning
+FunCluster,Cluster,machine learning
+gamlss.mx,Cluster,machine learning
+GLDEX,Cluster,machine learning
+GSM,Cluster,machine learning
+HDclassif,Cluster,machine learning
+hybridHclust,Cluster,machine learning
+isopam,Cluster,machine learning
+kernlab,Cluster,machine learning
+kml,Cluster,machine learning
+kml3d,Cluster,machine learning
+latentnet,Cluster,machine learning
+mcclust,Cluster,machine learning
+mclust,Cluster,machine learning
+MetabolAnalyze,Cluster,machine learning
+mixdist,Cluster,machine learning
+mixPHM,Cluster,machine learning
+mixRasch,Cluster,machine learning
+mixreg,Cluster,machine learning
+MixSim,Cluster,machine learning
+mixsmsn,Cluster,machine learning
+mixtools,Cluster,machine learning
+MOCCA,Cluster,machine learning
+movMF,Cluster,machine learning
+ORIClust,Cluster,machine learning
+pdfCluster,Cluster,machine learning
+pendensity,Cluster,machine learning
+pmclust,Cluster,machine learning
+poLCA,Cluster,machine learning
+prabclus,Cluster,machine learning
+profdpm,Cluster,machine learning
+psychomix,Cluster,machine learning
+pvclust,Cluster,machine learning
+randomLCA,Cluster,machine learning
+rjags,Cluster,machine learning
+Rmixmod,Cluster,machine learning
+RPMM,Cluster,machine learning
+sigclust,Cluster,machine learning
+skmeans,Cluster,machine learning
+som,Cluster,machine learning
+sparcl,Cluster,machine learning
+teigen,Cluster,machine learning
+trimcluster,Cluster,machine learning
+wle,Cluster,machine learning
+bayesMCClust,Cluster,machine learning
+mixture,Cluster,machine learning
+mritc,Cluster,machine learning
+nor1mix,Cluster,machine learning
+mixAK,Cluster,machine learning
+clustvarsel,Cluster,machine learning
+mixer,Cluster,machine learning
+optpart,Cluster,machine learning
+AdMit,Cluster,machine learning
+seriation,Cluster,machine learning
+PReMiuM,Cluster,machine learning
+dendextend,Cluster,machine learning
+funFEM,Cluster,machine learning
+funHDDC,Cluster,machine learning
+fclust,Cluster,machine learning
+lcmm,Cluster,machine learning
+pgmm,Cluster,machine learning
+tclust,Cluster,machine learning
+flexCWM,Cluster,machine learning
+protoclust,Cluster,machine learning
+BayesLCA,Cluster,machine learning
+longclust,Cluster,machine learning
+NbClust,Cluster,machine learning
+bvpSolve,DifferentialEquations,science computing
+CollocInfer,DifferentialEquations,science computing
+deSolve,DifferentialEquations,science computing
+ecolMod,DifferentialEquations,science computing
+FME,DifferentialEquations,science computing
+GillespieSSA,DifferentialEquations,science computing
+mkin,DifferentialEquations,science computing
+nlmeODE,DifferentialEquations,science computing
+PBSddesolve,DifferentialEquations,science computing
+PBSmodelling,DifferentialEquations,science computing
+pomp,DifferentialEquations,science computing
+pracma,DifferentialEquations,science computing
+primer,DifferentialEquations,science computing
+ReacTran,DifferentialEquations,science computing
+rootSolve,DifferentialEquations,science computing
+scaRabee,DifferentialEquations,science computing
+sde,DifferentialEquations,science computing
+simecol,DifferentialEquations,science computing
+adaptivetau,DifferentialEquations,science computing
+deTestSet,DifferentialEquations,science computing
+PSM,DifferentialEquations,science computing
+actuar,Distributions,science computing
+ActuDistns,Distributions,science computing
+agricolae,Distributions,science computing
+AtelieR,Distributions,science computing
+bayesm,Distributions,science computing
+benchden,Distributions,science computing
+BiasedUrn,Distributions,science computing
+CDVine,Distributions,science computing
+CompLognormal,Distributions,science computing
+compoisson,Distributions,science computing
+CompQuadForm,Distributions,science computing
+copBasic,Distributions,science computing
+copula,Distributions,science computing
+Davies,Distributions,science computing
+Delaporte,Distributions,science computing
+denstrip,Distributions,science computing
+distr,Distributions,science computing
+distrDoc,Distributions,science computing
+distrEllipse,Distributions,science computing
+distrEx,Distributions,science computing
+distrMod,Distributions,science computing
+distrSim,Distributions,science computing
+distrTeach,Distributions,science computing
+distrTEst,Distributions,science computing
+e1071,Distributions,science computing
+emdbook,Distributions,science computing
+evd,Distributions,science computing
+evdbayes,Distributions,science computing
+evir,Distributions,science computing
+FAdist,Distributions,science computing
+fBasics,Distributions,science computing
+fExtremes,Distributions,science computing
+fgac,Distributions,science computing
+fitdistrplus,Distributions,science computing
+flexsurv,Distributions,science computing
+gamlss.dist,Distributions,science computing
+gamlss.mx,Distributions,science computing
+gaussDiff,Distributions,science computing
+GeneralizedHyperbolic,Distributions,science computing
+geoR,Distributions,science computing
+ghyp,Distributions,science computing
+gld,Distributions,science computing
+GLDEX,Distributions,science computing
+glogis,Distributions,science computing
+GSM,Distributions,science computing
+gumbel,Distributions,science computing
+HI,Distributions,science computing
+HyperbolicDist,Distributions,science computing
+hyperdirichlet,Distributions,science computing
+LambertW,Distributions,science computing
+LearnBayes,Distributions,science computing
+lhs,Distributions,science computing
+lmom,Distributions,science computing
+lmomco,Distributions,science computing
+Lmoments,Distributions,science computing
+loglognorm,Distributions,science computing
+MASS,Distributions,science computing
+mbbefd,Distributions,science computing
+mc2d,Distributions,science computing
+MCMCpack,Distributions,science computing
+mgpd,Distributions,science computing
+mixtools,Distributions,science computing
+mnormt,Distributions,science computing
+modeest,Distributions,science computing
+moments,Distributions,science computing
+movMF,Distributions,science computing
+msm,Distributions,science computing
+mvtnorm,Distributions,science computing
+nor1mix,Distributions,science computing
+NormalGamma,Distributions,science computing
+normalp,Distributions,science computing
+npde,Distributions,science computing
+PearsonDS,Distributions,science computing
+PhaseType,Distributions,science computing
+poibin,Distributions,science computing
+poilog,Distributions,science computing
+poistweedie,Distributions,science computing
+prob,Distributions,science computing
+randaes,Distributions,science computing
+random,Distributions,science computing
+randtoolbox,Distributions,science computing
+reliaR,Distributions,science computing
+retimes,Distributions,science computing
+rlecuyer,Distributions,science computing
+RMTstat,Distributions,science computing
+rngwell19937,Distributions,science computing
+rstream,Distributions,science computing
+Runuran,Distributions,science computing
+s20x,Distributions,science computing
+setRNG,Distributions,science computing
+SkewHyperbolic,Distributions,science computing
+skewt,Distributions,science computing
+smoothmest,Distributions,science computing
+sn,Distributions,science computing
+sparseMVN,Distributions,science computing
+spd,Distributions,science computing
+stabledist,Distributions,science computing
+SuppDists,Distributions,science computing
+tmvtnorm,Distributions,science computing
+trapezoid,Distributions,science computing
+triangle,Distributions,science computing
+truncnorm,Distributions,science computing
+TSA,Distributions,science computing
+tweedie,Distributions,science computing
+VarianceGamma,Distributions,science computing
+VGAM,Distributions,science computing
+VineCopula,Distributions,science computing
+zipfR,Distributions,science computing
+AdMit,Distributions,science computing
+STAR,Distributions,science computing
+statmod,Distributions,science computing
+FatTailsR,Distributions,science computing
+RTDE,Distributions,science computing
+fCopulae,Distributions,science computing
+ald,Distributions,science computing
+cmvnorm,Distributions,science computing
+condMVNorm,Distributions,science computing
+DiscreteInverseWeibull,Distributions,science computing
+DistributionUtils,Distributions,science computing
+GMD,Distributions,science computing
+hermite,Distributions,science computing
+mvrtn,Distributions,science computing
+Newdistns,Distributions,science computing
+ParetoPosStable,Distributions,science computing
+RMKdiscrete,Distributions,science computing
+SMR,Distributions,science computing
+GB2,Distributions,science computing
+tolerance,Distributions,science computing
+emg,Distributions,science computing
+csn,Distributions,science computing
+degreenet,Distributions,science computing
+ExtDist,Distributions,science computing
+GenOrd,Distributions,science computing
+HistogramTools,Distributions,science computing
+poweRlaw,Distributions,science computing
+AER,Econometrics,social science business
+aod,Econometrics,social science business
+apt,Econometrics,social science business
+bayesm,Econometrics,social science business
+betareg,Econometrics,social science business
+boot,Econometrics,social science business
+bootstrap,Econometrics,social science business
+CADFtest,Econometrics,social science business
+car,Econometrics,social science business
+CDNmoney,Econometrics,social science business
+censReg,Econometrics,social science business
+dynlm,Econometrics,social science business
+Ecdat,Econometrics,social science business
+effects,Econometrics,social science business
+erer,Econometrics,social science business
+expsmooth,Econometrics,social science business
+FinTS,Econometrics,social science business
+fma,Econometrics,social science business
+forecast,Econometrics,social science business
+frontier,Econometrics,social science business
+fxregime,Econometrics,social science business
+gam,Econometrics,social science business
+gamlss,Econometrics,social science business
+gmm,Econometrics,social science business
+Hmisc,Econometrics,social science business
+ineq,Econometrics,social science business
+intReg,Econometrics,social science business
+LARF,Econometrics,social science business
+lfe,Econometrics,social science business
+lme4,Econometrics,social science business
+lmtest,Econometrics,social science business
+MASS,Econometrics,social science business
+Matrix,Econometrics,social science business
+Mcomp,Econometrics,social science business
+meboot,Econometrics,social science business
+mgcv,Econometrics,social science business
+mhurdle,Econometrics,social science business
+micEcon,Econometrics,social science business
+micEconAids,Econometrics,social science business
+micEconCES,Econometrics,social science business
+micEconSNQP,Econometrics,social science business
+mlogit,Econometrics,social science business
+MNP,Econometrics,social science business
+mvProbit,Econometrics,social science business
+nlme,Econometrics,social science business
+nnet,Econometrics,social science business
+np,Econometrics,social science business
+ordinal,Econometrics,social science business
+pcse,Econometrics,social science business
+plm,Econometrics,social science business
+pscl,Econometrics,social science business
+pwt,Econometrics,social science business
+quantreg,Econometrics,social science business
+reldist,Econometrics,social science business
+rms,Econometrics,social science business
+RSGHB,Econometrics,social science business
+sampleSelection,Econometrics,social science business
+sandwich,Econometrics,social science business
+segmented,Econometrics,social science business
+sem,Econometrics,social science business
+simpleboot,Econometrics,social science business
+SparseM,Econometrics,social science business
+spatialprobit,Econometrics,social science business
+spdep,Econometrics,social science business
+sphet,Econometrics,social science business
+splm,Econometrics,social science business
+strucchange,Econometrics,social science business
+survival,Econometrics,social science business
+systemfit,Econometrics,social science business
+truncreg,Econometrics,social science business
+tseries,Econometrics,social science business
+tsfa,Econometrics,social science business
+urca,Econometrics,social science business
+vars,Econometrics,social science business
+VGAM,Econometrics,social science business
+Zelig,Econometrics,social science business
+zoo,Econometrics,social science business
+crch,Econometrics,social science business
+geepack,Econometrics,social science business
+pwt8,Econometrics,social science business
+mfx,Econometrics,social science business
+mnlogit,Econometrics,social science business
+SemiParSampleSel,Econometrics,social science business
+tsDyn,Econometrics,social science business
+phtt,Econometrics,social science business
+nonnest2,Econometrics,social science business
+MSBVAR,Econometrics,social science business
+BMA,Econometrics,social science business
+BMS,Econometrics,social science business
+brglm,Econometrics,social science business
+frm,Econometrics,social science business
+glmx,Econometrics,social science business
+ivbma,Econometrics,social science business
+ivfixed,Econometrics,social science business
+ivlewbel,Econometrics,social science business
+ivpack,Econometrics,social science business
+ivprobit,Econometrics,social science business
+lavaan,Econometrics,social science business
+multiwayvcov,Econometrics,social science business
+panelAR,Econometrics,social science business
+Paneldata,Econometrics,social science business
+PANICr,Econometrics,social science business
+pdR,Econometrics,social science business
+pglm,Econometrics,social science business
+psidR,Econometrics,social science business
+Rchoice,Econometrics,social science business
+xts,Econometrics,social science business
+sfa,Econometrics,social science business
+spfrontier,Econometrics,social science business
+gets,Econometrics,social science business
+midasr,Econometrics,social science business
+ade4,Environmetrics,LifeScience
+adehabitat,Environmetrics,LifeScience
+amap,Environmetrics,LifeScience
+analogue,Environmetrics,LifeScience
+aod,Environmetrics,LifeScience
+ape,Environmetrics,LifeScience
+aqp,Environmetrics,LifeScience
+BiodiversityR,Environmetrics,LifeScience
+boussinesq,Environmetrics,LifeScience
+CircStats,Environmetrics,LifeScience
+circular,Environmetrics,LifeScience
+cluster,Environmetrics,LifeScience
+cocorresp,Environmetrics,LifeScience
+diveMove,Environmetrics,LifeScience
+dse,Environmetrics,LifeScience
+DSpat,Environmetrics,LifeScience
+dyn,Environmetrics,LifeScience
+dynlm,Environmetrics,LifeScience
+e1071,Environmetrics,LifeScience
+earth,Environmetrics,LifeScience
+ecodist,Environmetrics,LifeScience
+EcoHydRology,Environmetrics,LifeScience
+equivalence,Environmetrics,LifeScience
+evd,Environmetrics,LifeScience
+evdbayes,Environmetrics,LifeScience
+evir,Environmetrics,LifeScience
+extRemes,Environmetrics,LifeScience
+fast,Environmetrics,LifeScience
+flexmix,Environmetrics,LifeScience
+forecast,Environmetrics,LifeScience
+fso,Environmetrics,LifeScience
+gam,Environmetrics,LifeScience
+gamair,Environmetrics,LifeScience
+hydroGOF,Environmetrics,LifeScience
+HydroMe,Environmetrics,LifeScience
+hydroPSO,Environmetrics,LifeScience
+hydroTSM,Environmetrics,LifeScience
+Interpol.T,Environmetrics,LifeScience
+ipred,Environmetrics,LifeScience
+ismev,Environmetrics,LifeScience
+its,Environmetrics,LifeScience
+labdsv,Environmetrics,LifeScience
+latticeDensity,Environmetrics,LifeScience
+lme4,Environmetrics,LifeScience
+maptree,Environmetrics,LifeScience
+MASS,Environmetrics,LifeScience
+mclust,Environmetrics,LifeScience
+mda,Environmetrics,LifeScience
+mefa,Environmetrics,LifeScience
+metacom,Environmetrics,LifeScience
+mgcv,Environmetrics,LifeScience
+nlme,Environmetrics,LifeScience
+nsRFA,Environmetrics,LifeScience
+oce,Environmetrics,LifeScience
+openair,Environmetrics,LifeScience
+ouch,Environmetrics,LifeScience
+party,Environmetrics,LifeScience
+pastecs,Environmetrics,LifeScience
+pgirmess,Environmetrics,LifeScience
+popbio,Environmetrics,LifeScience
+prabclus,Environmetrics,LifeScience
+primer,Environmetrics,LifeScience
+pscl,Environmetrics,LifeScience
+pvclust,Environmetrics,LifeScience
+qualV,Environmetrics,LifeScience
+quantreg,Environmetrics,LifeScience
+randomForest,Environmetrics,LifeScience
+Rcapture,Environmetrics,LifeScience
+rioja,Environmetrics,LifeScience
+RMAWGEN,Environmetrics,LifeScience
+rpart,Environmetrics,LifeScience
+seacarb,Environmetrics,LifeScience
+seas,Environmetrics,LifeScience
+secr,Environmetrics,LifeScience
+segmented,Environmetrics,LifeScience
+sensitivity,Environmetrics,LifeScience
+simba,Environmetrics,LifeScience
+simecol,Environmetrics,LifeScience
+soiltexture,Environmetrics,LifeScience
+SPACECAP,Environmetrics,LifeScience
+SpatialExtremes,Environmetrics,LifeScience
+StreamMetabolism,Environmetrics,LifeScience
+strucchange,Environmetrics,LifeScience
+tiger,Environmetrics,LifeScience
+topmodel,Environmetrics,LifeScience
+tseries,Environmetrics,LifeScience
+unmarked,Environmetrics,LifeScience
+untb,Environmetrics,LifeScience
+vegan,Environmetrics,LifeScience
+vegetarian,Environmetrics,LifeScience
+VGAM,Environmetrics,LifeScience
+wasim,Environmetrics,LifeScience
+wq,Environmetrics,LifeScience
+zoo,Environmetrics,LifeScience
+ade4,Environmetrics,LifeScience
+adehabitat,Environmetrics,LifeScience
+amap,Environmetrics,LifeScience
+analogue,Environmetrics,LifeScience
+aod,Environmetrics,LifeScience
+ape,Environmetrics,LifeScience
+aqp,Environmetrics,LifeScience
+BiodiversityR,Environmetrics,LifeScience
+boussinesq,Environmetrics,LifeScience
+CircStats,Environmetrics,LifeScience
+circular,Environmetrics,LifeScience
+cluster,Environmetrics,LifeScience
+cocorresp,Environmetrics,LifeScience
+diveMove,Environmetrics,LifeScience
+dse,Environmetrics,LifeScience
+DSpat,Environmetrics,LifeScience
+dyn,Environmetrics,LifeScience
+dynlm,Environmetrics,LifeScience
+e1071,Environmetrics,LifeScience
+earth,Environmetrics,LifeScience
+ecodist,Environmetrics,LifeScience
+EcoHydRology,Environmetrics,LifeScience
+equivalence,Environmetrics,LifeScience
+evd,Environmetrics,LifeScience
+evdbayes,Environmetrics,LifeScience
+evir,Environmetrics,LifeScience
+extRemes,Environmetrics,LifeScience
+fast,Environmetrics,LifeScience
+flexmix,Environmetrics,LifeScience
+forecast,Environmetrics,LifeScience
+fso,Environmetrics,LifeScience
+gam,Environmetrics,LifeScience
+gamair,Environmetrics,LifeScience
+hydroGOF,Environmetrics,LifeScience
+HydroMe,Environmetrics,LifeScience
+hydroPSO,Environmetrics,LifeScience
+hydroTSM,Environmetrics,LifeScience
+Interpol.T,Environmetrics,LifeScience
+ipred,Environmetrics,LifeScience
+ismev,Environmetrics,LifeScience
+its,Environmetrics,LifeScience
+labdsv,Environmetrics,LifeScience
+latticeDensity,Environmetrics,LifeScience
+lme4,Environmetrics,LifeScience
+maptree,Environmetrics,LifeScience
+MASS,Environmetrics,LifeScience
+mclust,Environmetrics,LifeScience
+mda,Environmetrics,LifeScience
+mefa,Environmetrics,LifeScience
+metacom,Environmetrics,LifeScience
+mgcv,Environmetrics,LifeScience
+nlme,Environmetrics,LifeScience
+nsRFA,Environmetrics,LifeScience
+oce,Environmetrics,LifeScience
+openair,Environmetrics,LifeScience
+ouch,Environmetrics,LifeScience
+party,Environmetrics,LifeScience
+pastecs,Environmetrics,LifeScience
+pgirmess,Environmetrics,LifeScience
+popbio,Environmetrics,LifeScience
+prabclus,Environmetrics,LifeScience
+primer,Environmetrics,LifeScience
+pscl,Environmetrics,LifeScience
+pvclust,Environmetrics,LifeScience
+qualV,Environmetrics,LifeScience
+quantreg,Environmetrics,LifeScience
+randomForest,Environmetrics,LifeScience
+Rcapture,Environmetrics,LifeScience
+rioja,Environmetrics,LifeScience
+RMAWGEN,Environmetrics,LifeScience
+rpart,Environmetrics,LifeScience
+seacarb,Environmetrics,LifeScience
+seas,Environmetrics,LifeScience
+secr,Environmetrics,LifeScience
+segmented,Environmetrics,LifeScience
+sensitivity,Environmetrics,LifeScience
+simba,Environmetrics,LifeScience
+simecol,Environmetrics,LifeScience
+soiltexture,Environmetrics,LifeScience
+SPACECAP,Environmetrics,LifeScience
+SpatialExtremes,Environmetrics,LifeScience
+StreamMetabolism,Environmetrics,LifeScience
+strucchange,Environmetrics,LifeScience
+tiger,Environmetrics,LifeScience
+topmodel,Environmetrics,LifeScience
+tseries,Environmetrics,LifeScience
+unmarked,Environmetrics,LifeScience
+untb,Environmetrics,LifeScience
+vegan,Environmetrics,LifeScience
+vegetarian,Environmetrics,LifeScience
+VGAM,Environmetrics,LifeScience
+wasim,Environmetrics,LifeScience
+wq,Environmetrics,LifeScience
+zoo,Environmetrics,LifeScience
+FD,Environmetrics,LifeScience
+quantregGrowth,Environmetrics,LifeScience
+rtop,Environmetrics,LifeScience
+Distance,Environmetrics,LifeScience
+dsm,Environmetrics,LifeScience
+EnvStats,Environmetrics,LifeScience
+marked,Environmetrics,LifeScience
+mrds,Environmetrics,LifeScience
+RMark,Environmetrics,LifeScience
+bReeze,Environmetrics,LifeScience
+dynatopmodel,Environmetrics,LifeScience
+siplab,Environmetrics,LifeScience
+eco,Environmetrics,LifeScience
+mra,Environmetrics,LifeScience
+agricolae,ExperimentalDesign,LifeScience
+AlgDesign,ExperimentalDesign,LifeScience
+asd,ExperimentalDesign,LifeScience
+BatchExperiments,ExperimentalDesign,LifeScience
+BHH2,ExperimentalDesign,LifeScience
+BsMD,ExperimentalDesign,LifeScience
+conf.design,ExperimentalDesign,LifeScience
+crossdes,ExperimentalDesign,LifeScience
+dae,ExperimentalDesign,LifeScience
+desirability,ExperimentalDesign,LifeScience
+DiceDesign,ExperimentalDesign,LifeScience
+DiceEval,ExperimentalDesign,LifeScience
+DiceKriging,ExperimentalDesign,LifeScience
+DiceView,ExperimentalDesign,LifeScience
+DoE.base,ExperimentalDesign,LifeScience
+DoE.wrapper,ExperimentalDesign,LifeScience
+DoseFinding,ExperimentalDesign,LifeScience
+dynaTree,ExperimentalDesign,LifeScience
+experiment,ExperimentalDesign,LifeScience
+FrF2,ExperimentalDesign,LifeScience
+FrF2.catlg128,ExperimentalDesign,LifeScience
+GAD,ExperimentalDesign,LifeScience
+granova,ExperimentalDesign,LifeScience
+gsbDesign,ExperimentalDesign,LifeScience
+gsDesign,ExperimentalDesign,LifeScience
+lhs,ExperimentalDesign,LifeScience
+mixexp,ExperimentalDesign,LifeScience
+mkssd,ExperimentalDesign,LifeScience
+mxkssd,ExperimentalDesign,LifeScience
+osDesign,ExperimentalDesign,LifeScience
+planor,ExperimentalDesign,LifeScience
+plgp,ExperimentalDesign,LifeScience
+qtlDesign,ExperimentalDesign,LifeScience
+qualityTools,ExperimentalDesign,LifeScience
+RcmdrPlugin.DoE,ExperimentalDesign,LifeScience
+rsm,ExperimentalDesign,LifeScience
+SensoMineR,ExperimentalDesign,LifeScience
+support.CEs,ExperimentalDesign,LifeScience
+TEQR,ExperimentalDesign,LifeScience
+tgp,ExperimentalDesign,LifeScience
+Vdgraph,ExperimentalDesign,LifeScience
+agricolae,ExperimentalDesign,LifeScience
+AlgDesign,ExperimentalDesign,LifeScience
+asd,ExperimentalDesign,LifeScience
+BatchExperiments,ExperimentalDesign,LifeScience
+BHH2,ExperimentalDesign,LifeScience
+BsMD,ExperimentalDesign,LifeScience
+conf.design,ExperimentalDesign,LifeScience
+crossdes,ExperimentalDesign,LifeScience
+dae,ExperimentalDesign,LifeScience
+desirability,ExperimentalDesign,LifeScience
+DiceDesign,ExperimentalDesign,LifeScience
+DiceEval,ExperimentalDesign,LifeScience
+DiceKriging,ExperimentalDesign,LifeScience
+DiceView,ExperimentalDesign,LifeScience
+DoE.base,ExperimentalDesign,LifeScience
+DoE.wrapper,ExperimentalDesign,LifeScience
+DoseFinding,ExperimentalDesign,LifeScience
+dynaTree,ExperimentalDesign,LifeScience
+experiment,ExperimentalDesign,LifeScience
+FrF2,ExperimentalDesign,LifeScience
+FrF2.catlg128,ExperimentalDesign,LifeScience
+GAD,ExperimentalDesign,LifeScience
+granova,ExperimentalDesign,LifeScience
+gsbDesign,ExperimentalDesign,LifeScience
+gsDesign,ExperimentalDesign,LifeScience
+lhs,ExperimentalDesign,LifeScience
+mixexp,ExperimentalDesign,LifeScience
+mkssd,ExperimentalDesign,LifeScience
+mxkssd,ExperimentalDesign,LifeScience
+osDesign,ExperimentalDesign,LifeScience
+planor,ExperimentalDesign,LifeScience
+plgp,ExperimentalDesign,LifeScience
+qtlDesign,ExperimentalDesign,LifeScience
+qualityTools,ExperimentalDesign,LifeScience
+RcmdrPlugin.DoE,ExperimentalDesign,LifeScience
+rsm,ExperimentalDesign,LifeScience
+SensoMineR,ExperimentalDesign,LifeScience
+support.CEs,ExperimentalDesign,LifeScience
+TEQR,ExperimentalDesign,LifeScience
+tgp,ExperimentalDesign,LifeScience
+Vdgraph,ExperimentalDesign,LifeScience
+blockTools,ExperimentalDesign,LifeScience
+AmericanCallOpt,Finance,social science business
+backtest,Finance,social science business
+betategarch,Finance,social science business
+BurStFin,Finance,social science business
+BurStMisc,Finance,social science business
+CADFtest,Finance,social science business
+car,Finance,social science business
+ccgarch,Finance,social science business
+copula,Finance,social science business
+CreditMetrics,Finance,social science business
+crp.CSFP,Finance,social science business
+data.table,Finance,social science business
+dlm,Finance,social science business
+dse,Finance,social science business
+dyn,Finance,social science business
+dynlm,Finance,social science business
+evd,Finance,social science business
+evdbayes,Finance,social science business
+evir,Finance,social science business
+extRemes,Finance,social science business
+fame,Finance,social science business
+fArma,Finance,social science business
+fAsianOptions,Finance,social science business
+fBasics,Finance,social science business
+fBonds,Finance,social science business
+fExoticOptions,Finance,social science business
+fExtremes,Finance,social science business
+fgac,Finance,social science business
+fGarch,Finance,social science business
+fImport,Finance,social science business
+FinAsym,Finance,social science business
+FinTS,Finance,social science business
+fNonlinear,Finance,social science business
+fOptions,Finance,social science business
+forecast,Finance,social science business
+fracdiff,Finance,social science business
+frmqa,Finance,social science business
+fTrading,Finance,social science business
+fUnitRoots,Finance,social science business
+ghyp,Finance,social science business
+gmm,Finance,social science business
+gogarch,Finance,social science business
+GUIDE,Finance,social science business
+ismev,Finance,social science business
+its,Finance,social science business
+lifecontingencies,Finance,social science business
+lmtest,Finance,social science business
+longmemo,Finance,social science business
+maRketSim,Finance,social science business
+mvtnorm,Finance,social science business
+nlme,Finance,social science business
+NMOF,Finance,social science business
+opefimor,Finance,social science business
+pa,Finance,social science business
+PerformanceAnalytics,Finance,social science business
+portfolio,Finance,social science business
+portfolioSim,Finance,social science business
+quantmod,Finance,social science business
+Rcmdr,Finance,social science business
+rmgarch,Finance,social science business
+RQuantLib,Finance,social science business
+rugarch,Finance,social science business
+rwt,Finance,social science business
+sandwich,Finance,social science business
+sde,Finance,social science business
+SharpeR,Finance,social science business
+stochvol,Finance,social science business
+stockPortfolio,Finance,social science business
+strucchange,Finance,social science business
+tawny,Finance,social science business
+termstrc,Finance,social science business
+TFX,Finance,social science business
+timeDate,Finance,social science business
+timeSeries,Finance,social science business
+tis,Finance,social science business
+TSdbi,Finance,social science business
+tseries,Finance,social science business
+tseriesChaos,Finance,social science business
+tsfa,Finance,social science business
+TTR,Finance,social science business
+urca,Finance,social science business
+vars,Finance,social science business
+VarSwapPrice,Finance,social science business
+vrtest,Finance,social science business
+wavelets,Finance,social science business
+waveslim,Finance,social science business
+wavethresh,Finance,social science business
+xts,Finance,social science business
+YieldCurve,Finance,social science business
+Zelig,Finance,social science business
+zoo,Finance,social science business
+actuar,Finance,social science business
+BenfordTests,Finance,social science business
+ESG,Finance,social science business
+LSMonteCarlo,Finance,social science business
+markovchain,Finance,social science business
+OptHedging,Finance,social science business
+parma,Finance,social science business
+RND,Finance,social science business
+SmithWilsonYieldCurve,Finance,social science business
+ChainLadder,Finance,social science business
+ycinterextra,Finance,social science business
+bayesGARCH,Finance,social science business
+Rbitcoin,Finance,social science business
+tvm,Finance,social science business
+MarkowitzR,Finance,social science business
+bizdays,Finance,social science business
+egcm,Finance,social science business
+GEVStableGarch,Finance,social science business
+lgarch,Finance,social science business
+pbo,Finance,social science business
+timsac,Finance,social science business
+tsDyn,Finance,social science business
+fMultivar,Finance,social science business
+OptionPricing,Finance,social science business
+riskSimul,Finance,social science business
+fAssets,Finance,social science business
+fCopulae,Finance,social science business
+financial,Finance,social science business
+fPortfolio,Finance,social science business
+fractal,Finance,social science business
+fRegression,Finance,social science business
+highfrequency,Finance,social science business
+IBrokers,Finance,social science business
+MSBVAR,Finance,social science business
+gets,Finance,social science business
+GCPM,Finance,social science business
+TAQMNGR,Finance,social science business
+FatTailsR,Finance,social science business
+adegenet,Genetics,LifeScience
+ape,Genetics,LifeScience
+Biodem,Genetics,LifeScience
+bqtl,Genetics,LifeScience
+dlmap,Genetics,LifeScience
+gap,Genetics,LifeScience
+GenABEL,Genetics,LifeScience
+Geneland,Genetics,LifeScience
+genetics,Genetics,LifeScience
+hapassoc,Genetics,LifeScience
+haplo.ccs,Genetics,LifeScience
+haplo.stats,Genetics,LifeScience
+HardyWeinberg,Genetics,LifeScience
+hierfstat,Genetics,LifeScience
+hwde,Genetics,LifeScience
+ibdreg,Genetics,LifeScience
+LDheatmap,Genetics,LifeScience
+luca,Genetics,LifeScience
+multic,Genetics,LifeScience
+ouch,Genetics,LifeScience
+pbatR,Genetics,LifeScience
+phangorn,Genetics,LifeScience
+qtl,Genetics,LifeScience
+seqinr,Genetics,LifeScience
+snp.plotter,Genetics,LifeScience
+SNPmaxsel,Genetics,LifeScience
+tdthap,Genetics,LifeScience
+untb,Genetics,LifeScience
+wgaim,Genetics,LifeScience
+stepwise,Genetics,LifeScience
+rmetasim,Genetics,LifeScience
+abn,gR,visualizaition
+bayesmix,gR,visualizaition
+bnlearn,gR,visualizaition
+boa,gR,visualizaition
+catnet,gR,visualizaition
+coda,gR,visualizaition
+dclone,gR,visualizaition
+deal,gR,visualizaition
+diagram,gR,visualizaition
+dynamicGraph,gR,visualizaition
+ergm,gR,visualizaition
+GeneNet,gR,visualizaition
+ggm,gR,visualizaition
+giRaph,gR,visualizaition
+gRapHD,gR,visualizaition
+igraph,gR,visualizaition
+lcd,gR,visualizaition
+mathgraph,gR,visualizaition
+network,gR,visualizaition
+parcor,gR,visualizaition
+pcalg,gR,visualizaition
+QUIC,gR,visualizaition
+R2WinBUGS,gR,visualizaition
+rbugs,gR,visualizaition
+rjags,gR,visualizaition
+SIN,gR,visualizaition
+R2OpenBUGS,gR,visualizaition
+BDgraph,gR,visualizaition
+ndtv,gR,visualizaition
+networkDynamic,gR,visualizaition
+ade4,Graphics,visualizaition
+animation,Graphics,visualizaition
+ape,Graphics,visualizaition
+aplpack,Graphics,visualizaition
+ash,Graphics,visualizaition
+biclust,Graphics,visualizaition
+Cairo,Graphics,visualizaition
+cairoDevice,Graphics,visualizaition
+cba,Graphics,visualizaition
+colorspace,Graphics,visualizaition
+diagram,Graphics,visualizaition
+dichromat,Graphics,visualizaition
+gclus,Graphics,visualizaition
+ggplot2,Graphics,visualizaition
+gplots,Graphics,visualizaition
+gridBase,Graphics,visualizaition
+IDPmisc,Graphics,visualizaition
+igraph,Graphics,visualizaition
+iplots,Graphics,visualizaition
+JavaGD,Graphics,visualizaition
+klaR,Graphics,visualizaition
+lattice,Graphics,visualizaition
+latticeExtra,Graphics,visualizaition
+misc3d,Graphics,visualizaition
+onion,Graphics,visualizaition
+playwith,Graphics,visualizaition
+plotrix,Graphics,visualizaition
+RColorBrewer,Graphics,visualizaition
+rgl,Graphics,visualizaition
+RGraphics,Graphics,visualizaition
+RGtk2,Graphics,visualizaition
+RSvgDevice,Graphics,visualizaition
+RSVGTipsDevice,Graphics,visualizaition
+scagnostics,Graphics,visualizaition
+scatterplot3d,Graphics,visualizaition
+seriation,Graphics,visualizaition
+tkrplot,Graphics,visualizaition
+vcd,Graphics,visualizaition
+vioplot,Graphics,visualizaition
+xgobi,Graphics,visualizaition
+hexbin,Graphics,visualizaition
+batch,HighPerformanceComputing,science computing
+BatchExperiments,HighPerformanceComputing,science computing
+BatchJobs,HighPerformanceComputing,science computing
+bayesm,HighPerformanceComputing,science computing
+bcp,HighPerformanceComputing,science computing
+biglars,HighPerformanceComputing,science computing
+biglm,HighPerformanceComputing,science computing
+bigmemory,HighPerformanceComputing,science computing
+bigrf,HighPerformanceComputing,science computing
+bnlearn,HighPerformanceComputing,science computing
+caret,HighPerformanceComputing,science computing
+data.table,HighPerformanceComputing,science computing
+dclone,HighPerformanceComputing,science computing
+doMC,HighPerformanceComputing,science computing
+doRedis,HighPerformanceComputing,science computing
+doRNG,HighPerformanceComputing,science computing
+doSNOW,HighPerformanceComputing,science computing
+foreach,HighPerformanceComputing,science computing
+GAMBoost,HighPerformanceComputing,science computing
+gcbd,HighPerformanceComputing,science computing
+Geneland,HighPerformanceComputing,science computing
+HadoopStreaming,HighPerformanceComputing,science computing
+harvestr,HighPerformanceComputing,science computing
+inline,HighPerformanceComputing,science computing
+latentnet,HighPerformanceComputing,science computing
+lga,HighPerformanceComputing,science computing
+Matching,HighPerformanceComputing,science computing
+nws,HighPerformanceComputing,science computing
+orloca,HighPerformanceComputing,science computing
+pbdBASE,HighPerformanceComputing,science computing
+pbdDEMO,HighPerformanceComputing,science computing
+pbdDMAT,HighPerformanceComputing,science computing
+pbdMPI,HighPerformanceComputing,science computing
+pbdNCDF4,HighPerformanceComputing,science computing
+pbdSLAP,HighPerformanceComputing,science computing
+peperr,HighPerformanceComputing,science computing
+pmclust,HighPerformanceComputing,science computing
+profr,HighPerformanceComputing,science computing
+proftools,HighPerformanceComputing,science computing
+pvclust,HighPerformanceComputing,science computing
+Rcpp,HighPerformanceComputing,science computing
+Rdsm,HighPerformanceComputing,science computing
+rgenoud,HighPerformanceComputing,science computing
+RInside,HighPerformanceComputing,science computing
+rJava,HighPerformanceComputing,science computing
+rlecuyer,HighPerformanceComputing,science computing
+rredis,HighPerformanceComputing,science computing
+snow,HighPerformanceComputing,science computing
+snowfall,HighPerformanceComputing,science computing
+snowFT,HighPerformanceComputing,science computing
+speedglm,HighPerformanceComputing,science computing
+sqldf,HighPerformanceComputing,science computing
+STAR,HighPerformanceComputing,science computing
+tm,HighPerformanceComputing,science computing
+varSelRF,HighPerformanceComputing,science computing
+ff,HighPerformanceComputing,science computing
+MonetDB.R,HighPerformanceComputing,science computing
+pls,HighPerformanceComputing,science computing
+RhpcBLASctl,HighPerformanceComputing,science computing
+ffbase,HighPerformanceComputing,science computing
+aprof,HighPerformanceComputing,science computing
+GUIProfiler,HighPerformanceComputing,science computing
+PGICA,HighPerformanceComputing,science computing
+partDSA,HighPerformanceComputing,science computing
+HistogramTools,HighPerformanceComputing,science computing
+ahaz,MachineLearning,machine learning
+arules,MachineLearning,machine learning
+bigrf,MachineLearning,machine learning
+Boruta,MachineLearning,machine learning
+bst,MachineLearning,machine learning
+C50,MachineLearning,machine learning
+caret,MachineLearning,machine learning
+CORElearn,MachineLearning,machine learning
+CoxBoost,MachineLearning,machine learning
+Cubist,MachineLearning,machine learning
+e1071,MachineLearning,machine learning
+earth,MachineLearning,machine learning
+elasticnet,MachineLearning,machine learning
+ElemStatLearn,MachineLearning,machine learning
+frbs,MachineLearning,machine learning
+GAMBoost,MachineLearning,machine learning
+gamboostLSS,MachineLearning,machine learning
+gbm,MachineLearning,machine learning
+glmnet,MachineLearning,machine learning
+glmpath,MachineLearning,machine learning
+GMMBoost,MachineLearning,machine learning
+grplasso,MachineLearning,machine learning
+grpreg,MachineLearning,machine learning
+hda,MachineLearning,machine learning
+ipred,MachineLearning,machine learning
+kernlab,MachineLearning,machine learning
+klaR,MachineLearning,machine learning
+lars,MachineLearning,machine learning
+lasso2,MachineLearning,machine learning
+LiblineaR,MachineLearning,machine learning
+LogicReg,MachineLearning,machine learning
+maptree,MachineLearning,machine learning
+mboost,MachineLearning,machine learning
+ncvreg,MachineLearning,machine learning
+nnet,MachineLearning,machine learning
+oblique.tree,MachineLearning,machine learning
+pamr,MachineLearning,machine learning
+party,MachineLearning,machine learning
+partykit,MachineLearning,machine learning
+penalized,MachineLearning,machine learning
+penalizedSVM,MachineLearning,machine learning
+quantregForest,MachineLearning,machine learning
+randomForest,MachineLearning,machine learning
+rattle,MachineLearning,machine learning
+rda,MachineLearning,machine learning
+rdetools,MachineLearning,machine learning
+REEMtree,MachineLearning,machine learning
+relaxo,MachineLearning,machine learning
+rgenoud,MachineLearning,machine learning
+rgp,MachineLearning,machine learning
+Rmalschains,MachineLearning,machine learning
+rminer,MachineLearning,machine learning
+ROCR,MachineLearning,machine learning
+rpart,MachineLearning,machine learning
+RPMM,MachineLearning,machine learning
+RSNNS,MachineLearning,machine learning
+RWeka,MachineLearning,machine learning
+sda,MachineLearning,machine learning
+svmpath,MachineLearning,machine learning
+tgp,MachineLearning,machine learning
+tree,MachineLearning,machine learning
+varSelRF,MachineLearning,machine learning
+RXshrink,MachineLearning,machine learning
+penalizedLDA,MachineLearning,machine learning
+RoughSets,MachineLearning,machine learning
+evtree,MachineLearning,machine learning
+randomForestSRC,MachineLearning,machine learning
+hdi,MachineLearning,machine learning
+stabs,MachineLearning,machine learning
+mlr,MachineLearning,machine learning
+BayesTree,MachineLearning,machine learning
+bigRR,MachineLearning,machine learning
+LogicForest,MachineLearning,machine learning
+bmrm,MachineLearning,machine learning
+adimpro,MedicalImaging,machine learning
+AnalyzeFMRI,MedicalImaging,machine learning
+arf3DS4,MedicalImaging,machine learning
+bayesm,MedicalImaging,machine learning
+brainwaver,MedicalImaging,machine learning
+DATforDCEMRI,MedicalImaging,machine learning
+dcemriS4,MedicalImaging,machine learning
+dpmixsim,MedicalImaging,machine learning
+dti,MedicalImaging,machine learning
+fmri,MedicalImaging,machine learning
+mmand,MedicalImaging,machine learning
+occ,MedicalImaging,machine learning
+oro.dicom,MedicalImaging,machine learning
+oro.nifti,MedicalImaging,machine learning
+PET,MedicalImaging,machine learning
+PTAk,MedicalImaging,machine learning
+RNiftyReg,MedicalImaging,machine learning
+tractor.base,MedicalImaging,machine learning
+waveslim,MedicalImaging,machine learning
+gdimap,MedicalImaging,machine learning
+mritc,MedicalImaging,machine learning
+brainR,MedicalImaging,machine learning
+neuroim,MedicalImaging,machine learning
+neuRosim,MedicalImaging,machine learning
+fslr,MedicalImaging,machine learning
+KATforDCEMRI,MedicalImaging,machine learning
+bamdit,MetaAnalysis,LifeScience
+bspmma,MetaAnalysis,LifeScience
+compute.es,MetaAnalysis,LifeScience
+CRTSize,MetaAnalysis,LifeScience
+epiR,MetaAnalysis,LifeScience
+gap,MetaAnalysis,LifeScience
+gemtc,MetaAnalysis,LifeScience
+HSROC,MetaAnalysis,LifeScience
+MAc,MetaAnalysis,LifeScience
+MAd,MetaAnalysis,LifeScience
+mada,MetaAnalysis,LifeScience
+MAMA,MetaAnalysis,LifeScience
+meta,MetaAnalysis,LifeScience
+MetABEL,MetaAnalysis,LifeScience
+MetaDE,MetaAnalysis,LifeScience
+metafor,MetaAnalysis,LifeScience
+metagen,MetaAnalysis,LifeScience
+metaLik,MetaAnalysis,LifeScience
+metaMA,MetaAnalysis,LifeScience
+metamisc,MetaAnalysis,LifeScience
+MetaPCA,MetaAnalysis,LifeScience
+MetaQC,MetaAnalysis,LifeScience
+metatest,MetaAnalysis,LifeScience
+mvmeta,MetaAnalysis,LifeScience
+mvtmeta,MetaAnalysis,LifeScience
+psychometric,MetaAnalysis,LifeScience
+rmeta,MetaAnalysis,LifeScience
+SAMURAI,MetaAnalysis,LifeScience
+SCMA,MetaAnalysis,LifeScience
+selectMeta,MetaAnalysis,LifeScience
+skatMeta,MetaAnalysis,LifeScience
+dosresmeta,MetaAnalysis,LifeScience
+exactmeta,MetaAnalysis,LifeScience
+MetaSKAT,MetaAnalysis,LifeScience
+netmeta,MetaAnalysis,LifeScience
+seqMeta,MetaAnalysis,LifeScience
+PubBias,MetaAnalysis,LifeScience
+Metatron,MetaAnalysis,LifeScience
+mmeta,MetaAnalysis,LifeScience
+extfunnel,MetaAnalysis,LifeScience
+robumeta,MetaAnalysis,LifeScience
+metap,MetaAnalysis,LifeScience
+RcmdrPlugin.EZR,MetaAnalysis,LifeScience
+CAMAN,MetaAnalysis,LifeScience
+ecoreg,MetaAnalysis,LifeScience
+ipdmeta,MetaAnalysis,LifeScience
+metaplus,MetaAnalysis,LifeScience
+metasens,MetaAnalysis,LifeScience
+MAVIS,MetaAnalysis,LifeScience
+forestplot,MetaAnalysis,LifeScience
+CopulaREMADA,MetaAnalysis,LifeScience
+EasyStrata,MetaAnalysis,LifeScience
+metaRNASeq,MetaAnalysis,LifeScience
+abind,Multivariate,LifeScience
+ade4,Multivariate,LifeScience
+amap,Multivariate,LifeScience
+aplpack,Multivariate,LifeScience
+ash,Multivariate,LifeScience
+bayesm,Multivariate,LifeScience
+ca,Multivariate,LifeScience
+calibrate,Multivariate,LifeScience
+car,Multivariate,LifeScience
+caret,Multivariate,LifeScience
+class,Multivariate,LifeScience
+clue,Multivariate,LifeScience
+cluster,Multivariate,LifeScience
+clusterGeneration,Multivariate,LifeScience
+clusterSim,Multivariate,LifeScience
+clv,Multivariate,LifeScience
+cocorresp,Multivariate,LifeScience
+copula,Multivariate,LifeScience
+corpcor,Multivariate,LifeScience
+covRobust,Multivariate,LifeScience
+desirability,Multivariate,LifeScience
+dr,Multivariate,LifeScience
+e1071,Multivariate,LifeScience
+earth,Multivariate,LifeScience
+ellipse,Multivariate,LifeScience
+energy,Multivariate,LifeScience
+eRm,Multivariate,LifeScience
+FactoMineR,Multivariate,LifeScience
+FAiR,Multivariate,LifeScience
+fastICA,Multivariate,LifeScience
+feature,Multivariate,LifeScience
+fgac,Multivariate,LifeScience
+fpc,Multivariate,LifeScience
+fso,Multivariate,LifeScience
+gclus,Multivariate,LifeScience
+GenKern,Multivariate,LifeScience
+geometry,Multivariate,LifeScience
+geozoo,Multivariate,LifeScience
+gmodels,Multivariate,LifeScience
+GPArotation,Multivariate,LifeScience
+hddplot,Multivariate,LifeScience
+Hmisc,Multivariate,LifeScience
+homals,Multivariate,LifeScience
+hybridHclust,Multivariate,LifeScience
+ICS,Multivariate,LifeScience
+ICSNP,Multivariate,LifeScience
+iplots,Multivariate,LifeScience
+JADE,Multivariate,LifeScience
+kernlab,Multivariate,LifeScience
+KernSmooth,Multivariate,LifeScience
+kknn,Multivariate,LifeScience
+klaR,Multivariate,LifeScience
+kohonen,Multivariate,LifeScience
+ks,Multivariate,LifeScience
+lattice,Multivariate,LifeScience
+ltm,Multivariate,LifeScience
+mAr,Multivariate,LifeScience
+MASS,Multivariate,LifeScience
+Matrix,Multivariate,LifeScience
+matrixcalc,Multivariate,LifeScience
+mclust,Multivariate,LifeScience
+MCMCpack,Multivariate,LifeScience
+mda,Multivariate,LifeScience
+mice,Multivariate,LifeScience
+misc3d,Multivariate,LifeScience
+mitools,Multivariate,LifeScience
+mix,Multivariate,LifeScience
+mnormt,Multivariate,LifeScience
+MNP,Multivariate,LifeScience
+monomvn,Multivariate,LifeScience
+mvnmle,Multivariate,LifeScience
+mvnormtest,Multivariate,LifeScience
+mvoutlier,Multivariate,LifeScience
+mvtnorm,Multivariate,LifeScience
+nFactors,Multivariate,LifeScience
+pan,Multivariate,LifeScience
+paran,Multivariate,LifeScience
+party,Multivariate,LifeScience
+pcaPP,Multivariate,LifeScience
+PearsonICA,Multivariate,LifeScience
+plsgenomics,Multivariate,LifeScience
+poLCA,Multivariate,LifeScience
+polycor,Multivariate,LifeScience
+ppls,Multivariate,LifeScience
+prim,Multivariate,LifeScience
+proxy,Multivariate,LifeScience
+psy,Multivariate,LifeScience
+PTAk,Multivariate,LifeScience
+rda,Multivariate,LifeScience
+relaimpo,Multivariate,LifeScience
+rgl,Multivariate,LifeScience
+robustbase,Multivariate,LifeScience
+ROCR,Multivariate,LifeScience
+rpart,Multivariate,LifeScience
+rrcov,Multivariate,LifeScience
+sca,Multivariate,LifeScience
+scatterplot3d,Multivariate,LifeScience
+sem,Multivariate,LifeScience
+SensoMineR,Multivariate,LifeScience
+seriation,Multivariate,LifeScience
+simba,Multivariate,LifeScience
+smatr,Multivariate,LifeScience
+sn,Multivariate,LifeScience
+spam,Multivariate,LifeScience
+SparseM,Multivariate,LifeScience
+SpatialNP,Multivariate,LifeScience
+superpc,Multivariate,LifeScience
+trimcluster,Multivariate,LifeScience
+tsfa,Multivariate,LifeScience
+vcd,Multivariate,LifeScience
+vegan,Multivariate,LifeScience
+VGAM,Multivariate,LifeScience
+VIM,Multivariate,LifeScience
+xgobi,Multivariate,LifeScience
+YaleToolkit,Multivariate,LifeScience
+concor,Multivariate,LifeScience
+pls,Multivariate,LifeScience
+clustvarsel,Multivariate,LifeScience
+denpro,Multivariate,LifeScience
+cramer,Multivariate,LifeScience
+cwhmisc,Multivariate,LifeScience
+delt,Multivariate,LifeScience
+corpora,NaturalLanguageProcessing,text mining
+gsubfn,NaturalLanguageProcessing,text mining
+kernlab,NaturalLanguageProcessing,text mining
+KoNLP,NaturalLanguageProcessing,text mining
+koRpus,NaturalLanguageProcessing,text mining
+maxent,NaturalLanguageProcessing,text mining
+openNLP,NaturalLanguageProcessing,text mining
+qdap,NaturalLanguageProcessing,text mining
+RcmdrPlugin.temis,NaturalLanguageProcessing,text mining
+RKEA,NaturalLanguageProcessing,text mining
+RWeka,NaturalLanguageProcessing,text mining
+SnowballC,NaturalLanguageProcessing,text mining
+tau,NaturalLanguageProcessing,text mining
+textcat,NaturalLanguageProcessing,text mining
+textir,NaturalLanguageProcessing,text mining
+tm,NaturalLanguageProcessing,text mining
+tm.plugin.dc,NaturalLanguageProcessing,text mining
+tm.plugin.factiva,NaturalLanguageProcessing,text mining
+tm.plugin.mail,NaturalLanguageProcessing,text mining
+topicmodels,NaturalLanguageProcessing,text mining
+wordcloud,NaturalLanguageProcessing,text mining
+wordnet,NaturalLanguageProcessing,text mining
+zipfR,NaturalLanguageProcessing,text mining
+lda,NaturalLanguageProcessing,text mining
+movMF,NaturalLanguageProcessing,text mining
+skmeans,NaturalLanguageProcessing,text mining
+tm.plugin.alceste,NaturalLanguageProcessing,text mining
+tm.plugin.europresse,NaturalLanguageProcessing,text mining
+tm.plugin.lexisnexis,NaturalLanguageProcessing,text mining
+boilerpipeR,NaturalLanguageProcessing,text mining
+lsa,NaturalLanguageProcessing,text mining
+tm.plugin.webmining,NaturalLanguageProcessing,text mining
+languageR,NaturalLanguageProcessing,text mining
+RTextTools,NaturalLanguageProcessing,text mining
+akima,NumericalMathematics,science computing
+appell,NumericalMathematics,science computing
+BB,NumericalMathematics,science computing
+Bessel,NumericalMathematics,science computing
+combinat,NumericalMathematics,science computing
+contfrac,NumericalMathematics,science computing
+cubature,NumericalMathematics,science computing
+eigeninv,NumericalMathematics,science computing
+elliptic,NumericalMathematics,science computing
+expm,NumericalMathematics,science computing
+features,NumericalMathematics,science computing
+gaussquad,NumericalMathematics,science computing
+gmp,NumericalMathematics,science computing
+gsl,NumericalMathematics,science computing
+hypergeo,NumericalMathematics,science computing
+irlba,NumericalMathematics,science computing
+magic,NumericalMathematics,science computing
+MASS,NumericalMathematics,science computing
+matlab,NumericalMathematics,science computing
+Matrix,NumericalMathematics,science computing
+MonoPoly,NumericalMathematics,science computing
+mpoly,NumericalMathematics,science computing
+multipol,NumericalMathematics,science computing
+nleqslv,NumericalMathematics,science computing
+numbers,NumericalMathematics,science computing
+numDeriv,NumericalMathematics,science computing
+onion,NumericalMathematics,science computing
+orthopolynom,NumericalMathematics,science computing
+partitions,NumericalMathematics,science computing
+polyCub,NumericalMathematics,science computing
+polynom,NumericalMathematics,science computing
+PolynomF,NumericalMathematics,science computing
+pracma,NumericalMathematics,science computing
+R.matlab,NumericalMathematics,science computing
+R2Cuba,NumericalMathematics,science computing
+Rcpp,NumericalMathematics,science computing
+RcppArmadillo,NumericalMathematics,science computing
+RcppEigen,NumericalMathematics,science computing
+Rmpfr,NumericalMathematics,science computing
+rPython,NumericalMathematics,science computing
+rSymPy,NumericalMathematics,science computing
+signal,NumericalMathematics,science computing
+SparseGrid,NumericalMathematics,science computing
+SphericalCubature,NumericalMathematics,science computing
+ssvd,NumericalMathematics,science computing
+statmod,NumericalMathematics,science computing
+stinepack,NumericalMathematics,science computing
+svd,NumericalMathematics,science computing
+geigen,NumericalMathematics,science computing
+ktsolve,NumericalMathematics,science computing
+QZ,NumericalMathematics,science computing
+SparseM,NumericalMathematics,science computing
+rARPACK,NumericalMathematics,science computing
+fastGHQuad,NumericalMathematics,science computing
+RootsExtremaInflections,NumericalMathematics,science computing
+optR,NumericalMathematics,science computing
+Rserve,NumericalMathematics,science computing
+Brobdingnag,NumericalMathematics,science computing
+Deriv,NumericalMathematics,science computing
+Amelia,OfficialStatistics,science computing
+cat,OfficialStatistics,science computing
+deducorrect,OfficialStatistics,science computing
+editrules,OfficialStatistics,science computing
+FFD,OfficialStatistics,science computing
+hbsae,OfficialStatistics,science computing
+Hmisc,OfficialStatistics,science computing
+IC2,OfficialStatistics,science computing
+ineq,OfficialStatistics,science computing
+JoSAE,OfficialStatistics,science computing
+laeken,OfficialStatistics,science computing
+lavaan,OfficialStatistics,science computing
+lavaan.survey,OfficialStatistics,science computing
+lme4,OfficialStatistics,science computing
+MatchIt,OfficialStatistics,science computing
+memisc,OfficialStatistics,science computing
+mi,OfficialStatistics,science computing
+mice,OfficialStatistics,science computing
+micEcon,OfficialStatistics,science computing
+MImix,OfficialStatistics,science computing
+missMDA,OfficialStatistics,science computing
+mitools,OfficialStatistics,science computing
+mix,OfficialStatistics,science computing
+nlme,OfficialStatistics,science computing
+norm,OfficialStatistics,science computing
+odfWeave,OfficialStatistics,science computing
+odfWeave.survey,OfficialStatistics,science computing
+pan,OfficialStatistics,science computing
+pps,OfficialStatistics,science computing
+pxR,OfficialStatistics,science computing
+reweight,OfficialStatistics,science computing
+robCompositions,OfficialStatistics,science computing
+rrcovNA,OfficialStatistics,science computing
+samplingbook,OfficialStatistics,science computing
+SamplingStrata,OfficialStatistics,science computing
+samplingVarEst,OfficialStatistics,science computing
+SDaA,OfficialStatistics,science computing
+SeleMix,OfficialStatistics,science computing
+simFrame,OfficialStatistics,science computing
+spsurvey,OfficialStatistics,science computing
+StatMatch,OfficialStatistics,science computing
+stratification,OfficialStatistics,science computing
+survey,OfficialStatistics,science computing
+tabplot,OfficialStatistics,science computing
+TeachingSampling,OfficialStatistics,science computing
+treemap,OfficialStatistics,science computing
+VIM,OfficialStatistics,science computing
+x12,OfficialStatistics,science computing
+x12GUI,OfficialStatistics,science computing
+yaImpute,OfficialStatistics,science computing
+sampling,OfficialStatistics,science computing
+SAScii,OfficialStatistics,science computing
+sdcMicro,OfficialStatistics,science computing
+sdcTable,OfficialStatistics,science computing
+foreign,OfficialStatistics,science computing
+prevR,OfficialStatistics,science computing
+questionr,OfficialStatistics,science computing
+sms,OfficialStatistics,science computing
+seasonal,OfficialStatistics,science computing
+rsae,OfficialStatistics,science computing
+MicSim,OfficialStatistics,science computing
+CoImp,OfficialStatistics,science computing
+rworldmap,OfficialStatistics,science computing
+vardpoor,OfficialStatistics,science computing
+RecordLinkage,OfficialStatistics,science computing
+saeSim,OfficialStatistics,science computing
+stringdist,OfficialStatistics,science computing
+adagio,Optimization,science computing
+alabama,Optimization,science computing
+BB,Optimization,science computing
+boot,Optimization,science computing
+CLSOCP,Optimization,science computing
+clue,Optimization,science computing
+cmaes,Optimization,science computing
+crs,Optimization,science computing
+dclone,Optimization,science computing
+DEoptim,Optimization,science computing
+desirability,Optimization,science computing
+dfoptim,Optimization,science computing
+genalg,Optimization,science computing
+GenSA,Optimization,science computing
+glpkAPI,Optimization,science computing
+goalprog,Optimization,science computing
+gsl,Optimization,science computing
+hydroPSO,Optimization,science computing
+igraph,Optimization,science computing
+kernlab,Optimization,science computing
+limSolve,Optimization,science computing
+linprog,Optimization,science computing
+LowRankQP,Optimization,science computing
+lpSolve,Optimization,science computing
+lpSolveAPI,Optimization,science computing
+maxLik,Optimization,science computing
+mcga,Optimization,science computing
+mco,Optimization,science computing
+minpack.lm,Optimization,science computing
+minqa,Optimization,science computing
+neldermead,Optimization,science computing
+nleqslv,Optimization,science computing
+nloptr,Optimization,science computing
+optimx,Optimization,science computing
+powell,Optimization,science computing
+pso,Optimization,science computing
+quadprog,Optimization,science computing
+quantreg,Optimization,science computing
+rcdd,Optimization,science computing
+Rcgmin,Optimization,science computing
+RcppDE,Optimization,science computing
+Rcsdp,Optimization,science computing
+rgenoud,Optimization,science computing
+Rmalschains,Optimization,science computing
+rneos,Optimization,science computing
+ROI,Optimization,science computing
+Rsolnp,Optimization,science computing
+Rsymphony,Optimization,science computing
+Rvmmin,Optimization,science computing
+sna,Optimization,science computing
+soma,Optimization,science computing
+subplex,Optimization,science computing
+trust,Optimization,science computing
+trustOptim,Optimization,science computing
+TSP,Optimization,science computing
+ucminf,Optimization,science computing
+Rglpk,Optimization,science computing
+DEoptimR,Optimization,science computing
+GA,Optimization,science computing
+GrassmannOptim,Optimization,science computing
+NMOF,Optimization,science computing
+blowtorch,Optimization,science computing
+irace,Optimization,science computing
+isotone,Optimization,science computing
+lbfgs,Optimization,science computing
+globalOptTests,Optimization,science computing
+RCEIM,Optimization,science computing
+optmatch,Optimization,science computing
+cec2005benchmark,Optimization,science computing
+cec2013,Optimization,science computing
+localsolver,Optimization,science computing
+cccp,Optimization,science computing
+CEoptim,Optimization,science computing
+kofnGA,Optimization,science computing
+deSolve,Pharmacokinetics,LifeScience
+drc,Pharmacokinetics,LifeScience
+lattice,Pharmacokinetics,LifeScience
+MASS,Pharmacokinetics,LifeScience
+nlme,Pharmacokinetics,LifeScience
+nlmeODE,Pharmacokinetics,LifeScience
+PK,Pharmacokinetics,LifeScience
+PKPDmodels,Pharmacokinetics,LifeScience
+adephylo,Phylogenetics,LifeScience
+ape,Phylogenetics,LifeScience
+apTreeshape,Phylogenetics,LifeScience
+caper,Phylogenetics,LifeScience
+distory,Phylogenetics,LifeScience
+diversitree,Phylogenetics,LifeScience
+geiger,Phylogenetics,LifeScience
+geomorph,Phylogenetics,LifeScience
+GUniFrac,Phylogenetics,LifeScience
+HMPTrees,Phylogenetics,LifeScience
+iteRates,Phylogenetics,LifeScience
+MCMCglmm,Phylogenetics,LifeScience
+ouch,Phylogenetics,LifeScience
+OUwie,Phylogenetics,LifeScience
+paleotree,Phylogenetics,LifeScience
+paleoTS,Phylogenetics,LifeScience
+phangorn,Phylogenetics,LifeScience
+phyclust,Phylogenetics,LifeScience
+phylobase,Phylogenetics,LifeScience
+phyloclim,Phylogenetics,LifeScience
+phylotools,Phylogenetics,LifeScience
+phytools,Phylogenetics,LifeScience
+picante,Phylogenetics,LifeScience
+PVR,Phylogenetics,LifeScience
+spider,Phylogenetics,LifeScience
+SYNCSA,Phylogenetics,LifeScience
+TESS,Phylogenetics,LifeScience
+treebase,Phylogenetics,LifeScience
+TreeSim,Phylogenetics,LifeScience
+vegan,Phylogenetics,LifeScience
+corHMM,Phylogenetics,LifeScience
+DDD,Phylogenetics,LifeScience
+evobiR,Phylogenetics,LifeScience
+metafor,Phylogenetics,LifeScience
+phylolm,Phylogenetics,LifeScience
+TreePar,Phylogenetics,LifeScience
+adhoc,Phylogenetics,LifeScience
+BAMMtools,Phylogenetics,LifeScience
+betapart,Phylogenetics,LifeScience
+BoSSA,Phylogenetics,LifeScience
+dendextend,Phylogenetics,LifeScience
+DiscML,Phylogenetics,LifeScience
+expands,Phylogenetics,LifeScience
+expoTree,Phylogenetics,LifeScience
+HyPhy,Phylogenetics,LifeScience
+jaatha,Phylogenetics,LifeScience
+kdetrees,Phylogenetics,LifeScience
+MPSEM,Phylogenetics,LifeScience
+mvMORPH,Phylogenetics,LifeScience
+outbreaker,Phylogenetics,LifeScience
+OutbreakTools,Phylogenetics,LifeScience
+pastis,Phylogenetics,LifeScience
+PBD,Phylogenetics,LifeScience
+PCPS,Phylogenetics,LifeScience
+pegas,Phylogenetics,LifeScience
+phyloland,Phylogenetics,LifeScience
+phyloTop,Phylogenetics,LifeScience
+RADami,Phylogenetics,LifeScience
+rdryad,Phylogenetics,LifeScience
+Reol,Phylogenetics,LifeScience
+rphast,Phylogenetics,LifeScience
+Rphylip,Phylogenetics,LifeScience
+strap,Phylogenetics,LifeScience
+surface,Phylogenetics,LifeScience
+taxize,Phylogenetics,LifeScience
+RNeXML,Phylogenetics,LifeScience
+PHYLOGR,Phylogenetics,LifeScience
+bayou,Phylogenetics,LifeScience
+BioGeoBEARS,Phylogenetics,LifeScience
+cati,Phylogenetics,LifeScience
+DAMOCLES,Phylogenetics,LifeScience
+ggplot2,Phylogenetics,LifeScience
+ips,Phylogenetics,LifeScience
+pmc,Phylogenetics,LifeScience
+SigTree,Phylogenetics,LifeScience
+ade4,Psychometrics,LifeScience
+anacor,Psychometrics,LifeScience
+betareg,Psychometrics,LifeScience
+BradleyTerry2,Psychometrics,LifeScience
+ca,Psychometrics,LifeScience
+cacIRT,Psychometrics,LifeScience
+catR,Psychometrics,LifeScience
+CDM,Psychometrics,LifeScience
+cfa,Psychometrics,LifeScience
+classify,Psychometrics,LifeScience
+CMC,Psychometrics,LifeScience
+cocorresp,Psychometrics,LifeScience
+CopyDetect,Psychometrics,LifeScience
+CTT,Psychometrics,LifeScience
+DAKS,Psychometrics,LifeScience
+difR,Psychometrics,LifeScience
+e1071,Psychometrics,LifeScience
+eba,Psychometrics,LifeScience
+ecodist,Psychometrics,LifeScience
+equate,Psychometrics,LifeScience
+eRm,Psychometrics,LifeScience
+EstCRM,Psychometrics,LifeScience
+FactoMineR,Psychometrics,LifeScience
+FAiR,Psychometrics,LifeScience
+fastICA,Psychometrics,LifeScience
+fechner,Psychometrics,LifeScience
+fwdmsa,Psychometrics,LifeScience
+GPArotation,Psychometrics,LifeScience
+homals,Psychometrics,LifeScience
+irr,Psychometrics,LifeScience
+irtoys,Psychometrics,LifeScience
+irtrees,Psychometrics,LifeScience
+KernSmoothIRT,Psychometrics,LifeScience
+kst,Psychometrics,LifeScience
+labdsv,Psychometrics,LifeScience
+latdiag,Psychometrics,LifeScience
+lava,Psychometrics,LifeScience
+lava.tobit,Psychometrics,LifeScience
+lavaan,Psychometrics,LifeScience
+lavaan.survey,Psychometrics,LifeScience
+lme4,Psychometrics,LifeScience
+lordif,Psychometrics,LifeScience
+ltm,Psychometrics,LifeScience
+MASS,Psychometrics,LifeScience
+MBESS,Psychometrics,LifeScience
+mcIRT,Psychometrics,LifeScience
+MCMCpack,Psychometrics,LifeScience
+mirt,Psychometrics,LifeScience
+mixRasch,Psychometrics,LifeScience
+MLCM,Psychometrics,LifeScience
+MLDS,Psychometrics,LifeScience
+modelfree,Psychometrics,LifeScience
+mokken,Psychometrics,LifeScience
+MplusAutomation,Psychometrics,LifeScience
+mpt,Psychometrics,LifeScience
+MPTinR,Psychometrics,LifeScience
+mRm,Psychometrics,LifeScience
+MultiLCIRT,Psychometrics,LifeScience
+nFactors,Psychometrics,LifeScience
+pathmox,Psychometrics,LifeScience
+pcaPP,Psychometrics,LifeScience
+pks,Psychometrics,LifeScience
+plRasch,Psychometrics,LifeScience
+plspm,Psychometrics,LifeScience
+poLCA,Psychometrics,LifeScience
+polycor,Psychometrics,LifeScience
+prefmod,Psychometrics,LifeScience
+pscl,Psychometrics,LifeScience
+psy,Psychometrics,LifeScience
+psych,Psychometrics,LifeScience
+psychometric,Psychometrics,LifeScience
+psychomix,Psychometrics,LifeScience
+psychotools,Psychometrics,LifeScience
+psychotree,Psychometrics,LifeScience
+psyphy,Psychometrics,LifeScience
+PTAk,Psychometrics,LifeScience
+qgraph,Psychometrics,LifeScience
+QuantPsyc,Psychometrics,LifeScience
+randomLCA,Psychometrics,LifeScience
+RaschSampler,Psychometrics,LifeScience
+REQS,Psychometrics,LifeScience
+rpf,Psychometrics,LifeScience
+sem,Psychometrics,LifeScience
+SEMModComp,Psychometrics,LifeScience
+semPLS,Psychometrics,LifeScience
+semTools,Psychometrics,LifeScience
+SensoMineR,Psychometrics,LifeScience
+simsem,Psychometrics,LifeScience
+sirt,Psychometrics,LifeScience
+smacof,Psychometrics,LifeScience
+systemfit,Psychometrics,LifeScience
+TripleR,Psychometrics,LifeScience
+vegan,Psychometrics,LifeScience
+VGAM,Psychometrics,LifeScience
+xgobi,Psychometrics,LifeScience
+cocor,Psychometrics,LifeScience
+cocron,Psychometrics,LifeScience
+equateIRT,Psychometrics,LifeScience
+ExPosition,Psychometrics,LifeScience
+ICC,Psychometrics,LifeScience
+MCMCglmm,Psychometrics,LifeScience
+mediation,Psychometrics,LifeScience
+multiplex,Psychometrics,LifeScience
+nlme,Psychometrics,LifeScience
+ordinal,Psychometrics,LifeScience
+pls,Psychometrics,LifeScience
+semPlot,Psychometrics,LifeScience
+TAM,Psychometrics,LifeScience
+profileR,Psychometrics,LifeScience
+DIFlasso,Psychometrics,LifeScience
+pcIRT,Psychometrics,LifeScience
+TestScorer,Psychometrics,LifeScience
+DFIT,Psychometrics,LifeScience
+irtProb,Psychometrics,LifeScience
+WrightMap,Psychometrics,LifeScience
+PP,Psychometrics,LifeScience
+mirtCAT,Psychometrics,LifeScience
+pairwise,Psychometrics,LifeScience
+IRTShiny,Psychometrics,LifeScience
+missMDA,Psychometrics,LifeScience
+flexmix,Psychometrics,LifeScience
+kequate,Psychometrics,LifeScience
+SNSequate,Psychometrics,LifeScience
+kcirt,Psychometrics,LifeScience
+animation,ReproducibleResearch,science computing
+apsrtable,ReproducibleResearch,science computing
+ascii,ReproducibleResearch,science computing
+brew,ReproducibleResearch,science computing
+exams,ReproducibleResearch,science computing
+Hmisc,ReproducibleResearch,science computing
+hwriter,ReproducibleResearch,science computing
+knitr,ReproducibleResearch,science computing
+markdown,ReproducibleResearch,science computing
+memisc,ReproducibleResearch,science computing
+odfWeave,ReproducibleResearch,science computing
+odfWeave.survey,ReproducibleResearch,science computing
+pander,ReproducibleResearch,science computing
+quantreg,ReproducibleResearch,science computing
+R.cache,ReproducibleResearch,science computing
+R.rsp,ReproducibleResearch,science computing
+R2HTML,ReproducibleResearch,science computing
+r2lh,ReproducibleResearch,science computing
+rapport,ReproducibleResearch,science computing
+reporttools,ReproducibleResearch,science computing
+rms,ReproducibleResearch,science computing
+rtf,ReproducibleResearch,science computing
+svSweave,ReproducibleResearch,science computing
+SweaveListingUtils,ReproducibleResearch,science computing
+tables,ReproducibleResearch,science computing
+TeachingSampling,ReproducibleResearch,science computing
+xtable,ReproducibleResearch,science computing
+bibtex,ReproducibleResearch,science computing
+sparktex,ReproducibleResearch,science computing
+stargazer,ReproducibleResearch,science computing
+suRtex,ReproducibleResearch,science computing
+table1xls,ReproducibleResearch,science computing
+texreg,ReproducibleResearch,science computing
+tth,ReproducibleResearch,science computing
+NMOF,ReproducibleResearch,science computing
+papeR,ReproducibleResearch,science computing
+covRobust,Robust,science computing
+coxrobust,Robust,science computing
+distr,Robust,science computing
+FRB,Robust,science computing
+lqmm,Robust,science computing
+MASS,Robust,science computing
+multinomRob,Robust,science computing
+mvoutlier,Robust,science computing
+quantreg,Robust,science computing
+RandVar,Robust,science computing
+rgam,Robust,science computing
+RobAStBase,Robust,science computing
+robfilter,Robust,science computing
+RobLox,Robust,science computing
+RobLoxBioC,Robust,science computing
+RobRex,Robust,science computing
+robust,Robust,science computing
+RobustAFT,Robust,science computing
+robustbase,Robust,science computing
+robustlmm,Robust,science computing
+robustX,Robust,science computing
+ROptEst,Robust,science computing
+ROptRegTS,Robust,science computing
+rrcov,Robust,science computing
+rrcovHD,Robust,science computing
+rrcovNA,Robust,science computing
+sandwich,Robust,science computing
+wle,Robust,science computing
+RSKC,Robust,science computing
+drgee,Robust,science computing
+GSE,Robust,science computing
+OutlierDC,Robust,science computing
+robcor,Robust,science computing
+RobPer,Robust,science computing
+RobRSVD,Robust,science computing
+robumeta,Robust,science computing
+ssmrob,Robust,science computing
+OutlierDM,Robust,science computing
+mblm,Robust,science computing
+rsig,Robust,science computing
+georob,Robust,science computing
+robeth,Robust,science computing
+robustDA,Robust,science computing
+robustgam,Robust,science computing
+robustloggamma,Robust,science computing
+robustreg,Robust,science computing
+ror,Robust,science computing
+rorutadis,Robust,science computing
+acepack,SocialSciences,social science business
+alr3,SocialSciences,social science business
+aod,SocialSciences,social science business
+boot,SocialSciences,social science business
+bootstrap,SocialSciences,social science business
+BradleyTerry2,SocialSciences,social science business
+brglm,SocialSciences,social science business
+car,SocialSciences,social science business
+class,SocialSciences,social science business
+dr,SocialSciences,social science business
+dyn,SocialSciences,social science business
+dynlm,SocialSciences,social science business
+effects,SocialSciences,social science business
+eha,SocialSciences,social science business
+exactLoglinTest,SocialSciences,social science business
+forward,SocialSciences,social science business
+frailtypack,SocialSciences,social science business
+gam,SocialSciences,social science business
+gee,SocialSciences,social science business
+gmodels,SocialSciences,social science business
+gnm,SocialSciences,social science business
+GPArotation,SocialSciences,social science business
+gss,SocialSciences,social science business
+Hmisc,SocialSciences,social science business
+irr,SocialSciences,social science business
+latentnet,SocialSciences,social science business
+lattice,SocialSciences,social science business
+leaps,SocialSciences,social science business
+lme4,SocialSciences,social science business
+lmm,SocialSciences,social science business
+lmtest,SocialSciences,social science business
+locfit,SocialSciences,social science business
+ltm,SocialSciences,social science business
+MASS,SocialSciences,social science business
+Matching,SocialSciences,social science business
+MatchIt,SocialSciences,social science business
+Matrix,SocialSciences,social science business
+meta,SocialSciences,social science business
+mgcv,SocialSciences,social science business
+mice,SocialSciences,social science business
+micEcon,SocialSciences,social science business
+mitools,SocialSciences,social science business
+mix,SocialSciences,social science business
+MNP,SocialSciences,social science business
+multcomp,SocialSciences,social science business
+multinomRob,SocialSciences,social science business
+network,SocialSciences,social science business
+nlme,SocialSciences,social science business
+nnet,SocialSciences,social science business
+pan,SocialSciences,social science business
+perturb,SocialSciences,social science business
+polycor,SocialSciences,social science business
+pscl,SocialSciences,social science business
+psy,SocialSciences,social science business
+quantreg,SocialSciences,social science business
+qvcalc,SocialSciences,social science business
+rgl,SocialSciences,social science business
+rmeta,SocialSciences,social science business
+rms,SocialSciences,social science business
+robust,SocialSciences,social science business
+robustbase,SocialSciences,social science business
+sandwich,SocialSciences,social science business
+sem,SocialSciences,social science business
+sm,SocialSciences,social science business
+sna,SocialSciences,social science business
+survey,spatial,science computing
+survival,spatial,science computing
+systemfit,spatial,science computing
+vcd,spatial,science computing
+Zelig,spatial,science computing
+BMA,spatial,science computing
+geepack,spatial,science computing
+pls,spatial,science computing
+sampling,spatial,science computing
+survrec,spatial,science computing
+lmeSplines,spatial,science computing
+optmatch,spatial,science computing
+Spatial,spatial,science computing
+ade4,spatial,science computing
+adehabitat,spatial,science computing
+adehabitatHR,spatial,science computing
+adehabitatHS,spatial,science computing
+adehabitatLT,spatial,science computing
+adehabitatMA,spatial,science computing
+ads,spatial,science computing
+akima,spatial,science computing
+ash,spatial,science computing
+aspace,spatial,science computing
+automap,spatial,science computing
+classInt,spatial,science computing
+constrainedKriging,spatial,science computing
+cshapes,spatial,science computing
+deldir,spatial,science computing
+DSpat,spatial,science computing
+ecespa,spatial,science computing
+fields,spatial,science computing
+FieldSim,spatial,science computing
+gdistance,spatial,science computing
+Geneland,spatial,science computing
+GEOmap,spatial,science computing
+geomapdata,spatial,science computing
+geonames,spatial,science computing
+geoR,spatial,science computing
+geoRglm,spatial,science computing
+geosphere,spatial,science computing
+GeoXp,spatial,science computing
+ggmap,spatial,science computing
+glmmBUGS,spatial,science computing
+gmt,spatial,science computing
+GriegSmith,spatial,science computing
+gstat,spatial,science computing
+hdeco,spatial,science computing
+intamap,spatial,science computing
+landsat,spatial,science computing
+mapdata,spatial,science computing
+mapproj,spatial,science computing
+maps,spatial,science computing
+maptools,spatial,science computing
+MBA,spatial,science computing
+micromap,spatial,science computing
+ModelMap,spatial,science computing
+ncdf,spatial,science computing
+ncf,spatial,science computing
+nlme,spatial,science computing
+OpenStreetMap,spatial,science computing
+osmar,spatial,science computing
+pastecs,spatial,science computing
+PBSmapping,spatial,science computing
+PBSmodelling,spatial,science computing
+plotKML,spatial,science computing
+psgp,spatial,science computing
+ramps,spatial,science computing
+RandomFields,spatial,science computing
+rangeMapper,spatial,science computing
+raster,spatial,science computing
+rasterVis,spatial,science computing
+RColorBrewer,spatial,science computing
+regress,spatial,science computing
+rgdal,spatial,science computing
+rgeos,spatial,science computing
+RgoogleMaps,spatial,science computing
+RSAGA,spatial,science computing
+RSurvey,spatial,science computing
+rworldmap,spatial,science computing
+sgeostat,spatial,science computing
+shapefiles,spatial,science computing
+sp,spatial,science computing
+spacetime,spatial,science computing
+sparr,spatial,science computing
+spatcounts,spatial,science computing
+spatgraphs,spatial,science computing
+spatial,spatial,science computing
+spatialCovariance,spatial,science computing
+SpatialExtremes,spatial,science computing
+spatialkernel,spatial,science computing
+spatialprobit,spatial,science computing
+spatialsegregation,spatial,science computing
+spatstat,spatial,science computing
+spBayes,spatial,science computing
+spcosa,spatial,science computing
+spdep,spatial,science computing
+spgrass6,spatial,science computing
+spgwr,spatial,science computing
+sphet,spatial,science computing
+splancs,spatial,science computing
+spsurvey,spatial,science computing
+Stem,spatial,science computing
+tgp,spatial,science computing
+trip,spatial,science computing
+tripack,spatial,science computing
+tripEstimation,spatial,science computing
+UScensus2000cdp,spatial,science computing
+UScensus2000tract,spatial,science computing
+vardiag,spatial,science computing
+vegan,spatial,science computing
+CARBayes,spatial,science computing
+dbmss,spatial,science computing
+DCluster,spatial,science computing
+Grid2Polygons,spatial,science computing
+GWmodel,spatial,science computing
+gwrr,spatial,science computing
+McSpatial,spatial,science computing
+ngspatial,spatial,science computing
+plotGoogleMaps,spatial,science computing
+RArcInfo,spatial,science computing
+rtop,spatial,science computing
+rworldxtra,spatial,science computing
+spatial.tools,spatial,science computing
+SpatialEpi,spatial,science computing
+SpatialTools,spatial,science computing
+splm,spatial,science computing
+spTimer,spatial,science computing
+SSN,spatial,science computing
+taRifx,spatial,science computing
+AMOEBA,spatial,science computing
+latticeDensity,spatial,science computing
+seg,spatial,science computing
+leafletR,spatial,science computing
+marmap,spatial,science computing
+geospacom,spatial,science computing
+siplab,spatial,science computing
+spacom,spatial,science computing
+spaMM,spatial,science computing
+georob,spatial,science computing
+PReMiuM,spatial,science computing
+CompRandFld,spatial,science computing
+Guerry,spatial,science computing
+vec2dtransf,spatial,science computing
+adehabitatLT,SpatioTemporal,science computing
+argosfilter,SpatioTemporal,science computing
+cshapes,SpatioTemporal,science computing
+diveMove,SpatioTemporal,science computing
+GeoLight,SpatioTemporal,science computing
+googleVis,SpatioTemporal,science computing
+gstat,SpatioTemporal,science computing
+lgcp,SpatioTemporal,science computing
+lme4,SpatioTemporal,science computing
+M3,SpatioTemporal,science computing
+mvtsplot,SpatioTemporal,science computing
+ncdf,SpatioTemporal,science computing
+ncdf4,SpatioTemporal,science computing
+nlme,SpatioTemporal,science computing
+openair,SpatioTemporal,science computing
+pastecs,SpatioTemporal,science computing
+pbdNCDF4,SpatioTemporal,science computing
+plm,SpatioTemporal,science computing
+plotKML,SpatioTemporal,science computing
+RandomFields,SpatioTemporal,science computing
+raster,SpatioTemporal,science computing
+rasterVis,SpatioTemporal,science computing
+rgl,SpatioTemporal,science computing
+RNetCDF,SpatioTemporal,science computing
+solaR,SpatioTemporal,science computing
+sp,SpatioTemporal,science computing
+spacetime,SpatioTemporal,science computing
+spate,SpatioTemporal,science computing
+SpatioTemporal,SpatioTemporal,science computing
+spatstat,SpatioTemporal,science computing
+spBayes,SpatioTemporal,science computing
+sphet,SpatioTemporal,science computing
+splancs,SpatioTemporal,science computing
+splm,SpatioTemporal,science computing
+spTimer,SpatioTemporal,science computing
+stam,SpatioTemporal,science computing
+Stem,SpatioTemporal,science computing
+stppResid,SpatioTemporal,science computing
+trip,SpatioTemporal,science computing
+tripEstimation,SpatioTemporal,science computing
+xts,SpatioTemporal,science computing
+BBMM,SpatioTemporal,science computing
+bcpa,SpatioTemporal,science computing
+crawl,SpatioTemporal,science computing
+move,SpatioTemporal,science computing
+smam,SpatioTemporal,science computing
+rmatio,SpatioTemporal,science computing
+animalTrack,SpatioTemporal,science computing
+BayesianAnimalTracker,SpatioTemporal,science computing
+fishmove,SpatioTemporal,science computing
+mkde,SpatioTemporal,science computing
+TrackReconstruction,SpatioTemporal,science computing
+stpp,SpatioTemporal,science computing
+AER,Survival,LifeScience
+ahaz,Survival,LifeScience
+AIM,Survival,LifeScience
+asbio,Survival,LifeScience
+aster,Survival,LifeScience
+aster2,Survival,LifeScience
+BaSTA,Survival,LifeScience
+bayesSurv,Survival,LifeScience
+BayHaz,Survival,LifeScience
+Biograph,Survival,LifeScience
+boot,Survival,LifeScience
+bpcp,Survival,LifeScience
+censReg,Survival,LifeScience
+clinfun,Survival,LifeScience
+cmprsk,Survival,LifeScience
+coin,Survival,LifeScience
+compeir,Survival,LifeScience
+compound.Cox,Survival,LifeScience
+concreg,Survival,LifeScience
+condGEE,Survival,LifeScience
+CoxBoost,Survival,LifeScience
+coxme,Survival,LifeScience
+coxphf,Survival,LifeScience
+coxphw,Survival,LifeScience
+coxrobust,Survival,LifeScience
+CPE,Survival,LifeScience
+CPHshape,Survival,LifeScience
+Cprob,Survival,LifeScience
+CR,Survival,LifeScience
+crrSC,Survival,LifeScience
+crrstep,Survival,LifeScience
+currentSurvival,Survival,LifeScience
+DAAG,Survival,LifeScience
+dblcens,Survival,LifeScience
+DPpackage,Survival,LifeScience
+dynsurv,Survival,LifeScience
+eha,Survival,LifeScience
+emplik,Survival,LifeScience
+Epi,Survival,LifeScience
+epiR,Survival,LifeScience
+etm,Survival,LifeScience
+exactRankTests,Survival,LifeScience
+fastcox,Survival,LifeScience
+FHtest,Survival,LifeScience
+fitdistrplus,Survival,LifeScience
+flexsurv,Survival,LifeScience
+frailtyHL,Survival,LifeScience
+frailtypack,Survival,LifeScience
+gamlss.cens,Survival,LifeScience
+gbm,Survival,LifeScience
+gems,Survival,LifeScience
+genSurv,Survival,LifeScience
+glmpath,Survival,LifeScience
+globalboosttest,Survival,LifeScience
+gof,Survival,LifeScience
+gss,Survival,LifeScience
+ICE,Survival,LifeScience
+intcox,Survival,LifeScience
+interval,Survival,LifeScience
+ipdmeta,Survival,LifeScience
+ipred,Survival,LifeScience
+JM,Survival,LifeScience
+JMbayes,Survival,LifeScience
+joineR,Survival,LifeScience
+JPSurv,Survival,LifeScience
+kaps,Survival,LifeScience
+km.ci,Survival,LifeScience
+kmi,Survival,LifeScience
+KMsurv,Survival,LifeScience
+lava.tobit,Survival,LifeScience
+lbiassurv,Survival,LifeScience
+LearnBayes,Survival,LifeScience
+lmec,Survival,LifeScience
+locfit,Survival,LifeScience
+logconcens,Survival,LifeScience
+LogicReg,Survival,LifeScience
+logspline,Survival,LifeScience
+lpc,Survival,LifeScience
+lss,Survival,LifeScience
+maxstat,Survival,LifeScience
+mboost,Survival,LifeScience
+MCMCglmm,Survival,LifeScience
+MCMCpack,Survival,LifeScience
+mets,Survival,LifeScience
+mixPHM,Survival,LifeScience
+MLEcens,Survival,LifeScience
+msm,Survival,LifeScience
+msSurv,Survival,LifeScience
+mstate,Survival,LifeScience
+muhaz,Survival,LifeScience
+multcomp,Survival,LifeScience
+mvna,Survival,LifeScience
+NestedCohort,Survival,LifeScience
+NPHMC,Survival,LifeScience
+OIsurv,Survival,LifeScience
+OrdFacReg,Survival,LifeScience
+p3state.msm,Survival,LifeScience
+pamr,Survival,LifeScience
+party,Survival,LifeScience
+pec,Survival,LifeScience
+penalized,Survival,LifeScience
+peperr,Survival,LifeScience
+PermAlgo,Survival,LifeScience
+phmm,Survival,LifeScience
+plsRcox,Survival,LifeScience
+polspline,Survival,LifeScience
+powerSurvEpi,Survival,LifeScience
+prodlim,Survival,LifeScience
+pseudo,Survival,LifeScience
+quantreg,Survival,LifeScience
+randomForestSRC,Survival,LifeScience
+rankhazard,Survival,LifeScience
+relsurv,Survival,LifeScience
+riskRegression,Survival,LifeScience
+risksetROC,Survival,LifeScience
+rms,Survival,LifeScience
+RobustAFT,Survival,LifeScience
+rpart,Survival,LifeScience
+saws,Survival,LifeScience
+SGL,Survival,LifeScience
+simexaft,Survival,LifeScience
+SMIR,Survival,LifeScience
+smoothSurv,Survival,LifeScience
+SMPracticals,Survival,LifeScience
+spatstat,Survival,LifeScience
+superpc,Survival,LifeScience
+survAUC,Survival,LifeScience
+survC1,Survival,LifeScience
+survexp.fr,Survival,LifeScience
+survey,Survival,LifeScience
+Survgini,Survival,LifeScience
+survIDINRI,Survival,LifeScience
+survival,Survival,LifeScience
+survivalROC,Survival,LifeScience
+survPresmooth,Survival,LifeScience
+survSNP,Survival,LifeScience
+SvyNom,Survival,LifeScience
+TBSSurvival,Survival,LifeScience
+TestSurvRec,Survival,LifeScience
+timereg,Survival,LifeScience
+timeROC,Survival,LifeScience
+tlmec,Survival,LifeScience
+TPmsm,Survival,LifeScience
+tpr,Survival,LifeScience
+TraMineR,Survival,LifeScience
+TSHRC,Survival,LifeScience
+uniCox,Survival,LifeScience
+VGAM,Survival,LifeScience
+BMA,Survival,LifeScience
+DTDA,Survival,LifeScience
+rhosp,Survival,LifeScience
+survrec,Survival,LifeScience
+mixAK,Survival,LifeScience
+MAMSE,Survival,LifeScience
+NADA,Survival,LifeScience
+SemiCompRisks,Survival,LifeScience
+BGPhazard,Survival,LifeScience
+coarseDataTools,Survival,LifeScience
+CoxRidge,Survival,LifeScience
+kmc,Survival,LifeScience
+kmconfband,Survival,LifeScience
+LogrankA,Survival,LifeScience
+MRsurv,Survival,LifeScience
+NPMLEcmprsk,Survival,LifeScience
+OutlierDC,Survival,LifeScience
+psbcGroup,Survival,LifeScience
+ROCt,Survival,LifeScience
+SemiMarkov,Survival,LifeScience
+simMSM,Survival,LifeScience
+simPH,Survival,LifeScience
+smoothHR,Survival,LifeScience
+spatsurv,Survival,LifeScience
+surv2sampleComp,Survival,LifeScience
+survMisc,Survival,LifeScience
+survsim,Survival,LifeScience
+wtcrsk,Survival,LifeScience
+YPmodel,Survival,LifeScience
+rsig,Survival,LifeScience
+aftgee,Survival,LifeScience
+bshazard,Survival,LifeScience
+bujar,Survival,LifeScience
+coxinterval,Survival,LifeScience
+DStree,Survival,LifeScience
+gamboostMSM,Survival,LifeScience
+ICsurv,Survival,LifeScience
+IDPSurvival,Survival,LifeScience
+invGauss,Survival,LifeScience
+lsmeans,Survival,LifeScience
+MicSim,Survival,LifeScience
+MIICD,Survival,LifeScience
+paf,Survival,LifeScience
+PHeval,Survival,LifeScience
+PReMiuM,Survival,LifeScience
+SmoothHazard,Survival,LifeScience
+spBayesSurv,Survival,LifeScience
+survivalMPL,Survival,LifeScience
+vitality,Survival,LifeScience
+MST,Survival,LifeScience
+multipleNCC,Survival,LifeScience
+penMSM,Survival,LifeScience
+mfp,Survival,LifeScience
+glrt,Survival,LifeScience
+parfm,Survival,LifeScience
+survJamda,Survival,LifeScience
+dynpred,Survival,LifeScience
+AER,TimeSeries,science computing
+ArDec,TimeSeries,science computing
+arfima,TimeSeries,science computing
+astsa,TimeSeries,science computing
+bfast,TimeSeries,science computing
+biwavelet,TimeSeries,science computing
+boot,TimeSeries,science computing
+brainwaver,TimeSeries,science computing
+bspec,TimeSeries,science computing
+CADFtest,TimeSeries,science computing
+chron,TimeSeries,science computing
+CommonTrend,TimeSeries,science computing
+cts,TimeSeries,science computing
+deseasonalize,TimeSeries,science computing
+dlm,TimeSeries,science computing
+dse,TimeSeries,science computing
+dtw,TimeSeries,science computing
+dyn,TimeSeries,science computing
+dynlm,TimeSeries,science computing
+Ecdat,TimeSeries,science computing
+ensembleBMA,TimeSeries,science computing
+EvalEst,TimeSeries,science computing
+events,TimeSeries,science computing
+expsmooth,TimeSeries,science computing
+fame,TimeSeries,science computing
+fArma,TimeSeries,science computing
+fGarch,TimeSeries,science computing
+FGN,TimeSeries,science computing
+FinTS,TimeSeries,science computing
+FitAR,TimeSeries,science computing
+FitARMA,TimeSeries,science computing
+fma,TimeSeries,science computing
+fNonlinear,TimeSeries,science computing
+ForeCA,TimeSeries,science computing
+forecast,TimeSeries,science computing
+fpp,TimeSeries,science computing
+fracdiff,TimeSeries,science computing
+fractalrock,TimeSeries,science computing
+fts,TimeSeries,science computing
+fUnitRoots,TimeSeries,science computing
+gsarima,TimeSeries,science computing
+its,TimeSeries,science computing
+KFAS,TimeSeries,science computing
+kza,TimeSeries,science computing
+ltsa,TimeSeries,science computing
+lubridate,TimeSeries,science computing
+mAr,TimeSeries,science computing
+42430,TimeSeries,science computing
+mar1s,TimeSeries,science computing
+MARSS,TimeSeries,science computing
+Mcomp,TimeSeries,science computing
+meboot,TimeSeries,science computing
+mFilter,TimeSeries,science computing
+mondate,TimeSeries,science computing
+nets,TimeSeries,science computing
+paleoTS,TimeSeries,science computing
+partsm,TimeSeries,science computing
+pastecs,TimeSeries,science computing
+pear,TimeSeries,science computing
+perARMA,TimeSeries,science computing
+pomp,TimeSeries,science computing
+portes,TimeSeries,science computing
+psd,TimeSeries,science computing
+ptw,TimeSeries,science computing
+Quandl,TimeSeries,science computing
+quantspec,TimeSeries,science computing
+rdatamarket,TimeSeries,science computing
+RMAWGEN,TimeSeries,science computing
+robfilter,TimeSeries,science computing
+RSEIS,TimeSeries,science computing
+rts,TimeSeries,science computing
+rwt,TimeSeries,science computing
+SDD,TimeSeries,science computing
+sde,TimeSeries,science computing
+seas,TimeSeries,science computing
+season,TimeSeries,science computing
+spTimer,TimeSeries,science computing
+stochvol,TimeSeries,science computing
+tempdisagg,TimeSeries,science computing
+tframe,TimeSeries,science computing
+tiger,TimeSeries,science computing
+timeDate,TimeSeries,science computing
+TimeProjection,TimeSeries,science computing
+timeSeries,TimeSeries,science computing
+tis,TimeSeries,science computing
+tpr,TimeSeries,science computing
+TSA,TimeSeries,science computing
+tsbugs,TimeSeries,science computing
+TSclust,TimeSeries,science computing
+TSdbi,TimeSeries,science computing
+tseries,TimeSeries,science computing
+tseriesChaos,TimeSeries,science computing
+tsfa,TimeSeries,science computing
+TSTutorial,TimeSeries,science computing
+urca,TimeSeries,science computing
+vars,TimeSeries,science computing
+wavelets,TimeSeries,science computing
+waveslim,TimeSeries,science computing
+wavethresh,TimeSeries,science computing
+WeightedPortTest,TimeSeries,science computing
+wmtsa,TimeSeries,science computing
+wq,TimeSeries,science computing
+x12,TimeSeries,science computing
+x12GUI,TimeSeries,science computing
+xts,TimeSeries,science computing
+zoo,TimeSeries,science computing
+nlts,TimeSeries,science computing
+Rssa,TimeSeries,science computing
+rugarch,TimeSeries,science computing
+Tides,TimeSeries,science computing
+timesboot,TimeSeries,science computing
+tsModel,TimeSeries,science computing
+BAYSTAR,TimeSeries,science computing
+FKF,TimeSeries,science computing
+fractal,TimeSeries,science computing
+glarma,TimeSeries,science computing
+KFKSDS,TimeSeries,science computing
+locits,TimeSeries,science computing
+lomb,TimeSeries,science computing
+mvcwt,TimeSeries,science computing
+npst,TimeSeries,science computing
+seasonal,TimeSeries,science computing
+stsm,TimeSeries,science computing
+stsm.class,TimeSeries,science computing
+depmix,TimeSeries,science computing
+depmixS4,TimeSeries,science computing
+MSwM,TimeSeries,science computing
+tsDyn,TimeSeries,science computing
+LPStimeSeries,TimeSeries,science computing
+MAPA,TimeSeries,science computing
+MTS,TimeSeries,science computing
+pdfetch,TimeSeries,science computing
+rmaf,TimeSeries,science computing
+BootPR,TimeSeries,science computing
+dlmodeler,TimeSeries,science computing
+earlywarnings,TimeSeries,science computing
+Sim.DiffProc,TimeSeries,science computing
+VAR.etp,TimeSeries,science computing
+MSBVAR,TimeSeries,science computing
+timsac,TimeSeries,science computing
+dlnm,TimeSeries,science computing
+nonlinearTseries,TimeSeries,science computing
+TED,TimeSeries,science computing
+costat,TimeSeries,science computing
+bsts,TimeSeries,science computing
+FeedbackTS,TimeSeries,science computing
+GMDH,TimeSeries,science computing
+orderedLasso,TimeSeries,science computing
+yuima,TimeSeries,science computing
+acp,TimeSeries,science computing
+cents,TimeSeries,science computing
+dygraphs,TimeSeries,science computing
+hts,TimeSeries,science computing
+multitaper,TimeSeries,science computing
+RGENERATE,TimeSeries,science computing
+strucchange,TimeSeries,science computing
+spectral.methods,TimeSeries,science computing
+ZIM,TimeSeries,science computing
+bentcableAR,TimeSeries,science computing
+fanplot,TimeSeries,science computing
+autovarCore,TimeSeries,science computing
+EMD,TimeSeries,science computing
+hht,TimeSeries,science computing
+alm,WebTechnologies,web scraping
+anametrix,WebTechnologies,web scraping
+cgdsr,WebTechnologies,web scraping
+CHCN,WebTechnologies,web scraping
+crn,WebTechnologies,web scraping
+datamart,WebTechnologies,web scraping
+dismo,WebTechnologies,web scraping
+dvn,WebTechnologies,web scraping
+factualR,WebTechnologies,web scraping
+FAOSTAT,WebTechnologies,web scraping
+fImport,WebTechnologies,web scraping
+ggmap,WebTechnologies,web scraping
+googleVis,WebTechnologies,web scraping
+govStatJPN,WebTechnologies,web scraping
+GuardianR,WebTechnologies,web scraping
+httpuv,WebTechnologies,web scraping
+httr,WebTechnologies,web scraping
+imguR,WebTechnologies,web scraping
+MTurkR,WebTechnologies,web scraping
+ngramr,WebTechnologies,web scraping
+nhlscrapr,WebTechnologies,web scraping
+OAIHarvester,WebTechnologies,web scraping
+opencpu,WebTechnologies,web scraping
+osmar,WebTechnologies,web scraping
+pitchRx,WebTechnologies,web scraping
+plotGoogleMaps,WebTechnologies,web scraping
+plotKML,WebTechnologies,web scraping
+Quandl,WebTechnologies,web scraping
+quantmod,WebTechnologies,web scraping
+rAltmetric,WebTechnologies,web scraping
+Rcolombos,WebTechnologies,web scraping
+RCurl,WebTechnologies,web scraping
+rdatamarket,WebTechnologies,web scraping
+rebird,WebTechnologies,web scraping
+Reol,WebTechnologies,web scraping
+repmis,WebTechnologies,web scraping
+rfigshare,WebTechnologies,web scraping
+rfishbase,WebTechnologies,web scraping
+rfisheries,WebTechnologies,web scraping
+rgbif,WebTechnologies,web scraping
+RgoogleMaps,WebTechnologies,web scraping
+rjson,WebTechnologies,web scraping
+RJSONIO,WebTechnologies,web scraping
+RNCEP,WebTechnologies,web scraping
+ROAuth,WebTechnologies,web scraping
+Rook,WebTechnologies,web scraping
+rPlant,WebTechnologies,web scraping
+rplos,WebTechnologies,web scraping
+rpubchem,WebTechnologies,web scraping
+RSiteCatalyst,WebTechnologies,web scraping
+rvertnet,WebTechnologies,web scraping
+scrapeR,WebTechnologies,web scraping
+seqinr,WebTechnologies,web scraping
+servr,WebTechnologies,web scraping
+shiny,WebTechnologies,web scraping
+sos4R,WebTechnologies,web scraping
+streamR,WebTechnologies,web scraping
+taxize,WebTechnologies,web scraping
+TFX,WebTechnologies,web scraping
+translate,WebTechnologies,web scraping
+treebase,WebTechnologies,web scraping
+twitteR,WebTechnologies,web scraping
+waterData,WebTechnologies,web scraping
+WDI,WebTechnologies,web scraping
+XML,WebTechnologies,web scraping
+yhatr,WebTechnologies,web scraping
+zendeskR,WebTechnologies,web scraping
+flora,WebTechnologies,web scraping
+Rfacebook,WebTechnologies,web scraping
+rgauges,WebTechnologies,web scraping
+scholar,WebTechnologies,web scraping
+acs,WebTechnologies,web scraping
+ecoengine,WebTechnologies,web scraping
+fbRanks,WebTechnologies,web scraping
+httpRequest,WebTechnologies,web scraping
+jsonlite,WebTechnologies,web scraping
+primerTree,WebTechnologies,web scraping
+raincpc,WebTechnologies,web scraping
+rbhl,WebTechnologies,web scraping
+rbison,WebTechnologies,web scraping
+Rbitcoin,WebTechnologies,web scraping
+Thinknum,WebTechnologies,web scraping
+weatherData,WebTechnologies,web scraping
+XML2R,WebTechnologies,web scraping
+hoardeR,WebTechnologies,web scraping
+GhcnDaily,WebTechnologies,web scraping
+okmesonet,WebTechnologies,web scraping
+pdfetch,WebTechnologies,web scraping
+plusser,WebTechnologies,web scraping
+psidR,WebTechnologies,web scraping
+rapport,WebTechnologies,web scraping
+RefManageR,WebTechnologies,web scraping
+RForcecom,WebTechnologies,web scraping
+RISmed,WebTechnologies,web scraping
+soilDB,WebTechnologies,web scraping
+tm.plugin.webmining,WebTechnologies,web scraping
+tseries,WebTechnologies,web scraping
+decctools,WebTechnologies,web scraping
+rnoaa,WebTechnologies,web scraping
+spocc,WebTechnologies,web scraping
+pubmed.mineR,WebTechnologies,web scraping
+aRxiv,WebTechnologies,web scraping
+BerlinData,WebTechnologies,web scraping
+boilerpipeR,WebTechnologies,web scraping
+colourlovers,WebTechnologies,web scraping
+d3Network,WebTechnologies,web scraping
+dataRetrieval,WebTechnologies,web scraping
+ecoretriever,WebTechnologies,web scraping
+EIAdata,WebTechnologies,web scraping
+enigma,WebTechnologies,web scraping
+federalregister,WebTechnologies,web scraping
+ggvis,WebTechnologies,web scraping
+gmailr,WebTechnologies,web scraping
+IBrokers,WebTechnologies,web scraping
+jSonarR,WebTechnologies,web scraping
+leafletR,WebTechnologies,web scraping
+mailR,WebTechnologies,web scraping
+marmap,WebTechnologies,web scraping
+ONETr,WebTechnologies,web scraping
+paleobioDB,WebTechnologies,web scraping
+polidata,WebTechnologies,web scraping
+pollstR,WebTechnologies,web scraping
+pvsR,WebTechnologies,web scraping
+rainfreq,WebTechnologies,web scraping
+rbitcoinchartsapi,WebTechnologies,web scraping
+rClinicalCodes,WebTechnologies,web scraping
+recalls,WebTechnologies,web scraping
+redcapAPI,WebTechnologies,web scraping
+rentrez,WebTechnologies,web scraping
+RGA,WebTechnologies,web scraping
+RGoogleAnalytics,WebTechnologies,web scraping
+RJSDMX,WebTechnologies,web scraping
+rnbn,WebTechnologies,web scraping
+rNOMADS,WebTechnologies,web scraping
+rnrfa,WebTechnologies,web scraping
+ropensecretsapi,WebTechnologies,web scraping
+RPublica,WebTechnologies,web scraping
+RPushbullet,WebTechnologies,web scraping
+RSelenium,WebTechnologies,web scraping
+rWBclimate,WebTechnologies,web scraping
+sorvi,WebTechnologies,web scraping
+Taxonstand,WebTechnologies,web scraping
+whisker,WebTechnologies,web scraping
+WikipediR,WebTechnologies,web scraping
+curl,WebTechnologies,web scraping
+downloader,WebTechnologies,web scraping
+indicoio,WebTechnologies,web scraping
+magrittr,WebTechnologies,web scraping
+pushoverr,WebTechnologies,web scraping
+reutils,WebTechnologies,web scraping
+rsdmx,WebTechnologies,web scraping
+rYoutheria,WebTechnologies,web scraping
+rclinicaltrials,WebTechnologies,web scraping
+RCryptsy,WebTechnologies,web scraping
+rsunlight,WebTechnologies,web scraping
+gistr,WebTechnologies,web scraping
+chromer,WebTechnologies,web scraping
+bigml,WebTechnologies,web scraping
+pxweb,WebTechnologies,web scraping
+rsnps,WebTechnologies,web scraping
+RSocrata,WebTechnologies,web scraping
+googlePublicData,WebTechnologies,web scraping
