@@ -4,6 +4,7 @@ library('httr')
 library('RCurl')
 library('psych')
 library('stringr')
+library('fmsb')
 
 ####################
 # R-PACKAGE CLASSIFICATION
@@ -11,7 +12,7 @@ library('stringr')
 setwd("C:/Users/lwh/Desktop/finalproject-group-9/data")
 pack_class<-read.csv('rclass.csv')
 package_name<-as.character(pack_class[,1])
-
+class<-levels(pack_class[,2])           #33
 
 
 
@@ -137,10 +138,16 @@ for(i in 1:n){
 ####################
 # RADAR CHART
 ####################
+
+#visualization
+#machine learning
+#
+#
+#
 op <- par(mfrow=c(1,1))
 spider(y=1,x=2:9,data=Thurstone,connect=FALSE) #a radar plot
 spider(y=1,x=2:9,data=Thurstone) #same plot as a spider plot
-spider(y=1:3,x=4:9,data=Thurstone,overlay=TRUE)
+radar(y=1:3,x=1:3,data=Thurstone,overlay=TRUE)
 #make a somewhat oversized plot
-spider(y=26:28,x=1:25,data=cor(bfi,use="pairwise"),fill=TRUE,scale=2) 
+radar(y=26:28,x=1:25,data=cor(bfi,use="pairwise"),fill=TRUE,scale=2) 
 par(op)
