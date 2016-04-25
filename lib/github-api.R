@@ -12,12 +12,7 @@ library('fmsb')
 setwd("C:/Users/lwh/Desktop/finalproject-group-9/data")
 pack_class<-read.csv('rclass.csv')
 package_name<-as.character(pack_class[,1])
-class<-levels(pack_class[,2])           #33
-
-
-
-
-
+class<-table(pack_class[,2])           #33
 ####################
 # GET TOKEN
 ####################
@@ -27,8 +22,6 @@ myapp <- oauth_app("github",
                    secret = "a54ce3798c0ed7c188d87ddb8a2b61d1951b7935")
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 gtoken <- config(token = github_token)
-
-
 ####################
 # API FORMAT
 ####################
@@ -90,37 +83,66 @@ GET(r_url)
 rOpenSci_member<-GET('https://api.github.com/orgs/rOpenSci/public_members',gtoken)
 n=length(content(rOpenSci_member))        # some are unavailable
 
-user_table=matrix(0,ncol=length(package_name),nrow=1)
 
+user_table=matrix(0,ncol=length(package_name),nrow=1)
+b<-rep(0,length(package_name))
 for(i in 1:n){
-  user_name=content(rOpenSci_member)[n][[1]]$login
+  user_name=content(rOpenSci_member)[i][[1]]$login
   code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
   info=content(GET(code_url,gtoken))
   num_Rscrips=info[[1]]            #includes .rd file
   b<-rep(0,length(package_name))
-  
-  for (p in 1:min(100,num_Rscrips)){
+  if (num_Rscrips==0){
+    user_table=rbind(user_table,t(as.matrix(b)))
+  }
+  else{
+    for (p in 1:min(100,num_Rscrips)){
     r_url=info$items[[p]]$html_url
     r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',r_url)
     r_url<-gsub('/blob','',r_url)
     rcode=content(GET(r_url))
     a<-str_count(rcode,package_name)
-    for (m in 1:length(package_name)){
-      if (a[m]>3)
-        a[m]=0
-      }
     b=b+a
     }
-  
-  user_table=rbind(user_table,t(as.matrix(b)))
-  print(i)
+    user_table=rbind(user_table,t(as.matrix(b)))
+    print(i)
+    Sys.sleep(1)
   }
+}
+
+user_classuse<-matrix(0,ncol=1+n,nrow=length(class))
+# class(class[1])
+# #1:110 bayessian
+# package_name[1:110]
+
+colnames(user_table)<-package_name
+
+aa=user_table[2,]                                    #33-class result
+c<-rep(0,length(class))
+for(i in 1:length(package_name)){
+  for (j in 1:length(class)){
+    if(pack_class[i,2]==names(class)[j]){
+      c[j]=c[j]+aa[i]
+    }
+  }
+}
+
+
+# test<-user_table[2,]
+# sum(test[1:2774])
+# sum(test)
+
+# for(i in 1:(n+1)){
+#   for( j in 1:length(package_name)){
+#     user_table[i,j]
+#     for( p in 1:length(class)){
+#      if([i,j]=)
+#     }
+#     
+#     }
+# }
+
 # usage of every user
-
-
-
-
-
 
 # user_name=content(rOpenSci_member)[1][[1]]$login
 # code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
@@ -144,10 +166,13 @@ for(i in 1:n){
 #
 #
 #
-op <- par(mfrow=c(1,1))
-spider(y=1,x=2:9,data=Thurstone,connect=FALSE) #a radar plot
-spider(y=1,x=2:9,data=Thurstone) #same plot as a spider plot
-radar(y=1:3,x=1:3,data=Thurstone,overlay=TRUE)
-#make a somewhat oversized plot
-radar(y=26:28,x=1:25,data=cor(bfi,use="pairwise"),fill=TRUE,scale=2) 
-par(op)
+# op <- par(mfrow=c(1,1))
+# spider(y=1,x=2:9,data=Thurstone,connect=FALSE) #a radar plot
+# spider(y=1,x=2:9,data=Thurstone) #same plot as a spider plot
+# radar(y=1:3,x=1:3,data=Thurstone,overlay=TRUE)
+# #make a somewhat oversized plot
+# radar(y=26:28,x=1:25,data=cor(bfi,use="pairwise"),fill=TRUE,scale=2) 
+# par(op)
+radar_date<-data.frame(rbind(rep(1000,33), rep(0,33), c))
+colnames(radar_date)<-names(class)
+radarchart(radar_date,cglcol='green',pfcol='navy',pcol='blue')
