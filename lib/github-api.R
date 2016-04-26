@@ -193,6 +193,8 @@ if (num_Rscripts==0){
   }
 }
 
+num_rlibrary=sum(r_packageuse!=0)
+
                                     #33-class result
 class_use<-rep(0,length(class))
 for(i in 1:length(package_name)){
