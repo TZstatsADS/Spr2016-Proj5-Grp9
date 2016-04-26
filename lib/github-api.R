@@ -90,13 +90,13 @@ for(i in 1:n){
   user_name=content(rOpenSci_member)[i][[1]]$login
   code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
   info=content(GET(code_url,gtoken))
-  num_Rscrips=info[[1]]            #includes .rd file
+  num_Rscripts=info[[1]]            #includes .rd file
   b<-rep(0,length(package_name))
-  if (num_Rscrips==0){
+  if (num_Rscripts==0){
     user_table=rbind(user_table,t(as.matrix(b)))
   }
   else{
-    for (p in 1:min(100,num_Rscrips)){
+    for (p in 1:min(100,num_Rscripts)){
     r_url=info$items[[p]]$html_url
     r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',r_url)
     r_url<-gsub('/blob','',r_url)
@@ -157,6 +157,56 @@ for(i in 1:length(package_name)){
 # url<-gsub('https://github.com/','https://raw.githubusercontent.com/',url)
 # url<-gsub('/blob','',url)
 # rcode=content(GET(url))
+
+####################
+# SINGLE PERSON SEARCH
+####################
+
+#input: user_ID
+#output: num_following,num_follower,num_repo,join_date,lastuse_date,num_Rscripts,radar chart
+
+user_ID<-'tz33cu'
+user_url=paste0("https://api.github.com/users/",user_ID)
+info=content(GET(user_url,gtoken))
+num_following<-info$following
+num_follower<-info$followers
+num_repo<-info$public_repos
+join_date<-info$created_at
+lastuse_date<-info$updated_at
+
+code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_ID)
+info=content(GET(code_url,gtoken))
+num_Rscripts=info[[1]]            #includes .rd file
+r_packageuse<-rep(0,length(package_name))
+
+if (num_Rscripts==0){
+  print('No R Scripts Found')
+}else{
+  for (p in 1:min(100,num_Rscripts)){
+    r_url=info$items[[p]]$html_url
+    r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',r_url)
+    r_url<-gsub('/blob','',r_url)
+    rcode=content(GET(r_url))
+    a<-str_count(rcode,package_name)
+    r_packageuse=r_packageuse+a
+  }
+}
+
+                                    #33-class result
+class_use<-rep(0,length(class))
+for(i in 1:length(package_name)){
+  for (j in 1:length(class)){
+    if(pack_class[i,2]==names(class)[j]){
+      class_use[j]=class_use[j]+r_packageuse[i]
+    }
+  }
+}
+radar_date<-data.frame(rbind(rep(max(class_use),33), rep(0,33), class_use))
+colnames(radar_date)<-names(class)
+radarchart(radar_date,cglcol='grey',pfcol='navy',pcol='blue',seg=3,cglty=1)
+
+
+
 ####################
 # RADAR CHART
 ####################
@@ -173,6 +223,6 @@ for(i in 1:length(package_name)){
 # #make a somewhat oversized plot
 # radar(y=26:28,x=1:25,data=cor(bfi,use="pairwise"),fill=TRUE,scale=2) 
 # par(op)
-radar_date<-data.frame(rbind(rep(1000,33), rep(0,33), c))
+radar_date<-data.frame(rbind(rep(max(c),33), rep(0,33), c))
 colnames(radar_date)<-names(class)
-radarchart(radar_date,cglcol='green',pfcol='navy',pcol='blue')
+radarchart(radar_date,cglcol='grey',pfcol='navy',pcol='blue',seg=3,cglty=1)
