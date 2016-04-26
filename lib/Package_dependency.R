@@ -1,0 +1,7 @@
+library(miniCRAN)
+#pdb <- pkgAvail(repos=c(CRAN="http://cran.revolutionanalytics.com"))
+tags <- c("ggplot2","bitops","magrittr","stringi","RCurl","jsonlite","forecast","dplyr","tseries","devtools")
+pkgDep(tags, availPkgs = cranJuly2014)
+dg <- makeDepGraph(tags, depends = TRUE,suggests = FALSE, availPkgs = cranJuly2014)
+set.seed(1)
+plot(dg, legendPosition = c(-1, -1), vertex.size=10, cex=0.7)
