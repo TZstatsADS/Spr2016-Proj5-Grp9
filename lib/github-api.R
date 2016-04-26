@@ -5,6 +5,7 @@ library('RCurl')
 library('psych')
 library('stringr')
 library('fmsb')
+library(recommenderlab)
 
 ####################
 # R-PACKAGE CLASSIFICATION
