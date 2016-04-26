@@ -203,8 +203,7 @@ for(i in 1:length(package_name)){
 }
 radar_date<-data.frame(rbind(rep(max(class_use),33), rep(0,33), class_use))
 colnames(radar_date)<-names(class)
-radarchart(radar_date,cglcol='grey',pfcol='navy',pcol='blue',seg=3,cglty=1)
-
+radarchart(radar_date,cglcol='cyan',cglwd=1,pfcol='royalblue3',seg=3,cglty=1,pty=32,plwd=5,pdensity=100,vlcex=0.8,calcex=100)
 
 
 ####################
