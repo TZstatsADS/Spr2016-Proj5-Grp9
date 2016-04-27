@@ -13,6 +13,13 @@ Top_pairs = read.csv("combine_package2015.csv")
 Top2015 = read.csv("package_count2015.csv")
 ```
 
+
+```{r}
+load("/Users/yiliu/Desktop/plot.RData")
+
+
+```
+
 ####Top 20 Packages downloads in 2105
 ```{r message=FALSE,echo=FALSE}
 Top2015_20 = Top2015[c(1:21),]
@@ -25,12 +32,6 @@ Top2015_20
 ```{r message=FALSE,echo=FALSE}
 Top_pairs_20 = Top_pairs[c(1:21),]
 Top_pairs_20
-```
-
-
-```{r message=FALSE,echo=FALSE}
-
-
 ```
 
 ####Packages Dependencies
@@ -72,4 +73,10 @@ plot_ly(Rcpp_linkingto, x = package, y = count,color=factor(year),type = "bar",t
 
 ```
 
+
+```{r message=FALSE,echo=FALSE}
+load("plot.RData")
+plot_ly(data=points_p, x=x,y=y, mode = "markers",text=paste(points_p$rname))
+
+```
 
