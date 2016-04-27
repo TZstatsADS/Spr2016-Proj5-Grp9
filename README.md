@@ -1,4 +1,4 @@
-# finalproject-group-9
+# R Library Analysis
 
 Shinyapp:     <a href=https://mengyingliu.shinyapps.io/shinyrlib/>https://mengyingliu.shinyapps.io/shinyrlib/</a>
 
