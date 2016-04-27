@@ -15,7 +15,7 @@ Top2015 = read.csv("package_count2015.csv")
 
 
 ```{r}
-load("/Users/yiliu/Desktop/plot.RData")
+
 
 
 ```
@@ -75,8 +75,8 @@ plot_ly(Rcpp_linkingto, x = package, y = count,color=factor(year),type = "bar",t
 
 
 ```{r message=FALSE,echo=FALSE}
-load("plot.RData")
-plot_ly(data=points_p, x=x,y=y, mode = "markers",text=paste(points_p$rname))
+#load("plot.RData")
+#plot_ly(data=points_p, x=x,y=y, mode = "markers",text=paste(points_p$rname))
 
 ```
 
