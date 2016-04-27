@@ -31,8 +31,8 @@ shinyServer(function(input, output,session) {
   package2<-reactive({input$inputPack2})
   
   # pack rank
-  output$ranking <- renderValueBox({
-    valueBox(packs$rank[which(pack == package())], " Rank",color = "blue")
+  output$ranking <- renderText({
+    paste(as.character(packs$rank[which(pack == package())]), "Rank")
   }) 
   
   # Bar Plot of Download Times Pack
@@ -46,8 +46,8 @@ shinyServer(function(input, output,session) {
   })
   
   # pack rank2
-  output$ranking2 <- renderValueBox({
-    valueBox(packs$rank[which(pack == package2())], " Rank",color = "blue")
+  output$ranking2 <- renderText({
+    paste(as.character(packs$rank[which(pack == package2())]), "Rank")
   }) 
   
   # Bar Plot of Download Times Pack2

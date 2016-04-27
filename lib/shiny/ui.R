@@ -1,4 +1,3 @@
-
 library(shiny)
 library(shinydashboard)
 library(plotly)
@@ -9,8 +8,8 @@ library(dplyr)
 library(plotly)
 library(lubridate)
 library(dygraphs)
-library(xts)
-library(leaflet)
+
+
 library('jsonlite')
 library('httpuv')
 library('httr')
@@ -72,9 +71,9 @@ shinyUI( fluidPage(
                                                             ),
                                                             tabPanel("Package",br(),
                                                                      fluidRow(
-                                                                       column(1,valueBoxOutput("ranking")),
+                                                                       column(1,textOutput("ranking")),
                                                                        column(5,plotlyOutput("barpack")),
-                                                                       column(1,valueBoxOutput("ranking2")),
+                                                                       column(1,textOutput("ranking2")),
                                                                        column(5,plotlyOutput("barpack2")))
                                                                      ,value = 2
                                                             ),
@@ -99,7 +98,7 @@ shinyUI( fluidPage(
                                         p(strong("*"),"Calculate the word frequency of each packages' description."),
                                         p(strong("*"),"Create the", code("latent Semantic Space")),
                                         p(strong("*"),"Remove stop words and select 1000 most popular packages"),
-                                        p(strong("*"),"Compute the distance between every two words using",code("TFIDF")),
+                                        p(strong("*"),"Compute the distance between every two packages using",code("TFIDF")),
                                         p(strong("*"),"Reduce Dimension using",code("CMD")),
                                         p(strong("*"),"Cluster the packages using",code("K-Means"))
                                         
@@ -114,7 +113,7 @@ shinyUI( fluidPage(
                            )
                            ))),
     #########################Github#############################
-    tabPanel("Conplementary libraries",icon=icon("space-shuttle"),
+    tabPanel("Complementary libraries",icon=icon("space-shuttle"),
              fluidRow(
                
                
