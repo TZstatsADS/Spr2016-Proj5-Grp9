@@ -11,9 +11,17 @@ library(recommenderlab)
 # R-PACKAGE CLASSIFICATION
 ####################
 setwd("C:/Users/lwh/Desktop/finalproject-group-9/data")
+# setwd("C:/Users/lwh/Desktop")
 pack_class<-read.csv('rclass.csv')
+
 package_name<-as.character(pack_class[,1])
+package_name_for_recom<-unique(as.character(pack_class[,1]))
 class<-table(pack_class[,2])           #33
+cocur_matrix=read.table('githubco.txt')
+
+
+
+
 ####################
 # GET TOKEN
 ####################
@@ -81,52 +89,54 @@ GET(r_url)
 # https://raw.githubusercontent.com/tz33cu/PartitionRetention/3adfbf64fd0bebd3ee9206a55be97beeec16a2da/PNAS2015/lib/Iscore.R
 # 
 # https://api.github.com/orgs/rOpenSci/public_members   #rOpenSci(R user)
-rOpenSci_member<-GET('https://api.github.com/orgs/rOpenSci/public_members',gtoken)
-n=length(content(rOpenSci_member))        # some are unavailable
-
-
-user_table=matrix(0,ncol=length(package_name),nrow=1)
-b<-rep(0,length(package_name))
-for(i in 1:n){
-  user_name=content(rOpenSci_member)[i][[1]]$login
-  code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name)
-  info=content(GET(code_url,gtoken))
-  num_Rscripts=info[[1]]            #includes .rd file
+org_info<-function(orgname){
+  organization_name<-orgname
+  org_url=paste0('https://api.github.com/orgs/',organization_name,'/public_members')
+  rOpenSci_member<-GET(org_url,gtoken)
+  n=length(content(rOpenSci_member))        # some are unavailable
+  num_members=n
+  user_table=matrix(0,ncol=length(package_name),nrow=1)
   b<-rep(0,length(package_name))
-  if (num_Rscripts==0){
-    user_table=rbind(user_table,t(as.matrix(b)))
-  }
-  else{
-    for (p in 1:min(100,num_Rscripts)){
-    r_url=info$items[[p]]$html_url
-    r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',r_url)
-    r_url<-gsub('/blob','',r_url)
-    rcode=content(GET(r_url))
-    a<-str_count(rcode,package_name)
-    b=b+a
+  user_name<-rep('c',n)
+  for(i in 1:n){
+    user_name[i]=content(rOpenSci_member)[i][[1]]$login
+    code_url=paste0("https://api.github.com/search/code?page=1&per_page=1000&q=in:file+language:R+user:",user_name[i])
+    info=content(GET(code_url,gtoken))
+    num_Rscripts=info[[1]]            #includes .rd file
+    b<-rep(0,length(package_name))
+    if (num_Rscripts==0){
+      user_table=rbind(user_table,t(as.matrix(b)))
+      }else{
+        for (p in 1:min(100,num_Rscripts)){
+          r_url=info$items[[p]]$html_url
+          r_url<-gsub('https://github.com/','https://raw.githubusercontent.com/',r_url)
+          r_url<-gsub('/blob','',r_url)
+          rcode=content(GET(r_url))
+          a<-str_count(rcode,package_name)
+          b=b+a
+          }
+        user_table=rbind(user_table,t(as.matrix(b)))
+        print(i)
+      }
     }
-    user_table=rbind(user_table,t(as.matrix(b)))
-    print(i)
-    Sys.sleep(1)
-  }
+  user_classuse<-matrix(0,ncol=1+n,nrow=length(class))
+  colnames(user_table)<-package_name
+  user_table=user_table[-1,]
+  rownames(user_table)<-user_name
+  result=list('num_members'=num_members,'user_name'=user_name,'user_table'=user_table)
+  return(num_members,user_name,user_table)
 }
 
-user_classuse<-matrix(0,ncol=1+n,nrow=length(class))
-# class(class[1])
-# #1:110 bayessian
-# package_name[1:110]
 
-colnames(user_table)<-package_name
-
-aa=user_table[2,]                                    #33-class result
-c<-rep(0,length(class))
-for(i in 1:length(package_name)){
-  for (j in 1:length(class)){
-    if(pack_class[i,2]==names(class)[j]){
-      c[j]=c[j]+aa[i]
-    }
-  }
-}
+# aa=user_table[2,]                                    #33-class result
+# c<-rep(0,length(class))
+# for(i in 1:length(package_name)){
+#   for (j in 1:length(class)){
+#     if(pack_class[i,2]==names(class)[j]){
+#       c[j]=c[j]+aa[i]
+#     }
+#   }
+# }
 
 
 # test<-user_table[2,]
@@ -180,8 +190,10 @@ info=content(GET(code_url,gtoken))
 num_Rscripts=info[[1]]            #includes .rd file
 r_packageuse<-rep(0,length(package_name))
 
+r_packageuse_for_recom<-rep(0,length(package_name_for_recom))
+
 if (num_Rscripts==0){
-  print('No R Scripts Found')
+  
 }else{
   for (p in 1:min(100,num_Rscripts)){
     r_url=info$items[[p]]$html_url
@@ -189,9 +201,12 @@ if (num_Rscripts==0){
     r_url<-gsub('/blob','',r_url)
     rcode=content(GET(r_url))
     a<-str_count(rcode,package_name)
+    b<-str_count(rcode,package_name_for_recom)
     r_packageuse=r_packageuse+a
+    r_packageuse_for_recom=r_packageuse_for_recom+b
   }
 }
+
 
 num_rlibrary=sum(r_packageuse!=0)
 
@@ -207,8 +222,35 @@ for(i in 1:length(package_name)){
 radar_date<-data.frame(rbind(rep(max(class_use),33), rep(0,33), class_use))
 colnames(radar_date)<-names(class)
 radarchart(radar_date,cglcol='cyan',cglwd=1,pfcol='royalblue3',seg=3,cglty=1,pty=32,plwd=5,pdensity=100,vlcex=0.8,calcex=100)
+####################
+# Evaluation 
+####################
 
 
+####################
+# Recommendation SYSTEM
+####################
+result=t(as.matrix(cocur_matrix)%*%as.matrix(r_packageuse_for_recom))
+colnames(result)<-package_name_for_recom
+dim(result)
+recomed1<-colnames(result)[which(result==max(result))]
+index=which(result==max(result))
+result=result[,-index]
+colnames(result)<-package_name[-index]
+
+recomed2<-colnames(result)[which(result==max(result))]
+index=which(result==max(result))
+result=result[,-index]
+result<-t(result)
+result1<-result[order(-result[,1]),]
+
+
+index<-which(r_packageuse_for_recom!=0)
+libname<-package_name[index]
+
+index<-which(names(result1) %in% libname)
+result1<-result1[-index]
+result1[1:5]
 ####################
 # RADAR CHART
 ####################
