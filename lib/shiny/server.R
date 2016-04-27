@@ -5,6 +5,8 @@ library(RColorBrewer)
 
 ################
 load("year.RData")
+load("1.RData")
+load("2.RData")
 ################
 
 shinyServer(function(input, output,session) {
@@ -80,8 +82,19 @@ shinyServer(function(input, output,session) {
     layout(title = paste0("Bar Chart for Number of Users' OS"))
   })
   
+#scatterplot of clusters
+  output$cluster <- renderPlotly({
+  plot_ly(data=points_p, x=x,y=y, mode = "markers",text=paste(points_p$rname),color=km$cluster) %>%
+    layout(title = paste0("K-means Cluster of Packages"))
+  })
+
+#Heatmap of clusters
+  output$heatmap <- renderPlotly({
+    plot_ly(z = corMatrix,x=colnames(corMatrix),y=colnames(corMatrix), type = "heatmap") %>%
+      layout(xaxis = list(title=""),yaxis=list(title=""),title = paste0("Heatmap of Packages' Similarity"))
+  })
+    
   
-  
-  
+
   }
 )
