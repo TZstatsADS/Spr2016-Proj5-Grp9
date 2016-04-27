@@ -1,0 +1,74 @@
+
+##Analysis of top 20 packages downloads in 2015
+
+```{r message=FALSE,echo=FALSE}
+#loading packages
+#read data
+library(plotly)
+library(ggplot2)
+library(dplyr)
+library(miniCRAN)
+
+Top_pairs = read.csv("combine_package2015.csv")
+Top2015 = read.csv("package_count2015.csv")
+```
+
+####Top 20 Packages downloads in 2105
+```{r message=FALSE,echo=FALSE}
+Top2015_20 = Top2015[c(1:21),]
+Top2015_20
+
+```
+
+
+####Pairs of Packages: Top 20 downloads in 2015 April
+```{r message=FALSE,echo=FALSE}
+Top_pairs_20 = Top_pairs[c(1:21),]
+Top_pairs_20
+```
+
+
+```{r message=FALSE,echo=FALSE}
+
+
+```
+
+####Packages Dependencies
+Here, we explain why these pairs has the higher downloads than others.
+
+Imports: packages listed here must be present for your package to work. In fact, any time your package is installed, those packages will, if not already present, be installed on your computer.(devtools::load_all( ) checks that the packages are installed).
+
+Dependency: adding a package dependency here ensures that it’ll be installed. However, it does not mean that it will be attached along with your package
+
+ggplot2 package dependencies show below.
+```{r}
+pkgDep("ggplot2", suggests = FALSE, enhances = FALSE, availPkgs = cranJuly2014)
+```
+If we use install.packages("ggplot2") to download package, it automatically install its dependencies. Also, we need to install its import packages when we library(ggplot2). 
+
+
+Here is the relations for top 20 packages.
+```{r message=FALSE,echo=FALSE}
+pdb <- pkgAvail(repos=c(CRAN="http://cran.revolutionanalytics.com"))
+tags <- c("ggplot2","bitops","magrittr","stringi","RCurl","Rcpp","dplyr")
+#pkgDep(tags, availPkgs = pdb)
+dg <- makeDepGraph(tags, depends = TRUE,suggests = FALSE, availPkgs = pdb)
+set.seed(1)
+plot(dg, legendPosition = c(-1, -1), vertex.size=10, cex=0.7, main=NULL)
+```
+
+####Rcpp by Reserved Linking To
+This is another reason that Rcpp has the highest downloads.
+
+Look at the LinkingTo Rcpp package:a declaration used to provide a C/C++ level dependency at the source code level.
+We use this in the Rcpp family to provide automatic resolution of the header files needed to compile against our packages.  Unsurprisingly, because when packages using Rcpp actually use its API (rather than R functions), the package is a little ahead of others. In the package we find three more packages of the Rcpp family(Rcpp, RcppArmadillo, RcppEigen), but only a limited number of other packages as C/C++ level dependencies are still somewhat rare in the R universe. There are also fewer packages overall making use of this mechanism.
+
+
+```{r message=FALSE,echo=FALSE,warning=FALSE}
+Rcpp_linkingto = read.csv("Rcpp_linkingto.csv")
+plot_ly(Rcpp_linkingto, x = package, y = count,color=factor(year),type = "bar",text=paste(Rcpp_linkingto$package),colors =c("#0072B2","#E69F00")) %>% 
+  layout(title = "CRAN Packages by Reserved Linking To",barmode="dodge",xaxis = list(title = "",tickangle = -15,tickfont = list(size=10)))
+
+```
+
+
