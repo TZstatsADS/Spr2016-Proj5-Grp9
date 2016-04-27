@@ -5,8 +5,8 @@ Shinyapp:     <a href=https://mengyingliu.shinyapps.io/shinyrlib/>https://mengyi
 GitHub Analysis data source: <a href=https://api.github.com/>https://api.github.com/</a>
 
 <h1>Group Member</h1>
-<a>Rong Wang</a>
-<a>Mengying Liu</a>
-<a>Yi Liu</a>
-<a>Zhibo Wan</a>
-<a>Weihan Li</a>
+<p>Rong Wang</p>
+<p>Mengying Liu</p>
+<p>Yi Liu</p>
+<p>Zhibo Wan</p>
+<p>Weihan Li</p>
