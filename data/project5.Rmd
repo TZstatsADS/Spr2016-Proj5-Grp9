@@ -40,6 +40,7 @@ Imports: packages listed here must be present for your package to work. In fact,
 
 Dependency: adding a package dependency here ensures that it’ll be installed. However, it does not mean that it will be attached along with your package
 
+#####Example: ggplot2
 ggplot2 package dependencies show below.
 ```{r}
 pkgDep("ggplot2", suggests = FALSE, enhances = FALSE, availPkgs = cranJuly2014)
