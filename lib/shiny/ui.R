@@ -27,14 +27,18 @@ shinyUI( fluidPage(
                                                          p(strong("*"),"The first three popular combination of packages from 2012 to 2015 were:",br(),code("digest & stringr"), code("colorspace & ggplot"),code("reshape2 & ggplot2"))
                                                          ),
                                         conditionalPanel(condition = "input.conditionedPanels == 1",
+                                                         p(strong("*"),"If we use install.packages",code("ggplot2"),"to download package, it automatically install its dependencies. Also, we need to install its import packages when we library",code("ggplot2"),"."),
+                                                         p(strong("*"),"In the package we find three more packages of the Rcpp family:",br(),code("Rcpp"), br(),code("RcppArmadillo"), br(),code("RcppEigen"),br(), "but only a limited number of other packages as C/C++ level dependencies are still somewhat rare in the R universe.")
+                                                         ),
+                                        conditionalPanel(condition = "input.conditionedPanels == 2",
                                                          selectInput("inputPack", "Input Package:", levels(packs$pack),multiple=T,selected = "Amelia"),
                                                          selectInput("inputPack2", "Input Another Package:", levels(packs$pack),multiple=T,selected = "Amelia")
                                                          ),
-                                        conditionalPanel(condition = "input.conditionedPanels == 2",
+                                        conditionalPanel(condition = "input.conditionedPanels == 3",
                                                          selectInput("inputYear", "Select Year:",
                                                                      choices = list(2012,2013,2014,2015)),
                                                          p(strong("*"),code("U.S."),"had the most download times from 2012 to 2015."),
-                                                         p(strong("*"),code("China"),"had signficant increased download times from 2012 to 2015.")
+                                                         p(strong("*"),code("China"),"had a strong grwoth of download times from 2012 to 2015.")
                                                          ),
                                         conditionalPanel(condition = "input.conditionedPanels == 4",
                                                          p(strong("*"),code("mingw32"),code("linux-gnu"),"were the most popular OS for users to download packages from 2012 to 2015.")
@@ -48,51 +52,54 @@ shinyUI( fluidPage(
                                                                        column(6,plotlyOutput("plotrank30", width="500px",height="500px")),
                                                                        column(6,plotlyOutput("plotcomb", width="500px",height="500px"))
                                                                      ),value = 0),
-                                                            
+                                                            tabPanel("Combination",br(),
+                                                                     fluidRow(
+                                                                       h5(strong("Relations for Top 20 Packages")),
+                                                                       column(6,imageOutput("image1", width = "100%", height = 500)),
+                                                                       column(6,imageOutput("image2", width = "100%", height = 500))
+                                                                     ),value = 1
+                                                            ),
                                                             tabPanel("Package",br(),
                                                                      fluidRow(
                                                                        column(1,valueBoxOutput("ranking")),
-                                                                       column(9,plotlyOutput("barpack"))),
-                                                                     fluidRow(
+                                                                       column(5,plotlyOutput("barpack")),
                                                                        column(1,valueBoxOutput("ranking2")),
-                                                                       column(9,plotlyOutput("barpack2"))
-                                                                     ),value = 1
+                                                                       column(5,plotlyOutput("barpack2")))
+                                                                     ,value = 2
                                                             ),
                                                             
                                                             tabPanel("Country",br(),
                                                                      fluidRow(
                                                                        column(6, plotlyOutput("scattercoun",width="500px",height="500px")),
                                                                        column(6, plotlyOutput("piecoun",width="500px",height="500px"))
-                                                                     ),value = 2),
+                                                                     ),value = 3),
                                                             tabPanel("OS",br(),
                                                                        plotlyOutput("baros", width="900px",height="500px"
                                                                                     ),value = 4)
+                                                            
                                      
                                                             
                            ))
              )),
-    tabPanel("Similarity",icon=icon("spinner"),
+    tabPanel("Cluster",icon=icon("spinner"),
              sidebarLayout(position="left",
              sidebarPanel(width = 2,
-                          conditionalPanel(condition = "input.conditionedPanels == 0",
                                            p(strong("Cluster Methods:")),
                                            p(strong("*"),"Calculate the word frequency of each packages' description."),
-                                           p(strong("*"),"Create the", code("latent semantic space")),
+                                           p(strong("*"),"Create the", code("latent Semantic Space")),
                                            p(strong("*"),"Remove stop words and select 1000 most popular packages"),
                                            p(strong("*"),"Compute the distance between every two words using",code("TFIDF")),
                                            p(strong("*"),"Reduce Dimension using",code("CMD")),
-                                           p(strong("*"),"Cluster the packages using",code("K-means"))
-                                            ),
-                          conditionalPanel(condition = "input.conditionedPanels == 1"
-                          )
+                                           p(strong("*"),"Cluster the packages using",code("K-Means"))
+                          
                           ),
-             mainPanel(width = 10,tabsetPanel(id = "conditionedPanels", type="pill",
+             mainPanel(width = 10,tabsetPanel(type="pill",
                                               tabPanel("Scatterplot",br(),
                                                        plotlyOutput("cluster", width="900px",height="500px"
-                                                       ),value = 0),
+                                                       )),
                                               tabPanel("Heatmap",br(),
                                                        plotlyOutput("heatmap", width="900px",height="500px"
-                                                       ),value = 1)
+                                                       ))
              )
              )))
              

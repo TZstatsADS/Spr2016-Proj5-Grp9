@@ -82,6 +82,18 @@ shinyServer(function(input, output,session) {
     layout(title = paste0("Bar Chart for Number of Users' OS"))
   })
   
+#image1
+  output$image1 <- renderImage({
+  list(src = "a.jpg",alt = "Image failed to render",width=650,height=550)
+  }, deleteFile = FALSE)
+
+    
+#image2
+  output$image2 <- renderImage({ 
+  list(src = "b.jpg", alt = "Image failed to render",width=650,height=550)
+  }, deleteFile = FALSE)
+
+  
 #scatterplot of clusters
   output$cluster <- renderPlotly({
   plot_ly(data=points_p, x=x,y=y, mode = "markers",text=paste(points_p$rname),color=km$cluster) %>%
